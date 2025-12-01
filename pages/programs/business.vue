@@ -28,10 +28,10 @@
             </div>
           </div>
           <div class="flex flex-wrap gap-4 justify-center">
-            <NuxtLink to="/contact" class="btn-primary bg-primary text-white hover:bg-blue-700 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
+            <NuxtLink to="/contact" class="btn-primary px-8 py-4 rounded-full font-semibold text-lg">
               Get Started Now
             </NuxtLink>
-            <a href="https://wa.me/8618672301888" class="btn-secondary bg-white/10 backdrop-blur-sm text-gray-900 hover:bg-white/20 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
+            <a href="https://wa.me/8618672301888" class="btn-secondary bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
               WhatsApp Us
             </a>
           </div>
@@ -466,12 +466,12 @@
         <p class="text-xl mb-8 max-w-2xl mx-auto">
           Study business in the world's fastest-growing economy. Expert guidance from GEC's team of 50+ professionals with 95% visa success rate.
         </p>
-        <div class="flex flex-wrap gap-4 justify-center">
-          <NuxtLink to="/contact" class="bg-white text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all">
-            Apply for Business Program
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <NuxtLink to="/contact" class="btn-primary px-8 py-4 rounded-lg font-semibold text-lg">
+            Get Started
           </NuxtLink>
-          <a href="https://wa.me/8618672301888" class="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/20 transition-all">
-            WhatsApp: +86 186 7230 1888
+          <a href="https://wa.me/8618672301888" class="bg-white text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all">
+            WhatsApp
           </a>
         </div>
       </div>

@@ -26,6 +26,11 @@ export default {
           hover: '#D97706',       // Darker amber for hover
           light: '#FCD34D',       // Lighter amber
         },
+        /* Added accent-* aliases used in pages/programs to match utility classes like bg-accent-yellow, bg-accent-purple, etc. */
+        'accent-yellow': '#F59E0B', // matches accent.DEFAULT
+        'accent-purple': '#8B5CF6', // brand.purple
+        'accent-peach': '#FB923C',  // brand.coral / peach tone
+        'accent-green': '#10B981',  // matches success/emerald
         success: '#10B981',       // Green
         background: '#F8FAFC',    // Light gray-white
         surface: '#FFFFFF',       // White

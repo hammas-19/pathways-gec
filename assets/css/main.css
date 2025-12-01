@@ -41,11 +41,11 @@
   }
 
   .btn-primary {
-    @apply bg-gradient-to-r from-brand-blue to-[#0d4781] text-white shadow-lg transition-all duration-300 ease-out px-4 py-2 flex items-center font-medium w-fit;
+    @apply bg-accent-yellow text-gray-900 shadow-lg transition-all duration-300 ease-out px-4 py-2 flex items-center font-medium w-fit;
   }
 
   .btn-primary:hover {
-    @apply shadow-xl -translate-y-0.5 scale-105;
+    @apply bg-yellow-400 shadow-xl -translate-y-0.5 scale-105;
   }
 
   .btn-primary:active {

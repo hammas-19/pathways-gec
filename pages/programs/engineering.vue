@@ -28,7 +28,7 @@
             </div>
           </div>
           <div class="flex flex-wrap gap-4 justify-center">
-            <NuxtLink to="/contact" class="btn-primary bg-accent-yellow text-white hover:bg-yellow-400 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
+            <NuxtLink to="/contact" class="btn-primary px-8 py-4 rounded-full font-semibold text-lg">
               Get Started Now
             </NuxtLink>
             <a href="https://wa.me/8618672301888" class="btn-secondary bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
@@ -467,10 +467,10 @@
           Join thousands of international students studying engineering at China's top universities. Expert guidance from GEC's team of 50+ professionals.
         </p>
         <div class="flex flex-wrap gap-4 justify-center">
-          <NuxtLink to="/contact" class="bg-accent-yellow text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-yellow-400 transition-all">
-            Apply for Engineering
+          <NuxtLink to="/contact" class="btn-primary px-8 py-4 rounded-lg font-semibold text-lg">
+            Enroll Now
           </NuxtLink>
-          <a href="https://wa.me/8618672301888" class="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/20 transition-all">
+          <a href="https://wa.me/8618672301888" class="bg-white text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all">
             WhatsApp: +86 186 7230 1888
           </a>
         </div>

@@ -14,7 +14,7 @@
             Master advanced computing technologies with specialized focus on AI & Machine Learning from leading Chinese universities.
           </p>
           <div class="flex flex-wrap gap-4 justify-center">
-            <NuxtLink to="/contact" class="bg-accent-yellow text-gray-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-yellow-400 transition-all hover:scale-105 shadow-lg">
+            <NuxtLink to="/contact" class="btn-primary px-8 py-4 rounded-full font-semibold text-lg">
               Apply Now
             </NuxtLink>
             <a href="https://wa.me/8618672301888" class="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/20 transition-all hover:scale-105">
@@ -104,7 +104,7 @@
           Join our MSc Computer Science program and become a leader in AI and machine learning innovation.
         </p>
         <div class="flex flex-wrap gap-4 justify-center">
-          <NuxtLink to="/contact" class="bg-accent-yellow text-gray-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-yellow-400 transition-all hover:scale-105 shadow-lg">
+          <NuxtLink to="/contact" class="btn-primary px-8 py-4 rounded-full font-semibold text-lg">
             Get Started Now
           </NuxtLink>
           <a href="https://wa.me/8618672301888" class="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/20 transition-all hover:scale-105">

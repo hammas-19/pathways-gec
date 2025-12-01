@@ -14,10 +14,10 @@
             Build your leadership skills and business acumen with a globally recognized MBA degree from top Chinese universities.
           </p>
           <div class="flex flex-wrap gap-4 justify-center">
-            <NuxtLink to="/contact" class="bg-accent-yellow text-gray-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-yellow-400 transition-all hover:scale-105 shadow-lg">
+            <NuxtLink to="/contact" class="btn-primary px-8 py-4 rounded-full font-semibold text-lg">
               Apply Now
             </NuxtLink>
-            <a href="https://wa.me/8618672301888" class="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/20 transition-all hover:scale-105">
+            <a href="https://wa.me/8618672301888" class="btn-secondary bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
               WhatsApp: +86 186 7230 1888
             </a>
           </div>
@@ -93,11 +93,11 @@
           Start your MBA journey today. Contact us for free consultation and admission guidance.
         </p>
         <div class="flex flex-wrap gap-4 justify-center">
-          <NuxtLink to="/contact" class="bg-accent-yellow text-gray-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-yellow-400 transition-all hover:scale-105 shadow-lg">
+          <NuxtLink to="/contact" class="btn-primary px-8 py-4 rounded-full font-semibold text-lg">
             Get Started Now
           </NuxtLink>
-          <a href="https://wa.me/8618672301888" class="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/20 transition-all hover:scale-105">
-            WhatsApp: +86 186 7230 1888
+          <a href="https://wa.me/8618672301888" class="btn-secondary bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
+            WhatsApp Us
           </a>
         </div>
       </div>
