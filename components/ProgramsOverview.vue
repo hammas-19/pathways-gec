@@ -6,7 +6,7 @@
 
     <div class="container-custom relative z-10">
       <!-- Section Header -->
-      <div class="text-center mb-12 scroll-reveal">
+      <div class="text-center mb-12">
         <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-purple/10 text-brand-purple font-semibold mb-4">
           <span class="text-xl">🎓</span>
           <span>Academic Excellence</span>
@@ -20,8 +20,9 @@
       </div>
 
       <!-- Program Level Tabs -->
-      <div class="flex flex-wrap justify-center gap-3 mb-12 scroll-reveal animation-delay-100">
+      <div class="flex flex-wrap justify-center gap-3 mb-12">
         <button
+          type="button"
           v-for="level in programLevels"
           :key="level.id"
           @click="activeLevel = level.id"
@@ -40,7 +41,7 @@
       <!-- Programs Grid -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <!-- MBBS Highlighted Card (Only for Undergraduate) -->
-        <div v-if="activeLevel === 'undergraduate'" class="group relative col-span-1 md:col-span-2 lg:col-span-2 card card-hover p-8 scroll-reveal overflow-hidden">
+        <div v-show="activeLevel === 'undergraduate'" class="group relative col-span-1 md:col-span-2 lg:col-span-2 card card-hover p-8 overflow-hidden">
           <!-- Decorative Background -->
           <div class="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-brand-blue/10 to-brand-teal/10 rounded-full blur-3xl"></div>
 
@@ -125,8 +126,7 @@
         <div
           v-for="(program, index) in filteredPrograms"
           :key="program.slug"
-          class="group card card-hover p-6 flex flex-col relative overflow-hidden scroll-reveal"
-          :class="`animate-fade-in animation-delay-${Math.min(index + 1, 5) * 100}`"
+          class="group card card-hover p-6 flex flex-col relative overflow-hidden"
         >
           <!-- Decorative Background -->
           <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-blue/5 to-brand-purple/5 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
@@ -183,8 +183,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 
-// Use scroll reveal composable for animations
-useScrollReveal()
+// Removed useScrollReveal() call to avoid runtime side-effects and keep tabs simple
 
 // Active program level
 const activeLevel = ref('undergraduate')

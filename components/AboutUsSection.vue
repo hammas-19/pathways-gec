@@ -1,5 +1,4 @@
-<template>
-  echo "# pathways-gec" >> README.md
+<template>  
   <section class="section bg-background">
     <div class="container-custom">
       <!-- Section Header -->
@@ -18,7 +17,7 @@
       </div>
 
       <!-- About Grid -->
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 ">
         <!-- Our Mission -->
         <div
           class="bg-white p-8 rounded-2xl shadow-card hover:shadow-card-hover transition-all duration-300 scroll-reveal">
@@ -77,26 +76,6 @@
         </div>
       </div>
 
-      <!-- Stats Bar -->
-      <div
-        class="grid grid-cols-2 md:grid-cols-4 gap-6 bg-gradient-to-r from-primary to-secondary rounded-2xl p-8 md:p-12 scroll-reveal animation-delay-300">
-        <div class="text-center">
-          <div class="text-4xl md:text-5xl font-bold text-accent mb-2">5000+</div>
-          <div class="text-white/90 text-sm md:text-base">Students Placed</div>
-        </div>
-        <div class="text-center">
-          <div class="text-4xl md:text-5xl font-bold text-accent mb-2">95%</div>
-          <div class="text-white/90 text-sm md:text-base">Visa Success</div>
-        </div>
-        <div class="text-center">
-          <div class="text-4xl md:text-5xl font-bold text-accent mb-2">50+</div>
-          <div class="text-white/90 text-sm md:text-base">Expert Consultants</div>
-        </div>
-        <div class="text-center">
-          <div class="text-4xl md:text-5xl font-bold text-accent mb-2">24/7</div>
-          <div class="text-white/90 text-sm md:text-base">Student Support</div>
-        </div>
-      </div>
     </div>
   </section>
 </template>

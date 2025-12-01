@@ -26,7 +26,7 @@
           v-for="(country, index) in activeCountries"
           :key="country.code"
           :to="`/countries/${country.slug}`"
-          class="group card card-hover text-center p-6 border-2 border-brand-emerald/20 hover:border-brand-blue relative overflow-hidden scroll-reveal"
+          class="group card card-hover text-center p-6 border-2 border-brand-emerald/20 hover:border-brand-blue relative overflow-hidden"
           :class="`animation-delay-${Math.min(index, 5) * 100}`"
         >
           <div class="absolute top-0 right-0 w-32 h-32 bg-brand-emerald/5 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
@@ -47,7 +47,7 @@
         <div
           v-for="(country, index) in upcomingCountries"
           :key="country.code"
-          class="card text-center p-6 opacity-60 scroll-reveal"
+          class="card text-center p-6 opacity-50"
           :class="`animation-delay-${Math.min(index + activeCountries.length, 5) * 100}`"
         >
           <div class="text-7xl mb-4">{{ country.flag }}</div>

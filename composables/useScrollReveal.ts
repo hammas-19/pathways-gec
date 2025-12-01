@@ -1,30 +1,13 @@
+import { onMounted } from 'vue'
+
 export const useScrollReveal = () => {
+  // Simplified: do not use IntersectionObserver or animations.
+  // On client mount, immediately add the `revealed` class to any elements
+  // using the `.scroll-reveal` helper so they are visible without animation.
   if (process.client) {
     onMounted(() => {
-      const observerOptions = {
-        root: null,
-        rootMargin: '0px',
-        threshold: 0.1
-      }
-
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('revealed')
-            // Optionally unobserve after reveal
-            observer.unobserve(entry.target)
-          }
-        })
-      }, observerOptions)
-
-      // Observe all elements with scroll-reveal class
       const elements = document.querySelectorAll('.scroll-reveal')
-      elements.forEach((el) => observer.observe(el))
-
-      // Cleanup
-      onUnmounted(() => {
-        elements.forEach((el) => observer.unobserve(el))
-      })
+      elements.forEach((el) => el.classList.add('revealed'))
     })
   }
 }

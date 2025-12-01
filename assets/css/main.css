@@ -41,7 +41,7 @@
   }
 
   .btn-primary {
-    @apply bg-gradient-to-r from-brand-blue to-brand-purple text-white shadow-lg transition-all duration-300 ease-out;
+    @apply bg-gradient-to-r from-brand-blue to-[#0d4781] text-white shadow-lg transition-all duration-300 ease-out px-4 py-2 flex items-center font-medium w-fit;
   }
 
   .btn-primary:hover {
@@ -53,7 +53,7 @@
   }
 
   .btn-secondary {
-    @apply border-2 border-brand-ocean text-brand-ocean bg-white shadow-md transition-all duration-300;
+    @apply border-2 border-brand-ocean text-brand-ocean bg-white shadow-md transition-all duration-300 py-1 px-3 w-fit flex items-center;
   }
 
   .btn-secondary:hover {
@@ -61,7 +61,7 @@
   }
 
   .btn-white {
-    @apply bg-white text-brand-ocean shadow-lg border-2 border-slate-200 transition-all duration-300;
+    @apply bg-white text-brand-ocean shadow-lg border-2 border-slate-200 transition-all duration-300 px-3 py-1 flex w-fit items-center;
   }
 
   .btn-white:hover {
@@ -109,7 +109,7 @@
 
   /* Section Spacing */
   .section {
-    @apply py-16 md:py-24 lg:py-32;
+    @apply py-16 md:py-24;
   }
 
   .section-sm {

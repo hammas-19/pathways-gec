@@ -1,5 +1,5 @@
 <template>
-  <section class="hero-slider relative h-[calc(100vh-200px)] overflow-hidden">
+  <section class="hero-slider relative md:h-[590px] h-full overflow-hidden">
     <!-- Slides -->
     <div class="slides-container relative h-full">
       <div

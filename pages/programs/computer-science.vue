@@ -1,7 +1,7 @@
 <template>
   <div class="program-page">
     <!-- Hero Section -->
-    <section class="hero-section bg-gradient-to-br from-primary-blue to-accent-purple/70 text-white py-20 md:py-32">
+    <section class="hero-section bg-brand-ocean text-white py-20 md:py-32">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
           <div class="inline-block bg-white/10 backdrop-blur-sm px-6 py-2 rounded-full mb-6">
@@ -28,7 +28,7 @@
             </div>
           </div>
           <div class="flex flex-wrap gap-4 justify-center">
-            <NuxtLink to="/contact" class="btn-primary bg-accent-yellow text-gray-900 hover:bg-yellow-400 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
+            <NuxtLink to="/contact" class="btn-primary bg-accent-yellow text-white hover:bg-yellow-400 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
               Get Started Now
             </NuxtLink>
             <a href="https://wa.me/8618672301888" class="btn-secondary bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
@@ -205,8 +205,8 @@
           <!-- Tsinghua University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
             <div class="bg-gradient-to-br from-primary-blue to-accent-purple/70 p-6 text-white">
-              <h3 class="text-2xl font-bold mb-2">Tsinghua University</h3>
-              <p class="text-gray-200">Department of Computer Science & Technology</p>
+              <h3 class="text-black text-2xl font-bold mb-2">Tsinghua University</h3>
+              <p class="text-gray-800">Department of Computer Science & Technology</p>
             </div>
             <div class="p-6">
               <div class="space-y-4">
@@ -240,8 +240,8 @@
           <!-- Peking University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
             <div class="bg-gradient-to-br from-primary-green to-primary-blue p-6 text-white">
-              <h3 class="text-2xl font-bold mb-2">Peking University</h3>
-              <p class="text-gray-200">School of Electronics Engineering & Computer Science</p>
+              <h3 class="text-black text-2xl font-bold mb-2">Peking University</h3>
+              <p class="text-gray-800">School of Electronics Engineering & Computer Science</p>
             </div>
             <div class="p-6">
               <div class="space-y-4">
@@ -275,8 +275,8 @@
           <!-- Zhejiang University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
             <div class="bg-gradient-to-br from-accent-peach/70 to-primary-green p-6 text-white">
-              <h3 class="text-2xl font-bold mb-2">Zhejiang University</h3>
-              <p class="text-gray-200">College of Computer Science & Technology</p>
+              <h3 class="text-black text-2xl font-bold mb-2">Zhejiang University</h3>
+              <p class="text-gray-800">College of Computer Science & Technology</p>
             </div>
             <div class="p-6">
               <div class="space-y-4">
@@ -310,8 +310,8 @@
           <!-- Shanghai Jiao Tong University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
             <div class="bg-gradient-to-br from-accent-yellow/80 to-primary-blue p-6 text-white">
-              <h3 class="text-2xl font-bold mb-2">Shanghai Jiao Tong University</h3>
-              <p class="text-gray-200">School of Software</p>
+              <h3 class="text-black text-2xl font-bold mb-2">Shanghai Jiao Tong University</h3>
+              <p class="text-gray-800">School of Software</p>
             </div>
             <div class="p-6">
               <div class="space-y-4">
@@ -426,14 +426,14 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-gradient-to-br from-primary-blue via-accent-purple/70 to-primary-green text-white">
+    <section class="py-20 bg-accent to-primary-blue text-black">
       <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl md:text-5xl font-bold mb-6 font-display">Launch Your Tech Career in China</h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto">
           Study computer science at world-class universities. Get expert guidance from our team of 50+ professionals with 95% visa success rate.
         </p>
         <div class="flex flex-wrap gap-4 justify-center">
-          <NuxtLink to="/contact" class="bg-accent-yellow text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-yellow-400 transition-all">
+          <NuxtLink to="/contact" class="bg-accent-yellow btn-primary text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-yellow-400 transition-all">
             Apply for CS Program
           </NuxtLink>
           <a href="https://wa.me/8618672301888" class="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/20 transition-all">
