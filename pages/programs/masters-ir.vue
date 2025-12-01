@@ -1,7 +1,7 @@
 <template>
   <div class="program-page">
     <!-- Hero Section -->
-    <section class="hero-section bg-gradient-to-br from-primary-blue to-primary-green text-white py-20 md:py-32">
+    <section class="hero-section bg-gradient-to-br from-primary to-secondary text-white py-20 md:py-32">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
           <div class="inline-block bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full mb-6">
@@ -99,7 +99,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-gradient-to-br from-primary-blue via-primary-green to-accent-purple/70 text-white">
+    <section class="py-20 bg-gradient-to-br from-primary via-secondary to-accent-purple/70 text-white">
       <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl md:text-5xl font-bold mb-6 font-display">Shape Global Policy & Diplomacy</h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto text-gray-100">

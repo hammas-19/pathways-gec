@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-gray-50">
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-br from-primary-blue via-blue-700 to-primary-green text-white py-20">
+    <section class="relative bg-gradient-to-br from-primary via-blue-700 to-secondary text-white py-20">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
           <div class="text-sm font-semibold mb-4 text-blue-100">University Rankings</div>
@@ -29,8 +29,8 @@
             This comprehensive guide presents the <strong>top 10 medical universities in China</strong> that offer excellent MBBS programs for Pakistani students, with detailed information about each institution's strengths, facilities, and student life.
           </p>
 
-          <div class="bg-blue-50 border-l-4 border-primary-blue p-6 rounded-r-lg">
-            <p class="font-semibold text-primary-blue mb-2">🎓 Why This List Matters</p>
+          <div class="bg-blue-50 border-l-4 border-primary p-6 rounded-r-lg">
+            <p class="font-semibold text-primary mb-2">🎓 Why This List Matters</p>
             <p class="text-gray-700">All universities listed are PMC-recognized, WHO-approved, and have proven track records of Pakistani student success. GEC has placed 500+ students in these top institutions!</p>
           </div>
         </div>
@@ -107,11 +107,11 @@
             <div class="grid md:grid-cols-3 gap-4 mb-6">
               <div class="bg-blue-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Established</div>
-                <div class="text-lg font-bold text-primary-blue">1934</div>
+                <div class="text-lg font-bold text-primary">1934</div>
               </div>
               <div class="bg-green-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Pakistani Students</div>
-                <div class="text-lg font-bold text-primary-green">200+</div>
+                <div class="text-lg font-bold text-secondary">200+</div>
               </div>
               <div class="bg-purple-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Teaching Hospitals</div>
@@ -171,11 +171,11 @@
             <div class="grid md:grid-cols-3 gap-4 mb-6">
               <div class="bg-blue-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Established</div>
-                <div class="text-lg font-bold text-primary-blue">1931</div>
+                <div class="text-lg font-bold text-primary">1931</div>
               </div>
               <div class="bg-green-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Pakistani Students</div>
-                <div class="text-lg font-bold text-primary-green">150+</div>
+                <div class="text-lg font-bold text-secondary">150+</div>
               </div>
               <div class="bg-purple-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Teaching Hospitals</div>
@@ -213,11 +213,11 @@
             <div class="grid md:grid-cols-3 gap-4 mb-6">
               <div class="bg-blue-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Established</div>
-                <div class="text-lg font-bold text-primary-blue">1902</div>
+                <div class="text-lg font-bold text-primary">1902</div>
               </div>
               <div class="bg-green-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Pakistani Students</div>
-                <div class="text-lg font-bold text-primary-green">300+</div>
+                <div class="text-lg font-bold text-secondary">300+</div>
               </div>
               <div class="bg-purple-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Teaching Hospitals</div>
@@ -256,11 +256,11 @@
             <div class="grid md:grid-cols-3 gap-4 mb-6">
               <div class="bg-blue-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Established</div>
-                <div class="text-lg font-bold text-primary-blue">1947</div>
+                <div class="text-lg font-bold text-primary">1947</div>
               </div>
               <div class="bg-green-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Pakistani Students</div>
-                <div class="text-lg font-bold text-primary-green">180+</div>
+                <div class="text-lg font-bold text-secondary">180+</div>
               </div>
               <div class="bg-purple-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Teaching Hospitals</div>
@@ -298,11 +298,11 @@
             <div class="grid md:grid-cols-3 gap-4 mb-6">
               <div class="bg-blue-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Established</div>
-                <div class="text-lg font-bold text-primary-blue">1907</div>
+                <div class="text-lg font-bold text-primary">1907</div>
               </div>
               <div class="bg-green-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Pakistani Students</div>
-                <div class="text-lg font-bold text-primary-green">100+</div>
+                <div class="text-lg font-bold text-secondary">100+</div>
               </div>
               <div class="bg-purple-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Teaching Hospitals</div>
@@ -340,11 +340,11 @@
             <div class="grid md:grid-cols-3 gap-4 mb-6">
               <div class="bg-blue-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Established</div>
-                <div class="text-lg font-bold text-primary-blue">1893</div>
+                <div class="text-lg font-bold text-primary">1893</div>
               </div>
               <div class="bg-green-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Pakistani Students</div>
-                <div class="text-lg font-bold text-primary-green">120+</div>
+                <div class="text-lg font-bold text-secondary">120+</div>
               </div>
               <div class="bg-purple-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Teaching Hospitals</div>
@@ -382,11 +382,11 @@
             <div class="grid md:grid-cols-3 gap-4 mb-6">
               <div class="bg-blue-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Established</div>
-                <div class="text-lg font-bold text-primary-blue">1902</div>
+                <div class="text-lg font-bold text-primary">1902</div>
               </div>
               <div class="bg-green-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Pakistani Students</div>
-                <div class="text-lg font-bold text-primary-green">90+</div>
+                <div class="text-lg font-bold text-secondary">90+</div>
               </div>
               <div class="bg-purple-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Teaching Hospitals</div>
@@ -424,11 +424,11 @@
             <div class="grid md:grid-cols-3 gap-4 mb-6">
               <div class="bg-blue-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Established</div>
-                <div class="text-lg font-bold text-primary-blue">1897</div>
+                <div class="text-lg font-bold text-primary">1897</div>
               </div>
               <div class="bg-green-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Pakistani Students</div>
-                <div class="text-lg font-bold text-primary-green">80+</div>
+                <div class="text-lg font-bold text-secondary">80+</div>
               </div>
               <div class="bg-purple-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Teaching Hospitals</div>
@@ -466,11 +466,11 @@
             <div class="grid md:grid-cols-3 gap-4 mb-6">
               <div class="bg-blue-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Established</div>
-                <div class="text-lg font-bold text-primary-blue">1901</div>
+                <div class="text-lg font-bold text-primary">1901</div>
               </div>
               <div class="bg-green-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Pakistani Students</div>
-                <div class="text-lg font-bold text-primary-green">110+</div>
+                <div class="text-lg font-bold text-secondary">110+</div>
               </div>
               <div class="bg-purple-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Teaching Hospitals</div>
@@ -508,11 +508,11 @@
             <div class="grid md:grid-cols-3 gap-4 mb-6">
               <div class="bg-blue-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Established</div>
-                <div class="text-lg font-bold text-primary-blue">1921</div>
+                <div class="text-lg font-bold text-primary">1921</div>
               </div>
               <div class="bg-green-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Pakistani Students</div>
-                <div class="text-lg font-bold text-primary-green">70+</div>
+                <div class="text-lg font-bold text-secondary">70+</div>
               </div>
               <div class="bg-purple-50 rounded-lg p-4">
                 <div class="text-sm text-gray-600 mb-1">Teaching Hospitals</div>
@@ -544,7 +544,7 @@
 
           <div class="overflow-x-auto">
             <table class="min-w-full bg-white border border-gray-300 rounded-lg text-sm">
-              <thead class="bg-gradient-to-r from-primary-blue to-primary-green text-white">
+              <thead class="bg-gradient-to-r from-primary to-secondary text-white">
                 <tr>
                   <th class="px-4 py-3 text-left">University</th>
                   <th class="px-4 py-3 text-left">Location</th>
@@ -624,12 +624,12 @@
 
           <div class="space-y-6">
             <div class="bg-blue-50 rounded-lg p-6">
-              <h4 class="font-bold text-primary-blue mb-3">Consider Your Budget</h4>
+              <h4 class="font-bold text-primary mb-3">Consider Your Budget</h4>
               <p class="text-gray-700">While we don't mention specific fees, consider total costs including tuition, accommodation, food, and living expenses. Some cities are more affordable than others.</p>
             </div>
 
             <div class="bg-green-50 rounded-lg p-6">
-              <h4 class="font-bold text-primary-green mb-3">Think About Climate Preference</h4>
+              <h4 class="font-bold text-secondary mb-3">Think About Climate Preference</h4>
               <p class="text-gray-700">Northern cities (Shenyang, Dalian, Beijing) have cold winters. Southern cities (Xiamen, Hangzhou) have milder weather. Central cities offer moderate climate.</p>
             </div>
 
@@ -649,8 +649,8 @@
             </div>
           </div>
 
-          <div class="mt-6 bg-gradient-to-r from-blue-50 to-green-50 border-l-4 border-primary-blue p-6 rounded-r-lg">
-            <h4 class="font-bold text-primary-blue mb-3">💡 GEC Counseling Advantage</h4>
+          <div class="mt-6 bg-gradient-to-r from-blue-50 to-green-50 border-l-4 border-primary p-6 rounded-r-lg">
+            <h4 class="font-bold text-primary mb-3">💡 GEC Counseling Advantage</h4>
             <p class="text-gray-700">Our expert team has visited all these universities personally. We help you choose based on your academic profile, budget, preferences, and career goals. Book your free consultation today!</p>
           </div>
         </div>
@@ -698,7 +698,7 @@
         </div>
 
         <!-- Final CTA -->
-        <div class="bg-gradient-to-br from-primary-blue to-primary-green text-white rounded-xl shadow-lg p-8 mb-8">
+        <div class="bg-gradient-to-br from-primary to-secondary text-white rounded-xl shadow-lg p-8 mb-8">
           <h2 class="text-3xl font-bold mb-4">Ready to Choose Your Medical School in China?</h2>
           <p class="text-lg mb-6 text-blue-50">
             Choosing the right university is crucial for your medical career. At GEC, we provide personalized counseling to match you with the perfect university based on your academic profile, budget, and preferences.
@@ -715,10 +715,10 @@
             </ul>
           </div>
           <div class="flex flex-wrap gap-4">
-            <NuxtLink to="/contact" class="bg-white text-primary-blue px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block">
+            <NuxtLink to="/contact" class="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block">
               Get Free Counseling
             </NuxtLink>
-            <NuxtLink to="/programs/mbbs" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary-blue transition-all inline-block">
+            <NuxtLink to="/programs/mbbs" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary transition-all inline-block">
               View MBBS Program Details
             </NuxtLink>
           </div>
@@ -729,16 +729,16 @@
           <h3 class="text-2xl font-bold mb-6 text-gray-900">Related Articles</h3>
           <div class="grid md:grid-cols-2 gap-6">
             <NuxtLink to="/blog/mbbs-china-vs-pakistan" class="group">
-              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary-blue transition-all">
-                <div class="text-sm text-primary-blue font-semibold mb-2">Medical Education</div>
-                <h4 class="font-bold text-gray-800 group-hover:text-primary-blue transition-all">MBBS in China vs Pakistan</h4>
+              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary transition-all">
+                <div class="text-sm text-primary font-semibold mb-2">Medical Education</div>
+                <h4 class="font-bold text-gray-800 group-hover:text-primary transition-all">MBBS in China vs Pakistan</h4>
               </div>
             </NuxtLink>
 
             <NuxtLink to="/blog/scholarships-guide" class="group">
-              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary-green transition-all">
-                <div class="text-sm text-primary-green font-semibold mb-2">Scholarships</div>
-                <h4 class="font-bold text-gray-800 group-hover:text-primary-green transition-all">Scholarships for Pakistani Students</h4>
+              <div class="border border-gray-200 rounded-lg p-4 hover:border-secondary transition-all">
+                <div class="text-sm text-secondary font-semibold mb-2">Scholarships</div>
+                <h4 class="font-bold text-gray-800 group-hover:text-secondary transition-all">Scholarships for Pakistani Students</h4>
               </div>
             </NuxtLink>
           </div>

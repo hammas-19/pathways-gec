@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-gray-50">
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-br from-primary-blue via-blue-700 to-primary-green text-white py-20">
+    <section class="relative bg-gradient-to-br from-primary via-blue-700 to-secondary text-white py-20">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
           <div class="text-sm font-semibold mb-4 text-blue-100">Cultural Integration</div>
@@ -25,8 +25,8 @@
             Moving to China for your studies is an exciting adventure, but cultural differences can feel overwhelming at first. Don't worry—thousands of Pakistani students have successfully adapted and thrived in China, and you will too!
           </p>
 
-          <div class="bg-green-50 border-l-4 border-primary-green p-6 rounded-r-lg">
-            <p class="font-semibold text-primary-green mb-2">🌟 You're Not Alone</p>
+          <div class="bg-green-50 border-l-4 border-secondary p-6 rounded-r-lg">
+            <p class="font-semibold text-secondary mb-2">🌟 You're Not Alone</p>
             <p class="text-gray-700">GEC has helped 500+ students successfully adapt to life in China. Most students report feeling comfortable within 2-3 months!</p>
           </div>
         </div>
@@ -36,13 +36,13 @@
           <h2 class="text-3xl font-bold mb-6 text-gray-900">Understanding Chinese Culture</h2>
 
           <div class="grid md:grid-cols-2 gap-6">
-            <div class="bg-blue-50 rounded-lg p-6 border-l-4 border-primary-blue">
-              <h4 class="font-bold text-primary-blue mb-3">🤝 Social Harmony</h4>
+            <div class="bg-blue-50 rounded-lg p-6 border-l-4 border-primary">
+              <h4 class="font-bold text-primary mb-3">🤝 Social Harmony</h4>
               <p class="text-sm text-gray-700">Chinese culture values group harmony over individual expression. Directness may be seen as rude; indirectness is preferred.</p>
             </div>
 
-            <div class="bg-green-50 rounded-lg p-6 border-l-4 border-primary-green">
-              <h4 class="font-bold text-primary-green mb-3">👥 Respect for Elders</h4>
+            <div class="bg-green-50 rounded-lg p-6 border-l-4 border-secondary">
+              <h4 class="font-bold text-secondary mb-3">👥 Respect for Elders</h4>
               <p class="text-sm text-gray-700">Age and seniority are highly respected. Always address professors and older people formally.</p>
             </div>
 
@@ -271,12 +271,12 @@
           <div class="space-y-4">
             <div class="bg-gradient-to-r from-green-50 to-green-100 rounded-lg p-6 border-l-4 border-green-500">
               <p class="text-gray-700 italic">"Keep an open mind. Not different = not bad, just different. Embrace the differences!"</p>
-              <p class="text-sm text-primary-green mt-2 font-semibold">- Hamza, 4th Year MBBS</p>
+              <p class="text-sm text-secondary mt-2 font-semibold">- Hamza, 4th Year MBBS</p>
             </div>
 
             <div class="bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg p-6 border-l-4 border-blue-500">
               <p class="text-gray-700 italic">"Make at least one Chinese friend. They'll teach you things no guidebook can."</p>
-              <p class="text-sm text-primary-blue mt-2 font-semibold">- Ayesha, 3rd Year MBBS</p>
+              <p class="text-sm text-primary mt-2 font-semibold">- Ayesha, 3rd Year MBBS</p>
             </div>
 
             <div class="bg-gradient-to-r from-purple-50 to-purple-100 rounded-lg p-6 border-l-4 border-purple-500">
@@ -319,16 +319,16 @@
         </div>
 
         <!-- CTA -->
-        <div class="bg-gradient-to-br from-primary-blue to-primary-green text-white rounded-xl shadow-lg p-8 mb-8">
+        <div class="bg-gradient-to-br from-primary to-secondary text-white rounded-xl shadow-lg p-8 mb-8">
           <h2 class="text-3xl font-bold mb-4">Embrace the Adventure!</h2>
           <p class="text-lg mb-6 text-blue-50">
             Cultural adaptation is a journey, not a destination. With an open mind, patience, and the support of GEC's community, you'll not just survive but thrive in China!
           </p>
           <div class="flex flex-wrap gap-4">
-            <NuxtLink to="/contact" class="bg-white text-primary-blue px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block">
+            <NuxtLink to="/contact" class="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block">
               Start Your Journey with GEC
             </NuxtLink>
-            <NuxtLink to="/success-stories" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary-blue transition-all inline-block">
+            <NuxtLink to="/success-stories" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary transition-all inline-block">
               Read Success Stories
             </NuxtLink>
           </div>
@@ -339,16 +339,16 @@
           <h3 class="text-2xl font-bold mb-6 text-gray-900">Related Articles</h3>
           <div class="grid md:grid-cols-2 gap-6">
             <NuxtLink to="/blog/student-life-china" class="group">
-              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary-blue transition-all">
-                <div class="text-sm text-primary-blue font-semibold mb-2">Student Life</div>
-                <h4 class="font-bold text-gray-800 group-hover:text-primary-blue transition-all">Complete Guide to Student Life in China</h4>
+              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary transition-all">
+                <div class="text-sm text-primary font-semibold mb-2">Student Life</div>
+                <h4 class="font-bold text-gray-800 group-hover:text-primary transition-all">Complete Guide to Student Life in China</h4>
               </div>
             </NuxtLink>
 
             <NuxtLink to="/blog/halal-food-guide" class="group">
-              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary-green transition-all">
-                <div class="text-sm text-primary-green font-semibold mb-2">Halal Food</div>
-                <h4 class="font-bold text-gray-800 group-hover:text-primary-green transition-all">Halal Food Guide for Muslim Students</h4>
+              <div class="border border-gray-200 rounded-lg p-4 hover:border-secondary transition-all">
+                <div class="text-sm text-secondary font-semibold mb-2">Halal Food</div>
+                <h4 class="font-bold text-gray-800 group-hover:text-secondary transition-all">Halal Food Guide for Muslim Students</h4>
               </div>
             </NuxtLink>
           </div>

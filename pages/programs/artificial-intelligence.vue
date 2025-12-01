@@ -1,7 +1,7 @@
 <template>
   <div class="program-page">
     <!-- Hero Section -->
-    <section class="hero-section bg-gradient-to-br from-accent-purple/80 via-primary-blue to-primary-green text-white py-20 md:py-32">
+    <section class="hero-section bg-gradient-to-br from-accent-purple/80 via-primary to-secondary text-white py-20 md:py-32">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
           <div class="inline-block bg-white/10 backdrop-blur-sm px-6 py-2 rounded-full mb-6">
@@ -28,7 +28,7 @@
             </div>
           </div>
           <div class="flex flex-wrap gap-4 justify-center">
-            <NuxtLink to="/contact" class="btn-primary bg-accent-yellow text-gray-900 hover:bg-yellow-400 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
+            <NuxtLink to="/contact" class="btn-primary bg-accent-yellow text-white hover:bg-yellow-400 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
               Get Started Now
             </NuxtLink>
             <a href="https://wa.me/8618672301888" class="btn-secondary bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
@@ -51,20 +51,20 @@
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="feature-card bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-all">
-            <div class="w-16 h-16 bg-primary-blue/10 rounded-full flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🤖</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">AI Superpower</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">AI Superpower</h3>
             <p class="text-gray-600">
               China aims to be the world leader in AI by 2030. Massive government investment in AI research, infrastructure, and talent development. Study where AI's future is being built.
             </p>
           </div>
 
           <div class="feature-card bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-all">
-            <div class="w-16 h-16 bg-primary-green/10 rounded-full flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🔬</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">World-Leading Research</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">World-Leading Research</h3>
             <p class="text-gray-600">
               Access cutting-edge AI research labs and projects. China publishes more AI research papers than any other country. Work with top researchers on groundbreaking innovations.
             </p>
@@ -74,7 +74,7 @@
             <div class="w-16 h-16 bg-accent-purple/20 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🏙️</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">Real-World Applications</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">Real-World Applications</h3>
             <p class="text-gray-600">
               Experience AI in action everywhere - facial recognition, autonomous vehicles, smart cities, mobile payments. See how AI transforms daily life and solves real problems.
             </p>
@@ -84,7 +84,7 @@
             <div class="w-16 h-16 bg-accent-yellow/30 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🏢</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Industry Giants</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Industry Giants</h3>
             <p class="text-gray-600">
               Internships and collaborations with Baidu, Alibaba, Tencent, Huawei, ByteDance, and SenseTime. These companies are pioneers in AI applications worldwide.
             </p>
@@ -94,7 +94,7 @@
             <div class="w-16 h-16 bg-accent-peach/30 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">📊</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">Big Data Access</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">Big Data Access</h3>
             <p class="text-gray-600">
               Learn with massive datasets from China's 1.4 billion population. Unparalleled opportunities for training AI models and conducting large-scale machine learning experiments.
             </p>
@@ -104,7 +104,7 @@
             <div class="w-16 h-16 bg-accent-green/20 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🚀</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Startup Ecosystem</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Startup Ecosystem</h3>
             <p class="text-gray-600">
               Vibrant AI startup scene with government support and venture capital. Opportunities to join startups or launch your own AI venture in China's dynamic tech ecosystem.
             </p>
@@ -127,7 +127,7 @@
           <!-- Machine Learning -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">🧠</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-blue">Machine Learning</h3>
+            <h3 class="text-2xl font-bold mb-3 text-primary">Machine Learning</h3>
             <p class="text-gray-600 mb-4">
               Deep learning, neural networks, supervised and unsupervised learning, reinforcement learning, model optimization.
             </p>
@@ -139,7 +139,7 @@
           <!-- Computer Vision -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">👁️</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-green">Computer Vision</h3>
+            <h3 class="text-2xl font-bold mb-3 text-secondary">Computer Vision</h3>
             <p class="text-gray-600 mb-4">
               Image processing, object detection, facial recognition, scene understanding, video analysis, autonomous systems.
             </p>
@@ -151,7 +151,7 @@
           <!-- Natural Language Processing -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">💬</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-blue">Natural Language Processing</h3>
+            <h3 class="text-2xl font-bold mb-3 text-primary">Natural Language Processing</h3>
             <p class="text-gray-600 mb-4">
               Text analysis, sentiment analysis, machine translation, chatbots, voice recognition, language generation.
             </p>
@@ -163,7 +163,7 @@
           <!-- Robotics -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">🦾</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-green">Robotics & Automation</h3>
+            <h3 class="text-2xl font-bold mb-3 text-secondary">Robotics & Automation</h3>
             <p class="text-gray-600 mb-4">
               Robot control systems, autonomous navigation, human-robot interaction, industrial automation, drone technology.
             </p>
@@ -175,7 +175,7 @@
           <!-- Data Science -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">📈</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-blue">Data Science & Analytics</h3>
+            <h3 class="text-2xl font-bold mb-3 text-primary">Data Science & Analytics</h3>
             <p class="text-gray-600 mb-4">
               Big data processing, statistical analysis, data mining, visualization, predictive modeling, business intelligence.
             </p>
@@ -187,7 +187,7 @@
           <!-- AI Ethics & Governance -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">⚖️</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-green">AI Ethics & Governance</h3>
+            <h3 class="text-2xl font-bold mb-3 text-secondary">AI Ethics & Governance</h3>
             <p class="text-gray-600 mb-4">
               Ethical AI development, bias detection, fairness, privacy, security, responsible AI deployment, policy frameworks.
             </p>
@@ -212,8 +212,8 @@
         <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
           <div class="bg-gray-50 p-6 rounded-xl shadow-md">
             <div class="flex items-center mb-4">
-              <div class="w-10 h-10 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold mr-3">1</div>
-              <h3 class="text-xl font-bold text-primary-blue">Year 1: Foundations</h3>
+              <div class="w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold mr-3">1</div>
+              <h3 class="text-xl font-bold text-primary">Year 1: Foundations</h3>
             </div>
             <ul class="space-y-2 text-gray-700 ml-13">
               <li>• Programming (Python, C++, Java)</li>
@@ -226,8 +226,8 @@
 
           <div class="bg-gray-50 p-6 rounded-xl shadow-md">
             <div class="flex items-center mb-4">
-              <div class="w-10 h-10 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold mr-3">2</div>
-              <h3 class="text-xl font-bold text-primary-blue">Year 2: Core AI</h3>
+              <div class="w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold mr-3">2</div>
+              <h3 class="text-xl font-bold text-primary">Year 2: Core AI</h3>
             </div>
             <ul class="space-y-2 text-gray-700 ml-13">
               <li>• Machine Learning Fundamentals</li>
@@ -240,8 +240,8 @@
 
           <div class="bg-gray-50 p-6 rounded-xl shadow-md">
             <div class="flex items-center mb-4">
-              <div class="w-10 h-10 bg-primary-green text-white rounded-full flex items-center justify-center font-bold mr-3">3</div>
-              <h3 class="text-xl font-bold text-primary-green">Year 3: Advanced Topics</h3>
+              <div class="w-10 h-10 bg-secondary text-white rounded-full flex items-center justify-center font-bold mr-3">3</div>
+              <h3 class="text-xl font-bold text-secondary">Year 3: Advanced Topics</h3>
             </div>
             <ul class="space-y-2 text-gray-700 ml-13">
               <li>• Advanced Deep Learning</li>
@@ -254,8 +254,8 @@
 
           <div class="bg-gray-50 p-6 rounded-xl shadow-md">
             <div class="flex items-center mb-4">
-              <div class="w-10 h-10 bg-primary-green text-white rounded-full flex items-center justify-center font-bold mr-3">4</div>
-              <h3 class="text-xl font-bold text-primary-green">Year 4: Specialization</h3>
+              <div class="w-10 h-10 bg-secondary text-white rounded-full flex items-center justify-center font-bold mr-3">4</div>
+              <h3 class="text-xl font-bold text-secondary">Year 4: Specialization</h3>
             </div>
             <ul class="space-y-2 text-gray-700 ml-13">
               <li>• Industry Internship</li>
@@ -282,7 +282,7 @@
         <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           <!-- Tsinghua University -->
           <div class="university-card bg-white rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-primary-blue to-accent-purple/70 p-6 text-white">
+            <div class="bg-gradient-to-br from-primary to-accent-purple/70 p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">Tsinghua University</h3>
               <p class="text-gray-200">Department of Automation & AI Research Center</p>
             </div>
@@ -317,7 +317,7 @@
 
           <!-- Peking University -->
           <div class="university-card bg-white rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-primary-green to-primary-blue p-6 text-white">
+            <div class="bg-gradient-to-br from-secondary to-primary p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">Peking University</h3>
               <p class="text-gray-200">School of AI</p>
             </div>
@@ -352,7 +352,7 @@
 
           <!-- University of Chinese Academy of Sciences -->
           <div class="university-card bg-white rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-accent-purple/70 to-primary-green p-6 text-white">
+            <div class="bg-gradient-to-br from-accent-purple/70 to-secondary p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">University of Chinese Academy of Sciences</h3>
               <p class="text-gray-200">School of Artificial Intelligence</p>
             </div>
@@ -387,7 +387,7 @@
 
           <!-- Shanghai Jiao Tong University -->
           <div class="university-card bg-white rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-accent-yellow/80 to-primary-blue p-6 text-white">
+            <div class="bg-gradient-to-br from-accent-yellow/80 to-primary p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">Shanghai Jiao Tong University</h3>
               <p class="text-gray-200">School of Electronic Information and Electrical Engineering</p>
             </div>
@@ -483,7 +483,7 @@
           </div>
         </div>
 
-        <div class="mt-12 max-w-4xl mx-auto bg-gradient-to-r from-primary-blue to-primary-green p-8 rounded-xl text-white">
+        <div class="mt-12 max-w-4xl mx-auto bg-gradient-to-r from-primary to-secondary p-8 rounded-xl text-white">
           <h3 class="text-2xl font-bold mb-4 text-center">AI Professional Salaries</h3>
           <div class="grid md:grid-cols-3 gap-6 text-center">
             <div>
@@ -504,7 +504,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-gradient-to-br from-primary-blue via-accent-purple/70 to-primary-green text-white">
+    <section class="py-20 bg-gradient-to-br from-primary via-accent-purple/70 to-secondary text-white">
       <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl md:text-5xl font-bold mb-6 font-display">Shape the Future with AI</h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto">

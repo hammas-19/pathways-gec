@@ -1,7 +1,7 @@
 <template>
   <div class="mbbs-landing-page">
     <!-- Hero Section with Form -->
-    <section class="hero-section bg-gradient-to-br from-primary-blue via-primary-green to-accent-purple/70 text-white py-12 md:py-20">
+    <section class="hero-section bg-gradient-to-br from-primary via-secondary to-accent-purple/70 text-white py-12 md:py-20">
       <div class="container mx-auto px-4">
         <div class="grid md:grid-cols-2 gap-8 items-center max-w-6xl mx-auto">
           <!-- Left Column: Copy -->
@@ -60,7 +60,7 @@
           <!-- Right Column: Application Form -->
           <div class="bg-white text-gray-900 p-8 rounded-2xl shadow-2xl">
             <div class="text-center mb-6">
-              <h2 class="text-2xl md:text-3xl font-bold text-primary-blue mb-2">
+              <h2 class="text-2xl md:text-3xl font-bold text-primary mb-2">
                 Get Free Admission Assessment
               </h2>
               <p class="text-gray-600">Fill the form below. Our expert will contact you within 24 hours.</p>
@@ -74,7 +74,7 @@
                   type="text"
                   required
                   placeholder="Enter your full name"
-                  class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary-blue focus:outline-none transition-colors"
+                  class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary focus:outline-none transition-colors"
                 />
               </div>
 
@@ -85,7 +85,7 @@
                   type="tel"
                   required
                   placeholder="+92 300 1234567"
-                  class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary-blue focus:outline-none transition-colors"
+                  class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary focus:outline-none transition-colors"
                 />
               </div>
 
@@ -96,7 +96,7 @@
                   type="email"
                   required
                   placeholder="your.email@example.com"
-                  class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary-blue focus:outline-none transition-colors"
+                  class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary focus:outline-none transition-colors"
                 />
               </div>
 
@@ -105,7 +105,7 @@
                 <select
                   v-model="formData.education"
                   required
-                  class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary-blue focus:outline-none transition-colors"
+                  class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary focus:outline-none transition-colors"
                 >
                   <option value="">Select your education level</option>
                   <option value="intermediate">Intermediate (FSc Pre-Medical)</option>
@@ -121,14 +121,14 @@
                   type="text"
                   required
                   placeholder="Your city"
-                  class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary-blue focus:outline-none transition-colors"
+                  class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-primary focus:outline-none transition-colors"
                 />
               </div>
 
               <button
                 type="submit"
                 :disabled="isSubmitting"
-                class="w-full bg-gradient-to-r from-primary-blue to-primary-green text-white font-bold py-4 px-6 rounded-lg text-lg hover:shadow-xl transition-all transform hover:scale-105 disabled:opacity-50"
+                class="w-full bg-gradient-to-r from-primary to-secondary text-white font-bold py-4 px-6 rounded-lg text-lg hover:shadow-xl transition-all transform hover:scale-105 disabled:opacity-50"
               >
                 <span v-if="!isSubmitting">🎓 Get Free Assessment Now</span>
                 <span v-else>Submitting...</span>
@@ -176,7 +176,7 @@
           <div class="grid md:grid-cols-3 gap-6">
             <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-2">
               <div class="text-4xl mb-4">💰</div>
-              <h3 class="text-xl font-bold mb-3 text-primary-blue">Highly Affordable</h3>
+              <h3 class="text-xl font-bold mb-3 text-primary">Highly Affordable</h3>
               <p class="text-gray-600">
                 Save 80% compared to private medical colleges. Quality education that doesn't require taking massive loans or selling property.
               </p>
@@ -184,7 +184,7 @@
 
             <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-2">
               <div class="text-4xl mb-4">📜</div>
-              <h3 class="text-xl font-bold mb-3 text-primary-green">PMC Recognized</h3>
+              <h3 class="text-xl font-bold mb-3 text-secondary">PMC Recognized</h3>
               <p class="text-gray-600">
                 All our partner universities recognized by Pakistan Medical Commission. Clear PMC exam and practice in Pakistan.
               </p>
@@ -192,7 +192,7 @@
 
             <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-2">
               <div class="text-4xl mb-4">🎯</div>
-              <h3 class="text-xl font-bold mb-3 text-primary-blue">No Entrance Test</h3>
+              <h3 class="text-xl font-bold mb-3 text-primary">No Entrance Test</h3>
               <p class="text-gray-600">
                 No MCAT or NEET required. Admission based on FSc/A-Levels marks. Simple, straightforward admission process.
               </p>
@@ -200,7 +200,7 @@
 
             <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-2">
               <div class="text-4xl mb-4">🏥</div>
-              <h3 class="text-xl font-bold mb-3 text-primary-green">Excellent Clinical Training</h3>
+              <h3 class="text-xl font-bold mb-3 text-secondary">Excellent Clinical Training</h3>
               <p class="text-gray-600">
                 Hands-on practice in modern hospitals. Treat real patients under supervision. Graduate as a confident, skilled doctor.
               </p>
@@ -208,7 +208,7 @@
 
             <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-2">
               <div class="text-4xl mb-4">🌍</div>
-              <h3 class="text-xl font-bold mb-3 text-primary-blue">Global Opportunities</h3>
+              <h3 class="text-xl font-bold mb-3 text-primary">Global Opportunities</h3>
               <p class="text-gray-600">
                 WHO recognized degree. Practice anywhere in the world after clearing respective licensing exams. Unlimited career options.
               </p>
@@ -216,7 +216,7 @@
 
             <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-2">
               <div class="text-4xl mb-4">🛡️</div>
-              <h3 class="text-xl font-bold mb-3 text-primary-green">Safe & Supportive</h3>
+              <h3 class="text-xl font-bold mb-3 text-secondary">Safe & Supportive</h3>
               <p class="text-gray-600">
                 China is extremely safe. Large Pakistani student community. Halal food available. GEC team supports you 24/7 throughout your journey.
               </p>
@@ -236,7 +236,7 @@
           </div>
 
           <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-gradient-to-br from-primary-blue to-primary-green text-white p-8 rounded-xl">
+            <div class="bg-gradient-to-br from-primary to-secondary text-white p-8 rounded-xl">
               <div class="flex items-center mb-4">
                 <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center text-2xl font-bold mr-4">AM</div>
                 <div>
@@ -251,7 +251,7 @@
               <div class="text-sm font-semibold">✓ Cleared PMC exam - 82% score (First attempt)</div>
             </div>
 
-            <div class="bg-gradient-to-br from-primary-green to-accent-purple/70 text-white p-8 rounded-xl">
+            <div class="bg-gradient-to-br from-secondary to-accent-purple/70 text-white p-8 rounded-xl">
               <div class="flex items-center mb-4">
                 <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center text-2xl font-bold mr-4">SA</div>
                 <div>
@@ -281,33 +281,33 @@
 
           <div class="space-y-6">
             <div class="flex items-start bg-white p-6 rounded-xl shadow-md">
-              <div class="flex-shrink-0 w-12 h-12 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">1</div>
+              <div class="flex-shrink-0 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">1</div>
               <div>
-                <h3 class="text-xl font-bold mb-2 text-primary-blue">Free Assessment</h3>
+                <h3 class="text-xl font-bold mb-2 text-primary">Free Assessment</h3>
                 <p class="text-gray-600">Fill our form. Get free eligibility assessment and university recommendations within 24 hours.</p>
               </div>
             </div>
 
             <div class="flex items-start bg-white p-6 rounded-xl shadow-md">
-              <div class="flex-shrink-0 w-12 h-12 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">2</div>
+              <div class="flex-shrink-0 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">2</div>
               <div>
-                <h3 class="text-xl font-bold mb-2 text-primary-blue">University Selection</h3>
+                <h3 class="text-xl font-bold mb-2 text-primary">University Selection</h3>
                 <p class="text-gray-600">Choose from PMC-recognized universities. We guide you to select the best fit for your goals and budget.</p>
               </div>
             </div>
 
             <div class="flex items-start bg-white p-6 rounded-xl shadow-md">
-              <div class="flex-shrink-0 w-12 h-12 bg-primary-green text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">3</div>
+              <div class="flex-shrink-0 w-12 h-12 bg-secondary text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">3</div>
               <div>
-                <h3 class="text-xl font-bold mb-2 text-primary-green">Application Processing</h3>
+                <h3 class="text-xl font-bold mb-2 text-secondary">Application Processing</h3>
                 <p class="text-gray-600">We handle all paperwork, documentation, and application submission. You just provide us the required documents.</p>
               </div>
             </div>
 
             <div class="flex items-start bg-white p-6 rounded-xl shadow-md">
-              <div class="flex-shrink-0 w-12 h-12 bg-primary-green text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">4</div>
+              <div class="flex-shrink-0 w-12 h-12 bg-secondary text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">4</div>
               <div>
-                <h3 class="text-xl font-bold mb-2 text-primary-green">Admission & Visa</h3>
+                <h3 class="text-xl font-bold mb-2 text-secondary">Admission & Visa</h3>
                 <p class="text-gray-600">Get admission letter and JW202 form. Our team guides you through visa application with 95% success rate.</p>
               </div>
             </div>
@@ -315,7 +315,7 @@
             <div class="flex items-start bg-white p-6 rounded-xl shadow-md">
               <div class="flex-shrink-0 w-12 h-12 bg-accent-yellow text-gray-900 rounded-full flex items-center justify-center font-bold text-xl mr-6">5</div>
               <div>
-                <h3 class="text-xl font-bold mb-2 text-primary-blue">Pre-Departure & Travel</h3>
+                <h3 class="text-xl font-bold mb-2 text-primary">Pre-Departure & Travel</h3>
                 <p class="text-gray-600">Comprehensive pre-departure briefing. We arrange everything - from flight tickets to airport pickup in China.</p>
               </div>
             </div>
@@ -323,7 +323,7 @@
             <div class="flex items-start bg-white p-6 rounded-xl shadow-md">
               <div class="flex-shrink-0 w-12 h-12 bg-accent-yellow text-gray-900 rounded-full flex items-center justify-center font-bold text-xl mr-6">6</div>
               <div>
-                <h3 class="text-xl font-bold mb-2 text-primary-blue">Start Your MBBS Journey</h3>
+                <h3 class="text-xl font-bold mb-2 text-primary">Start Your MBBS Journey</h3>
                 <p class="text-gray-600">University registration, accommodation, residence permit - we help with everything. 24/7 support throughout your 6 years!</p>
               </div>
             </div>
@@ -342,8 +342,8 @@
           </div>
 
           <div class="grid md:grid-cols-3 gap-6">
-            <div class="bg-gray-50 p-6 rounded-xl border-2 border-primary-blue">
-              <h3 class="text-xl font-bold mb-2 text-primary-blue">Yangtze University</h3>
+            <div class="bg-gray-50 p-6 rounded-xl border-2 border-primary">
+              <h3 class="text-xl font-bold mb-2 text-primary">Yangtze University</h3>
               <p class="text-sm text-gray-600 mb-4">Jingzhou, Hubei Province</p>
               <ul class="text-sm space-y-2 text-gray-700">
                 <li>✓ Established: 1951</li>
@@ -353,8 +353,8 @@
               </ul>
             </div>
 
-            <div class="bg-gray-50 p-6 rounded-xl border-2 border-primary-green">
-              <h3 class="text-xl font-bold mb-2 text-primary-green">China Medical University</h3>
+            <div class="bg-gray-50 p-6 rounded-xl border-2 border-secondary">
+              <h3 class="text-xl font-bold mb-2 text-secondary">China Medical University</h3>
               <p class="text-sm text-gray-600 mb-4">Shenyang, Liaoning Province</p>
               <ul class="text-sm space-y-2 text-gray-700">
                 <li>✓ Top 50 medical university</li>
@@ -364,8 +364,8 @@
               </ul>
             </div>
 
-            <div class="bg-gray-50 p-6 rounded-xl border-2 border-primary-blue">
-              <h3 class="text-xl font-bold mb-2 text-primary-blue">Jiangsu University</h3>
+            <div class="bg-gray-50 p-6 rounded-xl border-2 border-primary">
+              <h3 class="text-xl font-bold mb-2 text-primary">Jiangsu University</h3>
               <p class="text-sm text-gray-600 mb-4">Zhenjiang, Jiangsu Province</p>
               <ul class="text-sm space-y-2 text-gray-700">
                 <li>✓ Beautiful campus</li>
@@ -394,8 +394,8 @@
           <div class="space-y-4">
             <div class="bg-white rounded-xl overflow-hidden shadow-md">
               <button @click="toggleFaq(1)" class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-50 transition-colors">
-                <h3 class="text-lg font-bold text-primary-blue">Is MBBS from China valid in Pakistan?</h3>
-                <span class="text-2xl text-primary-blue">{{ openFaq === 1 ? '−' : '+' }}</span>
+                <h3 class="text-lg font-bold text-primary">Is MBBS from China valid in Pakistan?</h3>
+                <span class="text-2xl text-primary">{{ openFaq === 1 ? '−' : '+' }}</span>
               </button>
               <div v-show="openFaq === 1" class="p-6 pt-0 text-gray-700">
                 Yes! All our partner universities are recognized by Pakistan Medical Commission (PMC) and WHO. After graduation, you need to clear the PMC licensing exam to practice in Pakistan. Our students have excellent PMC pass rates.
@@ -404,8 +404,8 @@
 
             <div class="bg-white rounded-xl overflow-hidden shadow-md">
               <button @click="toggleFaq(2)" class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-50 transition-colors">
-                <h3 class="text-lg font-bold text-primary-blue">Do I need to pass MCAT or NEET for admission?</h3>
-                <span class="text-2xl text-primary-blue">{{ openFaq === 2 ? '−' : '+' }}</span>
+                <h3 class="text-lg font-bold text-primary">Do I need to pass MCAT or NEET for admission?</h3>
+                <span class="text-2xl text-primary">{{ openFaq === 2 ? '−' : '+' }}</span>
               </button>
               <div v-show="openFaq === 2" class="p-6 pt-0 text-gray-700">
                 No! You don't need MCAT, NEET, or any entrance test. Admission is based on your FSc/A-Levels marks (minimum 60% in Physics, Chemistry, Biology). This makes the process much simpler and accessible.
@@ -414,8 +414,8 @@
 
             <div class="bg-white rounded-xl overflow-hidden shadow-md">
               <button @click="toggleFaq(3)" class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-50 transition-colors">
-                <h3 class="text-lg font-bold text-primary-blue">Is the program taught in English?</h3>
-                <span class="text-2xl text-primary-blue">{{ openFaq === 3 ? '−' : '+' }}</span>
+                <h3 class="text-lg font-bold text-primary">Is the program taught in English?</h3>
+                <span class="text-2xl text-primary">{{ openFaq === 3 ? '−' : '+' }}</span>
               </button>
               <div v-show="openFaq === 3" class="p-6 pt-0 text-gray-700">
                 Yes! The entire MBBS program is taught in English. All lectures, textbooks, and exams are in English. You'll also get free Chinese language classes to help you communicate with local patients during clinical practice, but it's not mandatory for academics.
@@ -424,8 +424,8 @@
 
             <div class="bg-white rounded-xl overflow-hidden shadow-md">
               <button @click="toggleFaq(4)" class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-50 transition-colors">
-                <h3 class="text-lg font-bold text-primary-blue">What documents do I need for application?</h3>
-                <span class="text-2xl text-primary-blue">{{ openFaq === 4 ? '−' : '+' }}</span>
+                <h3 class="text-lg font-bold text-primary">What documents do I need for application?</h3>
+                <span class="text-2xl text-primary">{{ openFaq === 4 ? '−' : '+' }}</span>
               </button>
               <div v-show="openFaq === 4" class="p-6 pt-0 text-gray-700">
                 Basic documents needed: FSc/A-Levels certificates and transcripts, passport copy, passport-size photos, and police clearance certificate. We'll guide you through the complete documentation process and help with notarization.
@@ -434,8 +434,8 @@
 
             <div class="bg-white rounded-xl overflow-hidden shadow-md">
               <button @click="toggleFaq(5)" class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-50 transition-colors">
-                <h3 class="text-lg font-bold text-primary-blue">Is China safe for students?</h3>
-                <span class="text-2xl text-primary-blue">{{ openFaq === 5 ? '−' : '+' }}</span>
+                <h3 class="text-lg font-bold text-primary">Is China safe for students?</h3>
+                <span class="text-2xl text-primary">{{ openFaq === 5 ? '−' : '+' }}</span>
               </button>
               <div v-show="openFaq === 5" class="p-6 pt-0 text-gray-700">
                 China is extremely safe! It has one of the lowest crime rates in the world. Students can walk around safely at any time. There's a large Pakistani student community (28,000+ students), and halal food is widely available. Universities have dedicated international student support offices.
@@ -447,7 +447,7 @@
     </section>
 
     <!-- Final CTA -->
-    <section class="py-16 bg-gradient-to-br from-primary-blue via-primary-green to-accent-purple/70 text-white">
+    <section class="py-16 bg-gradient-to-br from-primary via-secondary to-accent-purple/70 text-white">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
           <h2 class="text-3xl md:text-5xl font-bold mb-6 font-display">

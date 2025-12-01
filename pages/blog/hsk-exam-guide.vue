@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-gray-50">
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-br from-primary-blue via-blue-700 to-primary-green text-white py-20">
+    <section class="relative bg-gradient-to-br from-primary via-blue-700 to-secondary text-white py-20">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
           <div class="text-sm font-semibold mb-4 text-blue-100">Language Proficiency</div>
@@ -25,8 +25,8 @@
             The <strong>HSK (Hanyu Shuiping Kaoshi)</strong> is China's standardized test of Chinese language proficiency for non-native speakers. While not mandatory for English-medium MBBS programs, learning Chinese and passing HSK exams opens up incredible opportunities and makes your life in China much easier!
           </p>
 
-          <div class="bg-green-50 border-l-4 border-primary-green p-6 rounded-r-lg">
-            <p class="font-semibold text-primary-green mb-2">🌟 Why Learn Chinese?</p>
+          <div class="bg-green-50 border-l-4 border-secondary p-6 rounded-r-lg">
+            <p class="font-semibold text-secondary mb-2">🌟 Why Learn Chinese?</p>
             <p class="text-gray-700">Better patient communication during clinical years, enhanced career opportunities, deeper cultural understanding, and easier daily life in China!</p>
           </div>
         </div>
@@ -83,8 +83,8 @@
             </div>
           </div>
 
-          <div class="bg-blue-50 border-l-4 border-primary-blue p-6 rounded-r-lg">
-            <p class="font-semibold text-primary-blue mb-2">📚 For MBBS Students</p>
+          <div class="bg-blue-50 border-l-4 border-primary p-6 rounded-r-lg">
+            <p class="font-semibold text-primary mb-2">📚 For MBBS Students</p>
             <p class="text-gray-700">Most MBBS students aim for HSK 3-4 by graduation. This level allows good communication with Chinese patients during clinical rotations!</p>
           </div>
         </div>
@@ -325,8 +325,8 @@
           </div>
 
           <div class="grid md:grid-cols-2 gap-6">
-            <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 border-l-4 border-primary-blue">
-              <h4 class="font-bold text-primary-blue mb-4">📚 Study Methods</h4>
+            <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 border-l-4 border-primary">
+              <h4 class="font-bold text-primary mb-4">📚 Study Methods</h4>
               <ul class="space-y-2 text-sm text-gray-700">
                 <li>✓ Attend university Chinese language classes (usually free!)</li>
                 <li>✓ Use HSK-specific textbooks and workbooks</li>
@@ -338,8 +338,8 @@
               </ul>
             </div>
 
-            <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6 border-l-4 border-primary-green">
-              <h4 class="font-bold text-primary-green mb-4">🎯 Exam Strategies</h4>
+            <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6 border-l-4 border-secondary">
+              <h4 class="font-bold text-secondary mb-4">🎯 Exam Strategies</h4>
               <ul class="space-y-2 text-sm text-gray-700">
                 <li>✓ Take practice tests regularly</li>
                 <li>✓ Focus on weak areas identified in practice</li>
@@ -411,8 +411,8 @@
             </div>
           </div>
 
-          <div class="bg-blue-50 border-l-4 border-primary-blue p-6 rounded-r-lg mb-6">
-            <h4 class="font-bold text-primary-blue mb-3">How to Register</h4>
+          <div class="bg-blue-50 border-l-4 border-primary p-6 rounded-r-lg mb-6">
+            <h4 class="font-bold text-primary mb-3">How to Register</h4>
             <ol class="space-y-2 text-gray-700 list-decimal list-inside">
               <li>Visit official website: www.chinesetest.cn</li>
               <li>Create an account with your details</li>
@@ -423,7 +423,7 @@
           </div>
 
           <div class="bg-green-50 border border-green-200 rounded-lg p-6">
-            <h4 class="font-bold text-primary-green mb-3">Results & Certificate</h4>
+            <h4 class="font-bold text-secondary mb-3">Results & Certificate</h4>
             <ul class="space-y-2 text-gray-700">
               <li>✓ Results published online within 1 month</li>
               <li>✓ Passing score: 180 out of 300 (60%)</li>
@@ -509,16 +509,16 @@
         </div>
 
         <!-- CTA -->
-        <div class="bg-gradient-to-br from-primary-blue to-primary-green text-white rounded-xl shadow-lg p-8 mb-8">
+        <div class="bg-gradient-to-br from-primary to-secondary text-white rounded-xl shadow-lg p-8 mb-8">
           <h2 class="text-3xl font-bold mb-4">Start Your Chinese Language Journey!</h2>
           <p class="text-lg mb-6 text-blue-50">
             Learning Chinese opens doors to better clinical experience, enhanced career opportunities, and deeper cultural understanding. GEC supports students throughout their language learning journey in China!
           </p>
           <div class="flex flex-wrap gap-4">
-            <NuxtLink to="/contact" class="bg-white text-primary-blue px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block">
+            <NuxtLink to="/contact" class="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block">
               Get Started with GEC
             </NuxtLink>
-            <NuxtLink to="/programs/language" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary-blue transition-all inline-block">
+            <NuxtLink to="/programs/language" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary transition-all inline-block">
               Explore Language Programs
             </NuxtLink>
           </div>
@@ -529,16 +529,16 @@
           <h3 class="text-2xl font-bold mb-6 text-gray-900">Related Articles</h3>
           <div class="grid md:grid-cols-2 gap-6">
             <NuxtLink to="/blog/student-life-china" class="group">
-              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary-blue transition-all">
-                <div class="text-sm text-primary-blue font-semibold mb-2">Student Life</div>
-                <h4 class="font-bold text-gray-800 group-hover:text-primary-blue transition-all">Student Life in China: Complete Guide</h4>
+              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary transition-all">
+                <div class="text-sm text-primary font-semibold mb-2">Student Life</div>
+                <h4 class="font-bold text-gray-800 group-hover:text-primary transition-all">Student Life in China: Complete Guide</h4>
               </div>
             </NuxtLink>
 
             <NuxtLink to="/blog/cultural-adaptation-guide" class="group">
-              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary-green transition-all">
-                <div class="text-sm text-primary-green font-semibold mb-2">Cultural Tips</div>
-                <h4 class="font-bold text-gray-800 group-hover:text-primary-green transition-all">Cultural Adaptation: Thriving in China</h4>
+              <div class="border border-gray-200 rounded-lg p-4 hover:border-secondary transition-all">
+                <div class="text-sm text-secondary font-semibold mb-2">Cultural Tips</div>
+                <h4 class="font-bold text-gray-800 group-hover:text-secondary transition-all">Cultural Adaptation: Thriving in China</h4>
               </div>
             </NuxtLink>
           </div>

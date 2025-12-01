@@ -1,7 +1,7 @@
 <template>
   <div class="blog-post">
     <!-- Hero -->
-    <section class="bg-gradient-to-br from-primary-blue to-primary-green text-white py-16">
+    <section class="bg-gradient-to-br from-primary to-secondary text-white py-16">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
           <NuxtLink to="/blog" class="text-accent-yellow hover:underline mb-4 inline-block">← Back to Blog</NuxtLink>
@@ -88,8 +88,8 @@
             <li><strong>Stressful and uncertain</strong> admission process</li>
           </ul>
 
-          <div class="bg-blue-50 border-l-4 border-primary-blue p-6 my-8">
-            <p class="font-semibold text-primary-blue">GEC Insight:</p>
+          <div class="bg-blue-50 border-l-4 border-primary p-6 my-8">
+            <p class="font-semibold text-primary">GEC Insight:</p>
             <p class="mt-2">Many of our students were rejected from Pakistani medical colleges despite good marks. In China, if you have 60%+ in FSc, admission is almost guaranteed at PMC-recognized universities.</p>
           </div>
 
@@ -113,8 +113,8 @@
             <li>Most families have to sell property or take huge loans</li>
           </ul>
 
-          <div class="bg-green-50 border-l-4 border-primary-green p-6 my-8">
-            <p class="font-semibold text-primary-green">Cost Savings:</p>
+          <div class="bg-green-50 border-l-4 border-secondary p-6 my-8">
+            <p class="font-semibold text-secondary">Cost Savings:</p>
             <p class="mt-2"><strong>You save PKR 1.4 to 2.4 CRORE by choosing China over private medical colleges in Pakistan!</strong> That's 80-90% cost reduction for the same quality education.</p>
           </div>
 
@@ -283,13 +283,13 @@
 
           <div class="bg-gray-100 p-6 rounded-xl my-8">
             <div class="flex items-start">
-              <div class="w-16 h-16 bg-primary-blue rounded-full flex items-center justify-center text-white text-2xl font-bold mr-4 flex-shrink-0">
+              <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white text-2xl font-bold mr-4 flex-shrink-0">
                 AM
               </div>
               <div>
                 <h4 class="font-bold text-lg mb-2">Dr. Ahmed Malik - Yangzhou University, China (2021)</h4>
                 <p class="italic text-gray-700 mb-2">"I failed to get admission in government colleges and my parents couldn't afford PKR 3 crore for Shifa or CMH. China was a blessing - same quality education at 1/5th the cost. I cleared PMC exam with 82% and now I'm practicing in Lahore. Best decision ever!"</p>
-                <div class="text-sm text-primary-blue font-semibold">✓ Currently: Medical Officer, Shaukat Khanum Hospital</div>
+                <div class="text-sm text-primary font-semibold">✓ Currently: Medical Officer, Shaukat Khanum Hospital</div>
               </div>
             </div>
           </div>
@@ -322,7 +322,7 @@
             Yes, you'll need to clear PMC exam - but that's a small price to pay when you're saving crores of rupees and getting world-class education!
           </p>
 
-          <div class="bg-gradient-to-r from-primary-blue to-primary-green text-white p-8 rounded-xl my-12">
+          <div class="bg-gradient-to-r from-primary to-secondary text-white p-8 rounded-xl my-12">
             <h3 class="text-2xl font-bold mb-4">Ready to Start Your MBBS Journey in China?</h3>
             <p class="mb-6">GEC (Global Educational Consultants) has helped 500+ students get admission to PMC-recognized medical universities in China. We handle everything from university selection to visa, arrival support, and ongoing guidance throughout your MBBS.</p>
             <div class="flex flex-wrap gap-4">

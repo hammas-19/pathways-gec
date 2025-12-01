@@ -1,7 +1,7 @@
 <template>
   <div class="program-page">
     <!-- Hero Section -->
-    <section class="hero-section bg-gradient-to-br from-primary-green to-primary-blue text-white py-20 md:py-32">
+    <section class="hero-section bg-gradient-to-br from-secondary to-primary text-white py-20 md:py-32">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
           <div class="inline-block bg-white/10 backdrop-blur-sm px-6 py-2 rounded-full mb-6">
@@ -28,7 +28,7 @@
             </div>
           </div>
           <div class="flex flex-wrap gap-4 justify-center">
-            <NuxtLink to="/contact" class="btn-primary bg-accent-yellow text-gray-900 hover:bg-yellow-400 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
+            <NuxtLink to="/contact" class="btn-primary bg-accent-yellow text-white hover:bg-yellow-400 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
               Get Started Now
             </NuxtLink>
             <a href="https://wa.me/8618672301888" class="btn-secondary bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
@@ -51,20 +51,20 @@
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="feature-card bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-all">
-            <div class="w-16 h-16 bg-primary-blue/10 rounded-full flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🏗️</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">World's Largest Engineering Projects</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">World's Largest Engineering Projects</h3>
             <p class="text-gray-600">
               Study in the country that built the world's longest high-speed rail network, largest dams, and most impressive infrastructure. Witness engineering marvels firsthand.
             </p>
           </div>
 
           <div class="feature-card bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-all">
-            <div class="w-16 h-16 bg-primary-green/10 rounded-full flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🔬</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Cutting-Edge Research</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Cutting-Edge Research</h3>
             <p class="text-gray-600">
               Access to state-of-the-art laboratories and equipment. Participate in groundbreaking research in renewable energy, robotics, materials science, and aerospace engineering.
             </p>
@@ -74,7 +74,7 @@
             <div class="w-16 h-16 bg-accent-purple/20 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🏭</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">Industry Integration</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">Industry Integration</h3>
             <p class="text-gray-600">
               Strong partnerships with manufacturing giants, tech companies, and construction firms. Internship opportunities with companies shaping global engineering standards.
             </p>
@@ -84,7 +84,7 @@
             <div class="w-16 h-16 bg-accent-yellow/30 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🎓</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Top-Ranked Universities</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Top-Ranked Universities</h3>
             <p class="text-gray-600">
               Chinese engineering universities rank among the world's best. Many programs recognized by Washington Accord and international professional engineering bodies.
             </p>
@@ -94,7 +94,7 @@
             <div class="w-16 h-16 bg-accent-peach/30 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">💰</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">Affordable Excellence</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">Affordable Excellence</h3>
             <p class="text-gray-600">
               World-class engineering education at a fraction of the cost in Western countries. Government scholarships available for outstanding international students.
             </p>
@@ -104,7 +104,7 @@
             <div class="w-16 h-16 bg-accent-green/20 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🌍</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Global Career Prospects</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Global Career Prospects</h3>
             <p class="text-gray-600">
               Engineers from China work on projects worldwide. International degree recognition opens doors to careers in Belt and Road Initiative countries and beyond.
             </p>
@@ -127,7 +127,7 @@
           <!-- Civil Engineering -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">🏗️</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-blue">Civil Engineering</h3>
+            <h3 class="text-2xl font-bold mb-3 text-primary">Civil Engineering</h3>
             <p class="text-gray-600 mb-4">
               Structural design, construction management, transportation systems, geotechnical engineering, and infrastructure development.
             </p>
@@ -139,7 +139,7 @@
           <!-- Mechanical Engineering -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">⚙️</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-green">Mechanical Engineering</h3>
+            <h3 class="text-2xl font-bold mb-3 text-secondary">Mechanical Engineering</h3>
             <p class="text-gray-600 mb-4">
               Thermodynamics, fluid mechanics, machine design, manufacturing processes, robotics, and automotive engineering.
             </p>
@@ -151,7 +151,7 @@
           <!-- Electrical Engineering -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">⚡</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-blue">Electrical Engineering</h3>
+            <h3 class="text-2xl font-bold mb-3 text-primary">Electrical Engineering</h3>
             <p class="text-gray-600 mb-4">
               Power systems, electronics, control systems, renewable energy, smart grids, and electrical machine design.
             </p>
@@ -163,7 +163,7 @@
           <!-- Chemical Engineering -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">🧪</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-green">Chemical Engineering</h3>
+            <h3 class="text-2xl font-bold mb-3 text-secondary">Chemical Engineering</h3>
             <p class="text-gray-600 mb-4">
               Process engineering, petrochemicals, pharmaceuticals, materials synthesis, environmental engineering, and biochemical processes.
             </p>
@@ -175,7 +175,7 @@
           <!-- Aerospace Engineering -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">✈️</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-blue">Aerospace Engineering</h3>
+            <h3 class="text-2xl font-bold mb-3 text-primary">Aerospace Engineering</h3>
             <p class="text-gray-600 mb-4">
               Aircraft design, propulsion systems, aerodynamics, space technology, avionics, and satellite engineering.
             </p>
@@ -187,7 +187,7 @@
           <!-- Environmental Engineering -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">🌱</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-green">Environmental Engineering</h3>
+            <h3 class="text-2xl font-bold mb-3 text-secondary">Environmental Engineering</h3>
             <p class="text-gray-600 mb-4">
               Water treatment, air pollution control, waste management, sustainable development, and environmental impact assessment.
             </p>
@@ -199,7 +199,7 @@
           <!-- Biomedical Engineering -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">🏥</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-blue">Biomedical Engineering</h3>
+            <h3 class="text-2xl font-bold mb-3 text-primary">Biomedical Engineering</h3>
             <p class="text-gray-600 mb-4">
               Medical devices, prosthetics, tissue engineering, medical imaging, biomaterials, and healthcare technology.
             </p>
@@ -211,7 +211,7 @@
           <!-- Materials Engineering -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">🔩</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-green">Materials Engineering</h3>
+            <h3 class="text-2xl font-bold mb-3 text-secondary">Materials Engineering</h3>
             <p class="text-gray-600 mb-4">
               Nanomaterials, metallurgy, polymer science, ceramics, composite materials, and materials characterization.
             </p>
@@ -223,7 +223,7 @@
           <!-- Industrial Engineering -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">📊</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-blue">Industrial Engineering</h3>
+            <h3 class="text-2xl font-bold mb-3 text-primary">Industrial Engineering</h3>
             <p class="text-gray-600 mb-4">
               Operations research, supply chain management, quality control, production planning, and systems optimization.
             </p>
@@ -248,7 +248,7 @@
         <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           <!-- Tsinghua University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-primary-blue to-primary-green p-6 text-white">
+            <div class="bg-gradient-to-br from-primary to-secondary p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">Tsinghua University</h3>
               <p class="text-gray-200">School of Engineering</p>
             </div>
@@ -283,7 +283,7 @@
 
           <!-- Harbin Institute of Technology -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-primary-green to-accent-purple/70 p-6 text-white">
+            <div class="bg-gradient-to-br from-secondary to-accent-purple/70 p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">Harbin Institute of Technology</h3>
               <p class="text-gray-200">Multiple Engineering Schools</p>
             </div>
@@ -318,7 +318,7 @@
 
           <!-- Shanghai Jiao Tong University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-accent-peach/70 to-primary-blue p-6 text-white">
+            <div class="bg-gradient-to-br from-accent-peach/70 to-primary p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">Shanghai Jiao Tong University</h3>
               <p class="text-gray-200">School of Mechanical Engineering</p>
             </div>
@@ -353,7 +353,7 @@
 
           <!-- Zhejiang University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-accent-yellow/80 to-primary-green p-6 text-white">
+            <div class="bg-gradient-to-br from-accent-yellow/80 to-secondary p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">Zhejiang University</h3>
               <p class="text-gray-200">College of Engineering</p>
             </div>
@@ -402,8 +402,8 @@
         <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
           <div class="bg-white p-6 rounded-xl shadow-md">
             <div class="flex items-center mb-4">
-              <div class="w-10 h-10 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold mr-3">1</div>
-              <h3 class="text-xl font-bold text-primary-blue">Year 1: Foundation</h3>
+              <div class="w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold mr-3">1</div>
+              <h3 class="text-xl font-bold text-primary">Year 1: Foundation</h3>
             </div>
             <ul class="space-y-2 text-gray-700 ml-13">
               <li>• Mathematics (Calculus, Linear Algebra)</li>
@@ -416,8 +416,8 @@
 
           <div class="bg-white p-6 rounded-xl shadow-md">
             <div class="flex items-center mb-4">
-              <div class="w-10 h-10 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold mr-3">2</div>
-              <h3 class="text-xl font-bold text-primary-blue">Year 2: Core Courses</h3>
+              <div class="w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold mr-3">2</div>
+              <h3 class="text-xl font-bold text-primary">Year 2: Core Courses</h3>
             </div>
             <ul class="space-y-2 text-gray-700 ml-13">
               <li>• Specialized engineering subjects</li>
@@ -430,8 +430,8 @@
 
           <div class="bg-white p-6 rounded-xl shadow-md">
             <div class="flex items-center mb-4">
-              <div class="w-10 h-10 bg-primary-green text-white rounded-full flex items-center justify-center font-bold mr-3">3</div>
-              <h3 class="text-xl font-bold text-primary-green">Year 3: Specialization</h3>
+              <div class="w-10 h-10 bg-secondary text-white rounded-full flex items-center justify-center font-bold mr-3">3</div>
+              <h3 class="text-xl font-bold text-secondary">Year 3: Specialization</h3>
             </div>
             <ul class="space-y-2 text-gray-700 ml-13">
               <li>• Advanced courses in chosen field</li>
@@ -444,8 +444,8 @@
 
           <div class="bg-white p-6 rounded-xl shadow-md">
             <div class="flex items-center mb-4">
-              <div class="w-10 h-10 bg-primary-green text-white rounded-full flex items-center justify-center font-bold mr-3">4</div>
-              <h3 class="text-xl font-bold text-primary-green">Year 4: Application</h3>
+              <div class="w-10 h-10 bg-secondary text-white rounded-full flex items-center justify-center font-bold mr-3">4</div>
+              <h3 class="text-xl font-bold text-secondary">Year 4: Application</h3>
             </div>
             <ul class="space-y-2 text-gray-700 ml-13">
               <li>• Capstone/graduation project</li>
@@ -460,7 +460,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-gradient-to-br from-primary-green via-primary-blue to-accent-purple/70 text-white">
+    <section class="py-20 bg-gradient-to-br from-secondary via-primary to-accent-purple/70 text-white">
       <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl md:text-5xl font-bold mb-6 font-display">Engineer Your Future in China</h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto">

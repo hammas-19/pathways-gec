@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-gray-50">
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-br from-primary-blue via-blue-700 to-primary-green text-white py-20">
+    <section class="relative bg-gradient-to-br from-primary via-blue-700 to-secondary text-white py-20">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
           <div class="text-sm font-semibold mb-4 text-blue-100">Student Life</div>
@@ -29,8 +29,8 @@
             This comprehensive guide will walk you through everything you need to know about student life in China, from accommodation and food to social activities and travel opportunities. Get ready to embark on an amazing journey!
           </p>
 
-          <div class="bg-green-50 border-l-4 border-primary-green p-6 rounded-r-lg">
-            <p class="font-semibold text-primary-green mb-2">🌟 Real Student Experience</p>
+          <div class="bg-green-50 border-l-4 border-secondary p-6 rounded-r-lg">
+            <p class="font-semibold text-secondary mb-2">🌟 Real Student Experience</p>
             <p class="text-gray-700">This guide is based on feedback from 500+ Pakistani students currently studying in China with GEC. Everything you read here reflects real experiences!</p>
           </div>
         </div>
@@ -43,8 +43,8 @@
             <h3 class="text-2xl font-bold mb-4 text-gray-800">On-Campus Accommodation</h3>
 
             <div class="grid md:grid-cols-2 gap-6 mb-6">
-              <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 border-l-4 border-primary-blue">
-                <h4 class="font-bold text-primary-blue mb-3">🏢 Dormitory Options</h4>
+              <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 border-l-4 border-primary">
+                <h4 class="font-bold text-primary mb-3">🏢 Dormitory Options</h4>
                 <ul class="space-y-2 text-gray-700">
                   <li>• Double or triple-occupancy rooms</li>
                   <li>• Bed, desk, chair, wardrobe provided</li>
@@ -55,8 +55,8 @@
                 </ul>
               </div>
 
-              <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6 border-l-4 border-primary-green">
-                <h4 class="font-bold text-primary-green mb-3">🏠 International Student Dorms</h4>
+              <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6 border-l-4 border-secondary">
+                <h4 class="font-bold text-secondary mb-3">🏠 International Student Dorms</h4>
                 <ul class="space-y-2 text-gray-700">
                   <li>• Better facilities than local dorms</li>
                   <li>• Often en-suite bathrooms</li>
@@ -68,8 +68,8 @@
               </div>
             </div>
 
-            <div class="bg-blue-50 border-l-4 border-primary-blue p-6 rounded-r-lg">
-              <p class="font-semibold text-primary-blue mb-2">💡 Pro Tip</p>
+            <div class="bg-blue-50 border-l-4 border-primary p-6 rounded-r-lg">
+              <p class="font-semibold text-primary mb-2">💡 Pro Tip</p>
               <p class="text-gray-700">Most Pakistani students prefer sharing rooms with fellow Pakistanis for cultural compatibility. Universities usually accommodate this request!</p>
             </div>
           </div>
@@ -124,7 +124,7 @@
           <div class="mb-8">
             <h3 class="text-2xl font-bold mb-4 text-gray-800">Halal Food Availability</h3>
 
-            <div class="bg-green-50 border-l-4 border-primary-green p-6 rounded-r-lg mb-6">
+            <div class="bg-green-50 border-l-4 border-secondary p-6 rounded-r-lg mb-6">
               <p class="text-gray-700 text-lg">
                 <strong>Great news!</strong> Halal food is widely available in most Chinese cities, especially those with large Muslim populations or international students.
               </p>
@@ -155,7 +155,7 @@
             </div>
 
             <div class="bg-blue-50 rounded-lg p-6">
-              <h4 class="font-bold text-primary-blue mb-3">🍜 Popular Halal Dishes to Try</h4>
+              <h4 class="font-bold text-primary mb-3">🍜 Popular Halal Dishes to Try</h4>
               <div class="grid md:grid-cols-2 gap-4 text-gray-700">
                 <div>
                   <p class="font-semibold mb-1">Lanzhou Lamian (兰州拉面)</p>
@@ -221,11 +221,11 @@
               </p>
               <div class="grid md:grid-cols-3 gap-4 text-center">
                 <div>
-                  <div class="text-2xl font-bold text-primary-blue mb-1">5,000+</div>
+                  <div class="text-2xl font-bold text-primary mb-1">5,000+</div>
                   <div class="text-sm text-gray-600">Pakistani students in China</div>
                 </div>
                 <div>
-                  <div class="text-2xl font-bold text-primary-green mb-1">30+</div>
+                  <div class="text-2xl font-bold text-secondary mb-1">30+</div>
                   <div class="text-sm text-gray-600">Active student associations</div>
                 </div>
                 <div>
@@ -237,7 +237,7 @@
 
             <div class="grid md:grid-cols-2 gap-6">
               <div class="bg-blue-50 rounded-lg p-6">
-                <h4 class="font-bold text-primary-blue mb-3">🎉 Community Events</h4>
+                <h4 class="font-bold text-primary mb-3">🎉 Community Events</h4>
                 <ul class="space-y-2 text-gray-700">
                   <li>• Independence Day celebrations (14 Aug)</li>
                   <li>• Eid gatherings and prayers</li>
@@ -249,7 +249,7 @@
               </div>
 
               <div class="bg-green-50 rounded-lg p-6">
-                <h4 class="font-bold text-primary-green mb-3">🤝 Support Network</h4>
+                <h4 class="font-bold text-secondary mb-3">🤝 Support Network</h4>
                 <ul class="space-y-2 text-gray-700">
                   <li>• Senior students guide newcomers</li>
                   <li>• WhatsApp groups for each university</li>
@@ -347,7 +347,7 @@
 
             <div class="grid md:grid-cols-2 gap-6 mb-6">
               <div class="bg-blue-50 rounded-lg p-6">
-                <h4 class="font-bold text-primary-blue mb-3">🚲 Within Campus & City</h4>
+                <h4 class="font-bold text-primary mb-3">🚲 Within Campus & City</h4>
                 <ul class="space-y-2 text-gray-700">
                   <li>• <strong>Bicycle:</strong> Most popular, very cheap to buy/rent</li>
                   <li>• <strong>E-bikes:</strong> Common for longer distances</li>
@@ -357,7 +357,7 @@
               </div>
 
               <div class="bg-green-50 rounded-lg p-6">
-                <h4 class="font-bold text-primary-green mb-3">🚇 Public Transport</h4>
+                <h4 class="font-bold text-secondary mb-3">🚇 Public Transport</h4>
                 <ul class="space-y-2 text-gray-700">
                   <li>• <strong>Metro/Subway:</strong> Fast, clean, very affordable</li>
                   <li>• <strong>Buses:</strong> Extensive network, student discounts</li>
@@ -377,7 +377,7 @@
             <h3 class="text-2xl font-bold mb-4 text-gray-800">Mobile & Internet</h3>
 
             <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-6 mb-4">
-              <h4 class="font-bold text-primary-blue mb-3">📱 Essential Apps for Student Life</h4>
+              <h4 class="font-bold text-primary mb-3">📱 Essential Apps for Student Life</h4>
               <div class="grid md:grid-cols-2 gap-4">
                 <div>
                   <p class="font-semibold text-gray-800 mb-1">WeChat (微信)</p>
@@ -493,8 +493,8 @@
             </div>
           </div>
 
-          <div class="bg-blue-50 border-l-4 border-primary-blue p-6 rounded-r-lg mb-6">
-            <h4 class="font-bold text-primary-blue mb-3">✈️ Student Travel Tips</h4>
+          <div class="bg-blue-50 border-l-4 border-primary p-6 rounded-r-lg mb-6">
+            <h4 class="font-bold text-primary mb-3">✈️ Student Travel Tips</h4>
             <ul class="space-y-2 text-gray-700">
               <li>• Book high-speed trains in advance for best prices</li>
               <li>• Student ID gets discounts at tourist attractions</li>
@@ -561,8 +561,8 @@
           <h2 class="text-3xl font-bold mb-6 text-gray-900">Safety & Health</h2>
 
           <div class="mb-6">
-            <div class="bg-green-50 border-l-4 border-primary-green p-6 rounded-r-lg mb-6">
-              <p class="text-lg font-semibold text-primary-green mb-2">✅ Good News: China is Very Safe!</p>
+            <div class="bg-green-50 border-l-4 border-secondary p-6 rounded-r-lg mb-6">
+              <p class="text-lg font-semibold text-secondary mb-2">✅ Good News: China is Very Safe!</p>
               <p class="text-gray-700">
                 China has one of the lowest crime rates in the world. Most international students feel safer in China than in their home countries. Cities have extensive CCTV coverage and strong police presence.
               </p>
@@ -599,7 +599,7 @@
           <h2 class="text-3xl font-bold mb-6 text-gray-900">Tips from Current Pakistani Students</h2>
 
           <div class="space-y-6">
-            <div class="bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg p-6 border-l-4 border-primary-blue">
+            <div class="bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg p-6 border-l-4 border-primary">
               <div class="flex items-start gap-4">
                 <div class="flex-shrink-0 text-3xl">👨‍⚕️</div>
                 <div>
@@ -609,7 +609,7 @@
               </div>
             </div>
 
-            <div class="bg-gradient-to-r from-green-50 to-green-100 rounded-lg p-6 border-l-4 border-primary-green">
+            <div class="bg-gradient-to-r from-green-50 to-green-100 rounded-lg p-6 border-l-4 border-secondary">
               <div class="flex items-start gap-4">
                 <div class="flex-shrink-0 text-3xl">👩‍⚕️</div>
                 <div>
@@ -674,16 +674,16 @@
         </div>
 
         <!-- Final CTA -->
-        <div class="bg-gradient-to-br from-primary-blue to-primary-green text-white rounded-xl shadow-lg p-8 mb-8">
+        <div class="bg-gradient-to-br from-primary to-secondary text-white rounded-xl shadow-lg p-8 mb-8">
           <h2 class="text-3xl font-bold mb-4">Ready to Experience Student Life in China?</h2>
           <p class="text-lg mb-6 text-blue-50">
             Studying MBBS in China is more than just education—it's a life-changing adventure filled with cultural experiences, lifelong friendships, and personal growth. With GEC's support, you'll have guidance every step of the way!
           </p>
           <div class="flex flex-wrap gap-4">
-            <NuxtLink to="/contact" class="bg-white text-primary-blue px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block">
+            <NuxtLink to="/contact" class="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block">
               Start Your Journey with GEC
             </NuxtLink>
-            <NuxtLink to="/programs/mbbs" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary-blue transition-all inline-block">
+            <NuxtLink to="/programs/mbbs" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary transition-all inline-block">
               Explore MBBS Programs
             </NuxtLink>
           </div>
@@ -694,16 +694,16 @@
           <h3 class="text-2xl font-bold mb-6 text-gray-900">Related Articles</h3>
           <div class="grid md:grid-cols-2 gap-6">
             <NuxtLink to="/blog/halal-food-guide" class="group">
-              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary-blue transition-all">
-                <div class="text-sm text-primary-blue font-semibold mb-2">Food & Culture</div>
-                <h4 class="font-bold text-gray-800 group-hover:text-primary-blue transition-all">Complete Halal Food Guide for Muslim Students</h4>
+              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary transition-all">
+                <div class="text-sm text-primary font-semibold mb-2">Food & Culture</div>
+                <h4 class="font-bold text-gray-800 group-hover:text-primary transition-all">Complete Halal Food Guide for Muslim Students</h4>
               </div>
             </NuxtLink>
 
             <NuxtLink to="/blog/cost-of-living-china" class="group">
-              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary-green transition-all">
-                <div class="text-sm text-primary-green font-semibold mb-2">Budgeting</div>
-                <h4 class="font-bold text-gray-800 group-hover:text-primary-green transition-all">Cost of Living in China for International Students</h4>
+              <div class="border border-gray-200 rounded-lg p-4 hover:border-secondary transition-all">
+                <div class="text-sm text-secondary font-semibold mb-2">Budgeting</div>
+                <h4 class="font-bold text-gray-800 group-hover:text-secondary transition-all">Cost of Living in China for International Students</h4>
               </div>
             </NuxtLink>
           </div>

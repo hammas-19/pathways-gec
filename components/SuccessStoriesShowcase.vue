@@ -80,7 +80,7 @@
       <!-- Tab Content: Documents -->
       <div v-if="activeTab === 'documents'" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <div v-for="i in 8" :key="i" class="card p-4 text-center">
-          <svg class="w-16 h-16 mx-auto mb-2 text-primary-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg class="w-16 h-16 mx-auto mb-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
           </svg>
           <p class="text-sm font-medium">{{ ['Admission Letter', 'Visa Approval', 'JW202 Form', 'Scholarship Award'][i % 4] }}</p>
@@ -94,7 +94,7 @@
             <span class="text-3xl">🏆</span>
           </div>
           <h4 class="font-semibold mb-1">Student Name {{ i }}</h4>
-          <p class="text-2xl font-bold text-primary-blue mb-2">HSK 6 (280/300)</p>
+          <p class="text-2xl font-bold text-primary mb-2">HSK 6 (280/300)</p>
           <p class="text-sm text-gray-600">"Passed in just 12 months!"</p>
         </div>
       </div>

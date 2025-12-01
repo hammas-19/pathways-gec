@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero -->
-    <section class="section bg-gradient-to-r from-primary-blue to-primary-green text-white text-center">
+    <section class="section bg-gradient-to-r from-primary to-secondary text-white text-center">
       <div class="container-custom">
         <h1 class="mb-4 text-white">Let's Start Your Journey to China</h1>
         <p class="text-xl opacity-90">Free consultation • No obligations • Expert guidance</p>
@@ -27,8 +27,8 @@
 
           <!-- Email -->
           <div class="card text-center p-8 card-hover">
-            <div class="w-16 h-16 mx-auto mb-4 bg-primary-blue/10 rounded-full flex items-center justify-center">
-              <svg class="w-8 h-8 text-primary-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="w-16 h-16 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center">
+              <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
             </div>
@@ -40,8 +40,8 @@
 
           <!-- Video Call -->
           <div class="card text-center p-8 card-hover">
-            <div class="w-16 h-16 mx-auto mb-4 bg-primary-green/10 rounded-full flex items-center justify-center">
-              <svg class="w-8 h-8 text-primary-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="w-16 h-16 mx-auto mb-4 bg-secondary/10 rounded-full flex items-center justify-center">
+              <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
               </svg>
             </div>
@@ -117,35 +117,35 @@
               <h3 class="text-2xl font-semibold mb-4">What Happens Next?</h3>
               <ol class="space-y-4">
                 <li class="flex gap-4">
-                  <span class="flex-shrink-0 w-8 h-8 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold">1</span>
+                  <span class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold">1</span>
                   <div>
                     <h4 class="font-semibold">We review your application</h4>
                     <p class="text-sm text-gray-600">Within 24 hours</p>
                   </div>
                 </li>
                 <li class="flex gap-4">
-                  <span class="flex-shrink-0 w-8 h-8 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold">2</span>
+                  <span class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold">2</span>
                   <div>
                     <h4 class="font-semibold">Our team contacts you</h4>
                     <p class="text-sm text-gray-600">Via WhatsApp or Email</p>
                   </div>
                 </li>
                 <li class="flex gap-4">
-                  <span class="flex-shrink-0 w-8 h-8 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold">3</span>
+                  <span class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold">3</span>
                   <div>
                     <h4 class="font-semibold">Free consultation call</h4>
                     <p class="text-sm text-gray-600">Discuss your options</p>
                   </div>
                 </li>
                 <li class="flex gap-4">
-                  <span class="flex-shrink-0 w-8 h-8 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold">4</span>
+                  <span class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold">4</span>
                   <div>
                     <h4 class="font-semibold">Personalized recommendations</h4>
                     <p class="text-sm text-gray-600">Best-fit universities for you</p>
                   </div>
                 </li>
                 <li class="flex gap-4">
-                  <span class="flex-shrink-0 w-8 h-8 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold">5</span>
+                  <span class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold">5</span>
                   <div>
                     <h4 class="font-semibold">Step-by-step guidance</h4>
                     <p class="text-sm text-gray-600">From application to arrival</p>
@@ -158,13 +158,13 @@
               <h4 class="font-semibold mb-3">Our Office</h4>
               <div class="space-y-2 text-sm text-gray-700">
                 <p class="flex items-start gap-2">
-                  <svg class="w-5 h-5 text-primary-blue mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg class="w-5 h-5 text-primary mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   </svg>
                   <span>Offices in different countries, based in China</span>
                 </p>
                 <p class="flex items-start gap-2">
-                  <svg class="w-5 h-5 text-primary-blue mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg class="w-5 h-5 text-primary mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <span>Mon-Sat: 9AM-6PM (China Time)</span>

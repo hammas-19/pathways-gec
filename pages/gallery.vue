@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-br from-primary-blue via-primary-green to-accent-purple pt-32 pb-20">
+    <section class="relative bg-gradient-to-br from-primary via-secondary to-accent-purple pt-32 pb-20">
       <div class="absolute inset-0 bg-black/20"></div>
       <div class="container-custom relative z-10">
         <div class="text-center text-white">
@@ -27,7 +27,7 @@
             :class="[
               'px-8 py-3 rounded-full font-semibold transition-all',
               activeTab === tab.id
-                ? 'bg-primary-blue text-white shadow-lg'
+                ? 'bg-primary text-white shadow-lg'
                 : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
             ]"
           >
@@ -37,7 +37,7 @@
 
         <!-- Loading State -->
         <div v-if="loading" class="text-center py-20">
-          <div class="inline-block animate-spin rounded-full h-12 w-12 border-4 border-primary-blue border-t-transparent"></div>
+          <div class="inline-block animate-spin rounded-full h-12 w-12 border-4 border-primary border-t-transparent"></div>
           <p class="mt-4 text-gray-600">Loading gallery...</p>
         </div>
 
@@ -115,7 +115,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="section bg-gradient-to-br from-primary-blue to-primary-green text-white">
+    <section class="section bg-gradient-to-br from-primary to-secondary text-white">
       <div class="container-custom text-center">
         <h2 class="text-4xl font-bold mb-6">Join Our Success Story</h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto">
@@ -124,13 +124,13 @@
         <div class="flex gap-4 justify-center flex-wrap">
           <NuxtLink
             to="/contact"
-            class="btn-primary bg-white text-primary-blue hover:bg-gray-100"
+            class="btn-primary bg-white text-primary hover:bg-gray-100"
           >
             Start Your Journey
           </NuxtLink>
           <NuxtLink
             to="/success-stories"
-            class="btn-secondary border-2 border-white text-white hover:bg-white hover:text-primary-blue"
+            class="btn-secondary border-2 border-white text-white hover:bg-white hover:text-primary"
           >
             Read Success Stories
           </NuxtLink>

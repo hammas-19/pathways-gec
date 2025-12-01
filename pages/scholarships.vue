@@ -1,7 +1,7 @@
 <template>
   <div class="scholarships-page">
     <!-- Hero Section -->
-    <section class="hero-section bg-gradient-to-br from-accent-yellow/90 via-primary-green to-primary-blue text-white py-20 md:py-32">
+    <section class="hero-section bg-gradient-to-br from-accent-yellow/90 via-secondary to-primary text-white py-20 md:py-32">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
           <h1 class="text-4xl md:text-6xl font-bold mb-6 font-display">
@@ -40,7 +40,7 @@
 
         <div class="max-w-6xl mx-auto space-y-8">
           <!-- Chinese Government Scholarship -->
-          <div class="scholarship-card bg-gradient-to-r from-primary-blue to-primary-green text-white p-8 md:p-12 rounded-2xl shadow-xl">
+          <div class="scholarship-card bg-gradient-to-r from-primary to-secondary text-white p-8 md:p-12 rounded-2xl shadow-xl">
             <div class="flex items-start justify-between mb-6">
               <div>
                 <div class="inline-block bg-accent-yellow text-gray-900 px-4 py-2 rounded-full text-sm font-bold mb-4">
@@ -120,52 +120,52 @@
           </div>
 
           <!-- Confucius Institute Scholarship -->
-          <div class="scholarship-card bg-gray-50 p-8 md:p-12 rounded-2xl shadow-lg border-2 border-primary-green">
-            <h3 class="text-3xl font-bold mb-4 text-primary-green">Confucius Institute Scholarship</h3>
+          <div class="scholarship-card bg-gray-50 p-8 md:p-12 rounded-2xl shadow-lg border-2 border-secondary">
+            <h3 class="text-3xl font-bold mb-4 text-secondary">Confucius Institute Scholarship</h3>
             <p class="text-xl text-gray-600 mb-6">
               For students studying Chinese language, literature, or teaching Chinese as a foreign language
             </p>
 
             <div class="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 class="text-xl font-bold mb-4 text-primary-green">Coverage</h4>
+                <h4 class="text-xl font-bold mb-4 text-secondary">Coverage</h4>
                 <ul class="space-y-3 text-gray-700">
                   <li class="flex items-start">
-                    <span class="text-primary-green mr-2">✓</span>
+                    <span class="text-secondary mr-2">✓</span>
                     <span>Full or partial tuition waiver</span>
                   </li>
                   <li class="flex items-start">
-                    <span class="text-primary-green mr-2">✓</span>
+                    <span class="text-secondary mr-2">✓</span>
                     <span>Monthly living allowance (CNY 2,500)</span>
                   </li>
                   <li class="flex items-start">
-                    <span class="text-primary-green mr-2">✓</span>
+                    <span class="text-secondary mr-2">✓</span>
                     <span>Free on-campus accommodation</span>
                   </li>
                   <li class="flex items-start">
-                    <span class="text-primary-green mr-2">✓</span>
+                    <span class="text-secondary mr-2">✓</span>
                     <span>Comprehensive medical insurance</span>
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h4 class="text-xl font-bold mb-4 text-primary-green">Programs Covered</h4>
+                <h4 class="text-xl font-bold mb-4 text-secondary">Programs Covered</h4>
                 <ul class="space-y-3 text-gray-700">
                   <li class="flex items-start">
-                    <span class="text-primary-green mr-2">•</span>
+                    <span class="text-secondary mr-2">•</span>
                     <span>Chinese language programs (4 weeks to 1 year)</span>
                   </li>
                   <li class="flex items-start">
-                    <span class="text-primary-green mr-2">•</span>
+                    <span class="text-secondary mr-2">•</span>
                     <span>Bachelor's in Chinese Language & Literature</span>
                   </li>
                   <li class="flex items-start">
-                    <span class="text-primary-green mr-2">•</span>
+                    <span class="text-secondary mr-2">•</span>
                     <span>Master's in Teaching Chinese to Speakers of Other Languages (TCSOL)</span>
                   </li>
                   <li class="flex items-start">
-                    <span class="text-primary-green mr-2">•</span>
+                    <span class="text-secondary mr-2">•</span>
                     <span>PhD in Chinese Language & Literature</span>
                   </li>
                 </ul>
@@ -174,15 +174,15 @@
           </div>
 
           <!-- Provincial Government Scholarships -->
-          <div class="scholarship-card bg-gray-50 p-8 md:p-12 rounded-2xl shadow-lg border-2 border-primary-blue">
-            <h3 class="text-3xl font-bold mb-4 text-primary-blue">Provincial Government Scholarships</h3>
+          <div class="scholarship-card bg-gray-50 p-8 md:p-12 rounded-2xl shadow-lg border-2 border-primary">
+            <h3 class="text-3xl font-bold mb-4 text-primary">Provincial Government Scholarships</h3>
             <p class="text-xl text-gray-600 mb-6">
               Offered by individual provinces to attract international students to local universities
             </p>
 
             <div class="grid md:grid-cols-3 gap-6">
               <div>
-                <h4 class="text-lg font-bold mb-3 text-primary-blue">Beijing Municipal Government</h4>
+                <h4 class="text-lg font-bold mb-3 text-primary">Beijing Municipal Government</h4>
                 <p class="text-sm text-gray-600 mb-2">For students studying in Beijing universities</p>
                 <ul class="text-sm space-y-1 text-gray-700">
                   <li>• Tuition waiver: 50-100%</li>
@@ -192,7 +192,7 @@
               </div>
 
               <div>
-                <h4 class="text-lg font-bold mb-3 text-primary-blue">Shanghai Government</h4>
+                <h4 class="text-lg font-bold mb-3 text-primary">Shanghai Government</h4>
                 <p class="text-sm text-gray-600 mb-2">For students in Shanghai institutions</p>
                 <ul class="text-sm space-y-1 text-gray-700">
                   <li>• Partial to full tuition coverage</li>
@@ -202,7 +202,7 @@
               </div>
 
               <div>
-                <h4 class="text-lg font-bold mb-3 text-primary-blue">Jiangsu Provincial Government</h4>
+                <h4 class="text-lg font-bold mb-3 text-primary">Jiangsu Provincial Government</h4>
                 <p class="text-sm text-gray-600 mb-2">For Jiangsu province universities</p>
                 <ul class="text-sm space-y-1 text-gray-700">
                   <li>• CNY 20,000-30,000/year</li>
@@ -219,14 +219,14 @@
 
           <!-- University Scholarships -->
           <div class="scholarship-card bg-gray-50 p-8 md:p-12 rounded-2xl shadow-lg border-2 border-accent-purple/70">
-            <h3 class="text-3xl font-bold mb-4 text-primary-blue">University Scholarships</h3>
+            <h3 class="text-3xl font-bold mb-4 text-primary">University Scholarships</h3>
             <p class="text-xl text-gray-600 mb-6">
               Individual universities offer their own scholarships to attract talented international students
             </p>
 
             <div class="space-y-6">
               <div class="bg-white p-6 rounded-xl">
-                <h4 class="text-xl font-bold mb-3 text-primary-green">First-Class University Scholarships</h4>
+                <h4 class="text-xl font-bold mb-3 text-secondary">First-Class University Scholarships</h4>
                 <p class="text-gray-600 mb-4">Top universities like Tsinghua, Peking, Fudan, Shanghai Jiao Tong offer generous scholarships</p>
                 <div class="grid md:grid-cols-2 gap-4">
                   <div>
@@ -251,7 +251,7 @@
               </div>
 
               <div class="bg-white p-6 rounded-xl">
-                <h4 class="text-xl font-bold mb-3 text-primary-blue">Regular University Scholarships</h4>
+                <h4 class="text-xl font-bold mb-3 text-primary">Regular University Scholarships</h4>
                 <p class="text-gray-600 mb-4">Most universities offer partial scholarships for international students</p>
                 <div class="grid md:grid-cols-2 gap-4">
                   <div>
@@ -276,7 +276,7 @@
           </div>
 
           <!-- Belt and Road Scholarship -->
-          <div class="scholarship-card bg-gradient-to-r from-accent-purple/80 to-primary-blue text-white p-8 md:p-12 rounded-2xl shadow-xl">
+          <div class="scholarship-card bg-gradient-to-r from-accent-purple/80 to-primary text-white p-8 md:p-12 rounded-2xl shadow-xl">
             <h3 class="text-3xl font-bold mb-4">Belt and Road Scholarship</h3>
             <p class="text-xl text-gray-100 mb-6">
               For students from Belt & Road Initiative countries (including Pakistan, Bangladesh, India, Saudi Arabia)
@@ -307,8 +307,8 @@
           </div>
 
           <!-- ANSO Scholarship -->
-          <div class="scholarship-card bg-gradient-to-r from-primary-green to-accent-yellow/80 text-white p-8 md:p-12 rounded-2xl shadow-xl">
-            <div class="inline-block bg-white text-primary-green px-4 py-2 rounded-full text-sm font-bold mb-4">
+          <div class="scholarship-card bg-gradient-to-r from-secondary to-accent-yellow/80 text-white p-8 md:p-12 rounded-2xl shadow-xl">
+            <div class="inline-block bg-white text-secondary px-4 py-2 rounded-full text-sm font-bold mb-4">
               FOR DEVELOPING COUNTRIES
             </div>
             <h3 class="text-3xl font-bold mb-4">ANSO Scholarship for Young Talents</h3>
@@ -343,7 +343,7 @@
           </div>
 
           <!-- Silk Road Scholarship -->
-          <div class="scholarship-card bg-gradient-to-r from-accent-peach/80 to-primary-green text-white p-8 md:p-12 rounded-2xl shadow-xl">
+          <div class="scholarship-card bg-gradient-to-r from-accent-peach/80 to-secondary text-white p-8 md:p-12 rounded-2xl shadow-xl">
             <h3 class="text-3xl font-bold mb-4">Silk Road Scholarship</h3>
             <p class="text-xl text-gray-100 mb-6">
               Regional scholarship for students along the historic Silk Road trade route
@@ -372,15 +372,15 @@
           </div>
 
           <!-- MOFCOM Scholarship -->
-          <div class="scholarship-card bg-gray-50 p-8 md:p-12 rounded-2xl shadow-lg border-2 border-primary-green">
-            <h3 class="text-3xl font-bold mb-4 text-primary-green">MOFCOM Scholarship</h3>
+          <div class="scholarship-card bg-gray-50 p-8 md:p-12 rounded-2xl shadow-lg border-2 border-secondary">
+            <h3 class="text-3xl font-bold mb-4 text-secondary">MOFCOM Scholarship</h3>
             <p class="text-xl text-gray-600 mb-6">
               Ministry of Commerce Scholarship for students from developing countries
             </p>
 
             <div class="grid md:grid-cols-2 gap-6">
               <div>
-                <h4 class="text-lg font-bold mb-3 text-primary-green">Programs Offered</h4>
+                <h4 class="text-lg font-bold mb-3 text-secondary">Programs Offered</h4>
                 <ul class="space-y-2 text-gray-700">
                   <li>• Master's degree programs (2-3 years)</li>
                   <li>• PhD programs (3-4 years)</li>
@@ -389,7 +389,7 @@
                 </ul>
               </div>
               <div>
-                <h4 class="text-lg font-bold mb-3 text-primary-green">Benefits</h4>
+                <h4 class="text-lg font-bold mb-3 text-secondary">Benefits</h4>
                 <ul class="space-y-2 text-gray-700">
                   <li>✓ Full tuition waiver</li>
                   <li>✓ Monthly allowance CNY 3,000</li>
@@ -417,7 +417,7 @@
         <div class="max-w-7xl mx-auto overflow-x-auto">
           <table class="w-full bg-white rounded-2xl shadow-lg">
             <thead>
-              <tr class="bg-gradient-to-r from-primary-blue to-primary-green text-white">
+              <tr class="bg-gradient-to-r from-primary to-secondary text-white">
                 <th class="px-6 py-4 text-left font-bold">Scholarship</th>
                 <th class="px-6 py-4 text-left font-bold">Tuition Coverage</th>
                 <th class="px-6 py-4 text-left font-bold">Monthly Stipend</th>
@@ -427,56 +427,56 @@
             </thead>
             <tbody class="divide-y divide-gray-200">
               <tr class="hover:bg-gray-50 transition-colors">
-                <td class="px-6 py-4 font-semibold text-primary-blue">Chinese Government (CSC)</td>
+                <td class="px-6 py-4 font-semibold text-primary">Chinese Government (CSC)</td>
                 <td class="px-6 py-4">100% Full</td>
                 <td class="px-6 py-4">CNY 2,500-3,500</td>
                 <td class="px-6 py-4">✓ Free</td>
                 <td class="px-6 py-4"><span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">Very High</span></td>
               </tr>
               <tr class="hover:bg-gray-50 transition-colors">
-                <td class="px-6 py-4 font-semibold text-primary-green">MOFCOM</td>
+                <td class="px-6 py-4 font-semibold text-secondary">MOFCOM</td>
                 <td class="px-6 py-4">100% Full</td>
                 <td class="px-6 py-4">CNY 3,000</td>
                 <td class="px-6 py-4">✓ Free</td>
                 <td class="px-6 py-4"><span class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">High</span></td>
               </tr>
               <tr class="hover:bg-gray-50 transition-colors">
-                <td class="px-6 py-4 font-semibold text-primary-blue">Belt and Road</td>
+                <td class="px-6 py-4 font-semibold text-primary">Belt and Road</td>
                 <td class="px-6 py-4">100% Full</td>
                 <td class="px-6 py-4">CNY 2,500-3,000</td>
                 <td class="px-6 py-4">✓ Free</td>
                 <td class="px-6 py-4"><span class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">High</span></td>
               </tr>
               <tr class="hover:bg-gray-50 transition-colors">
-                <td class="px-6 py-4 font-semibold text-primary-green">ANSO</td>
+                <td class="px-6 py-4 font-semibold text-secondary">ANSO</td>
                 <td class="px-6 py-4">100% Full</td>
                 <td class="px-6 py-4">CNY 3,500-4,000</td>
                 <td class="px-6 py-4">✓ Free</td>
                 <td class="px-6 py-4"><span class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">High</span></td>
               </tr>
               <tr class="hover:bg-gray-50 transition-colors">
-                <td class="px-6 py-4 font-semibold text-primary-blue">Confucius Institute</td>
+                <td class="px-6 py-4 font-semibold text-primary">Confucius Institute</td>
                 <td class="px-6 py-4">Full or Partial</td>
                 <td class="px-6 py-4">CNY 2,500</td>
                 <td class="px-6 py-4">✓ Free</td>
                 <td class="px-6 py-4"><span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Medium</span></td>
               </tr>
               <tr class="hover:bg-gray-50 transition-colors">
-                <td class="px-6 py-4 font-semibold text-primary-green">Provincial Gov.</td>
+                <td class="px-6 py-4 font-semibold text-secondary">Provincial Gov.</td>
                 <td class="px-6 py-4">50-100%</td>
                 <td class="px-6 py-4">Varies</td>
                 <td class="px-6 py-4">Sometimes</td>
                 <td class="px-6 py-4"><span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Medium</span></td>
               </tr>
               <tr class="hover:bg-gray-50 transition-colors">
-                <td class="px-6 py-4 font-semibold text-primary-blue">University</td>
+                <td class="px-6 py-4 font-semibold text-primary">University</td>
                 <td class="px-6 py-4">30-100%</td>
                 <td class="px-6 py-4">Varies</td>
                 <td class="px-6 py-4">Sometimes</td>
                 <td class="px-6 py-4"><span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Low-Medium</span></td>
               </tr>
               <tr class="hover:bg-gray-50 transition-colors">
-                <td class="px-6 py-4 font-semibold text-primary-green">Silk Road</td>
+                <td class="px-6 py-4 font-semibold text-secondary">Silk Road</td>
                 <td class="px-6 py-4">Partial to Full</td>
                 <td class="px-6 py-4">Varies</td>
                 <td class="px-6 py-4">✓ Usually</td>
@@ -493,32 +493,32 @@
       <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto">
           <div class="text-center mb-16">
-            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-blue/10 text-primary-blue font-semibold mb-4">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary font-semibold mb-4">
               <span class="text-xl">🤝</span>
               <span>Why Choose GEC</span>
             </div>
-            <h2 class="text-3xl md:text-5xl font-bold mb-6 font-display text-primary-blue">How We Help You Win Scholarships</h2>
+            <h2 class="text-3xl md:text-5xl font-bold mb-6 font-display text-primary">How We Help You Win Scholarships</h2>
             <p class="text-xl text-gray-600 max-w-3xl mx-auto">
               With 8+ years of experience, we've helped 5000+ students secure millions in scholarship funding
             </p>
           </div>
 
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            <div class="bg-gradient-to-br from-primary-blue/5 to-primary-green/5 p-8 rounded-2xl border-2 border-primary-blue/20 hover:border-primary-blue/40 transition-all">
-              <div class="w-16 h-16 bg-primary-blue/20 rounded-full flex items-center justify-center mb-6">
+            <div class="bg-gradient-to-br from-primary/5 to-secondary/5 p-8 rounded-2xl border-2 border-primary/20 hover:border-primary/40 transition-all">
+              <div class="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mb-6">
                 <span class="text-3xl">📋</span>
               </div>
-              <h3 class="text-xl font-bold mb-4 text-primary-blue">Eligibility Assessment</h3>
+              <h3 class="text-xl font-bold mb-4 text-primary">Eligibility Assessment</h3>
               <p class="text-gray-600">
                 We analyze your academic profile and match you with scholarships you're most likely to win based on 8+ years of experience
               </p>
             </div>
 
-            <div class="bg-gradient-to-br from-primary-green/5 to-accent-yellow/5 p-8 rounded-2xl border-2 border-primary-green/20 hover:border-primary-green/40 transition-all">
-              <div class="w-16 h-16 bg-primary-green/20 rounded-full flex items-center justify-center mb-6">
+            <div class="bg-gradient-to-br from-secondary/5 to-accent-yellow/5 p-8 rounded-2xl border-2 border-secondary/20 hover:border-secondary/40 transition-all">
+              <div class="w-16 h-16 bg-secondary/20 rounded-full flex items-center justify-center mb-6">
                 <span class="text-3xl">📝</span>
               </div>
-              <h3 class="text-xl font-bold mb-4 text-primary-green">Application Excellence</h3>
+              <h3 class="text-xl font-bold mb-4 text-secondary">Application Excellence</h3>
               <p class="text-gray-600">
                 We help craft compelling study plans, personal statements, and research proposals that stand out to scholarship committees
               </p>
@@ -534,7 +534,7 @@
               </p>
             </div>
 
-            <div class="bg-gradient-to-br from-accent-purple/5 to-primary-blue/5 p-8 rounded-2xl border-2 border-accent-purple/20 hover:border-accent-purple/40 transition-all">
+            <div class="bg-gradient-to-br from-accent-purple/5 to-primary/5 p-8 rounded-2xl border-2 border-accent-purple/20 hover:border-accent-purple/40 transition-all">
               <div class="w-16 h-16 bg-accent-purple/20 rounded-full flex items-center justify-center mb-6">
                 <span class="text-3xl">⏰</span>
               </div>
@@ -544,28 +544,28 @@
               </p>
             </div>
 
-            <div class="bg-gradient-to-br from-primary-blue/5 to-accent-purple/5 p-8 rounded-2xl border-2 border-primary-blue/20 hover:border-primary-blue/40 transition-all">
-              <div class="w-16 h-16 bg-primary-blue/20 rounded-full flex items-center justify-center mb-6">
+            <div class="bg-gradient-to-br from-primary/5 to-accent-purple/5 p-8 rounded-2xl border-2 border-primary/20 hover:border-primary/40 transition-all">
+              <div class="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mb-6">
                 <span class="text-3xl">✅</span>
               </div>
-              <h3 class="text-xl font-bold mb-4 text-primary-blue">Document Verification</h3>
+              <h3 class="text-xl font-bold mb-4 text-primary">Document Verification</h3>
               <p class="text-gray-600">
                 We ensure all your documents meet requirements and are properly formatted, translated, and notarized
               </p>
             </div>
 
-            <div class="bg-gradient-to-br from-primary-green/5 to-primary-blue/5 p-8 rounded-2xl border-2 border-primary-green/20 hover:border-primary-green/40 transition-all">
-              <div class="w-16 h-16 bg-primary-green/20 rounded-full flex items-center justify-center mb-6">
+            <div class="bg-gradient-to-br from-secondary/5 to-primary/5 p-8 rounded-2xl border-2 border-secondary/20 hover:border-secondary/40 transition-all">
+              <div class="w-16 h-16 bg-secondary/20 rounded-full flex items-center justify-center mb-6">
                 <span class="text-3xl">🎓</span>
               </div>
-              <h3 class="text-xl font-bold mb-4 text-primary-green">Success Stories</h3>
+              <h3 class="text-xl font-bold mb-4 text-secondary">Success Stories</h3>
               <p class="text-gray-600">
                 95% of our students receive some form of scholarship - whether full or partial. Our track record speaks for itself
               </p>
             </div>
           </div>
 
-          <div class="bg-gradient-to-r from-primary-blue to-primary-green text-white p-8 md:p-12 rounded-2xl text-center">
+          <div class="bg-gradient-to-r from-primary to-secondary text-white p-8 md:p-12 rounded-2xl text-center">
             <h3 class="text-2xl md:text-3xl font-bold mb-4">Ready to Check Your Scholarship Eligibility?</h3>
             <p class="text-xl mb-8 text-gray-100">
               Get a FREE scholarship assessment from our expert consultants. We'll tell you exactly which scholarships you qualify for.
@@ -582,7 +582,7 @@
     </section>
 
     <!-- How to Apply -->
-    <section class="py-20 bg-gradient-to-r from-primary-blue to-primary-green text-white">
+    <section class="py-20 bg-gradient-to-r from-primary to-secondary text-white">
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
           <div class="text-center mb-12">
@@ -639,7 +639,7 @@
 
           <div class="grid md:grid-cols-2 gap-8">
             <div class="bg-gray-50 p-8 rounded-xl">
-              <h3 class="text-2xl font-bold mb-4 text-primary-blue">📅 Application Timeline</h3>
+              <h3 class="text-2xl font-bold mb-4 text-primary">📅 Application Timeline</h3>
               <ul class="space-y-3 text-gray-700">
                 <li><strong>January - March:</strong> Most scholarship applications open</li>
                 <li><strong>April - May:</strong> Results announcement period</li>
@@ -652,7 +652,7 @@
             </div>
 
             <div class="bg-gray-50 p-8 rounded-xl">
-              <h3 class="text-2xl font-bold mb-4 text-primary-green">💡 Tips to Increase Your Chances</h3>
+              <h3 class="text-2xl font-bold mb-4 text-secondary">💡 Tips to Increase Your Chances</h3>
               <ul class="space-y-3 text-gray-700">
                 <li>✓ Maintain high academic scores (above 80%)</li>
                 <li>✓ Get strong recommendation letters</li>
@@ -674,7 +674,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-gradient-to-br from-primary-blue via-primary-green to-accent-purple/70 text-white">
+    <section class="py-20 bg-gradient-to-br from-primary via-secondary to-accent-purple/70 text-white">
       <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl md:text-5xl font-bold mb-6 font-display">Ready to Apply for Scholarships?</h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto text-gray-100">

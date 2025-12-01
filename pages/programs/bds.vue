@@ -55,10 +55,10 @@
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="feature-card bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-all">
-            <div class="w-16 h-16 bg-primary-blue/10 rounded-full flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🦷</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">Modern Facilities</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">Modern Facilities</h3>
             <p class="text-gray-600">
               State-of-the-art dental clinics, simulation labs, and advanced equipment including CAD/CAM systems,
               digital imaging, and 3D printing technology for comprehensive hands-on training.
@@ -66,10 +66,10 @@
           </div>
 
           <div class="feature-card bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-all">
-            <div class="w-16 h-16 bg-primary-green/10 rounded-full flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🌍</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Global Recognition</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Global Recognition</h3>
             <p class="text-gray-600">
               Degrees recognized by WHO, NMC (India), Pakistan Medical Commission, and other major medical councils
               worldwide. Practice dentistry internationally after qualification.
@@ -80,7 +80,7 @@
             <div class="w-16 h-16 bg-accent-purple/20 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">👨‍⚕️</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">Expert Faculty</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">Expert Faculty</h3>
             <p class="text-gray-600">
               Learn from experienced dentists and professors with international training. Small class sizes ensure
               personalized attention and mentorship throughout your studies.
@@ -91,7 +91,7 @@
             <div class="w-16 h-16 bg-accent-yellow/30 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">💰</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Affordable Education</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Affordable Education</h3>
             <p class="text-gray-600">
               High-quality dental education at a fraction of the cost compared to Western countries. Affordable living
               expenses and scholarship opportunities available.
@@ -102,7 +102,7 @@
             <div class="w-16 h-16 bg-accent-peach/30 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🏥</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">Clinical Exposure</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">Clinical Exposure</h3>
             <p class="text-gray-600">
               Extensive clinical training in university hospitals treating thousands of patients. Gain real-world
               experience in all dental specialties under supervision.
@@ -113,7 +113,7 @@
             <div class="w-16 h-16 bg-accent-green/20 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🎓</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">English Medium</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">English Medium</h3>
             <p class="text-gray-600">
               Complete program taught in English with free Chinese language courses. No language barrier for
               international students pursuing dental education.
@@ -140,24 +140,24 @@
               <div
                 class="w-12 h-12 bg-brand-blue text-white rounded-full flex items-center justify-center font-bold mr-4">
                 1</div>
-              <h3 class="text-2xl font-bold text-primary-blue">First Year - Foundation Sciences</h3>
+              <h3 class="text-2xl font-bold text-primary">First Year - Foundation Sciences</h3>
             </div>
             <div class="ml-16">
               <ul class="space-y-2 text-gray-700">
                 <li class="flex items-start">
-                  <span class="text-primary-blue mr-2">•</span>
+                  <span class="text-primary mr-2">•</span>
                   <span><strong>Basic Sciences:</strong> Human Anatomy, Physiology, Biochemistry, Histology</span>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-blue mr-2">•</span>
+                  <span class="text-primary mr-2">•</span>
                   <span><strong>Dental Anatomy:</strong> Tooth morphology, oral structures, dental terminology</span>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-blue mr-2">•</span>
+                  <span class="text-primary mr-2">•</span>
                   <span><strong>Pre-clinical:</strong> Introduction to dental materials and basic hand skills</span>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-blue mr-2">•</span>
+                  <span class="text-primary mr-2">•</span>
                   <span><strong>Language:</strong> Chinese language and culture (optional but recommended)</span>
                 </li>
               </ul>
@@ -170,24 +170,24 @@
               <div
                 class="w-12 h-12 bg-brand-blue text-white rounded-full flex items-center justify-center font-bold mr-4">
                 2</div>
-              <h3 class="text-2xl font-bold text-primary-blue">Second Year - Pre-Clinical Dentistry</h3>
+              <h3 class="text-2xl font-bold text-primary">Second Year - Pre-Clinical Dentistry</h3>
             </div>
             <div class="ml-16">
               <ul class="space-y-2 text-gray-700">
                 <li class="flex items-start">
-                  <span class="text-primary-blue mr-2">•</span>
+                  <span class="text-primary mr-2">•</span>
                   <span><strong>Pathology:</strong> General and oral pathology, microbiology, immunology</span>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-blue mr-2">•</span>
+                  <span class="text-primary mr-2">•</span>
                   <span><strong>Pharmacology:</strong> Dental pharmacology and therapeutics</span>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-blue mr-2">•</span>
+                  <span class="text-primary mr-2">•</span>
                   <span><strong>Dental Materials:</strong> Restorative materials, impression materials, cements</span>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-blue mr-2">•</span>
+                  <span class="text-primary mr-2">•</span>
                   <span><strong>Pre-clinical Training:</strong> Phantom head practice, cavity preparation, restoration
                     techniques</span>
                 </li>
@@ -201,24 +201,24 @@
               <div
                 class="w-12 h-12 bg-accent text-black rounded-full flex items-center justify-center font-bold mr-4">
                 3</div>
-              <h3 class="text-2xl font-bold text-primary-green">Third Year - Clinical Introduction</h3>
+              <h3 class="text-2xl font-bold text-secondary">Third Year - Clinical Introduction</h3>
             </div>
             <div class="ml-16">
               <ul class="space-y-2 text-gray-700">
                 <li class="flex items-start">
-                  <span class="text-primary-green mr-2">•</span>
+                  <span class="text-secondary mr-2">•</span>
                   <span><strong>Conservative Dentistry:</strong> Operative dentistry and endodontics basics</span>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-green mr-2">•</span>
+                  <span class="text-secondary mr-2">•</span>
                   <span><strong>Prosthodontics:</strong> Complete and partial dentures, crown and bridge work</span>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-green mr-2">•</span>
+                  <span class="text-secondary mr-2">•</span>
                   <span><strong>Oral Surgery:</strong> Principles of surgery, minor oral surgery procedures</span>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-green mr-2">•</span>
+                  <span class="text-secondary mr-2">•</span>
                   <span><strong>Clinical Practice:</strong> Begin treating patients under supervision in university
                     clinics</span>
                 </li>
@@ -232,28 +232,28 @@
               <div
                 class="w-12 h-12 bg-accent text-black rounded-full flex items-center justify-center font-bold mr-4">
                 4</div>
-              <h3 class="text-2xl font-bold text-primary-green">Fourth Year - Advanced Clinical Practice</h3>
+              <h3 class="text-2xl font-bold text-secondary">Fourth Year - Advanced Clinical Practice</h3>
             </div>
             <div class="ml-16">
               <ul class="space-y-2 text-gray-700">
                 <li class="flex items-start">
-                  <span class="text-primary-green mr-2">•</span>
+                  <span class="text-secondary mr-2">•</span>
                   <span><strong>Orthodontics:</strong> Diagnosis and treatment of malocclusions</span>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-green mr-2">•</span>
+                  <span class="text-secondary mr-2">•</span>
                   <span><strong>Periodontics:</strong> Gum diseases, periodontal surgery, implant basics</span>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-green mr-2">•</span>
+                  <span class="text-secondary mr-2">•</span>
                   <span><strong>Pediatric Dentistry:</strong> Child dental care, behavior management</span>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-green mr-2">•</span>
+                  <span class="text-secondary mr-2">•</span>
                   <span><strong>Oral Medicine:</strong> Diagnosis and management of oral diseases</span>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-green mr-2">•</span>
+                  <span class="text-secondary mr-2">•</span>
                   <span><strong>Clinical Rotations:</strong> Extensive patient care in all specialties</span>
                 </li>
               </ul>
@@ -266,7 +266,7 @@
               <div
                 class="w-12 h-12 bg-accent-yellow text-gray-900 rounded-full flex items-center justify-center font-bold mr-4">
                 5</div>
-              <h3 class="text-2xl font-bold text-primary-blue">Fifth Year - Clinical Mastery & Internship</h3>
+              <h3 class="text-2xl font-bold text-primary">Fifth Year - Clinical Mastery & Internship</h3>
             </div>
             <div class="ml-16">
               <ul class="space-y-2 text-gray-700">
@@ -313,7 +313,7 @@
         <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           <!-- Wuhan University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-primary-blue to-primary-green p-6 text-white">
+            <div class="bg-gradient-to-br from-primary to-secondary p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">Wuhan University</h3>
               <p class="text-gray-200">School of Stomatology</p>
             </div>
@@ -348,7 +348,7 @@
 
           <!-- Sichuan University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-primary-green to-primary-blue p-6 text-white">
+            <div class="bg-gradient-to-br from-secondary to-primary p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">Sichuan University</h3>
               <p class="text-gray-200">West China School of Stomatology</p>
             </div>
@@ -383,7 +383,7 @@
 
           <!-- Capital Medical University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-accent-purple/70 to-primary-blue p-6 text-white">
+            <div class="bg-gradient-to-br from-accent-purple/70 to-primary p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">Capital Medical University</h3>
               <p class="text-gray-200">School of Stomatology</p>
             </div>
@@ -418,7 +418,7 @@
 
           <!-- Nanjing Medical University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-accent-peach/70 to-primary-green p-6 text-white">
+            <div class="bg-gradient-to-br from-accent-peach/70 to-secondary p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">Nanjing Medical University</h3>
               <p class="text-gray-200">School of Stomatology</p>
             </div>
@@ -467,31 +467,31 @@
 
           <div class="grid md:grid-cols-2 gap-8">
             <div class="bg-white p-8 rounded-xl shadow-md">
-              <h3 class="text-2xl font-bold mb-6 text-primary-blue">Academic Requirements</h3>
+              <h3 class="text-2xl font-bold mb-6 text-primary">Academic Requirements</h3>
               <ul class="space-y-4">
                 <li class="flex items-start">
-                  <span class="text-primary-blue text-xl mr-3">✓</span>
+                  <span class="text-primary text-xl mr-3">✓</span>
                   <div>
                     <strong class="block mb-1">High School Completion</strong>
                     <span class="text-gray-600">12 years of education with good academic record</span>
                   </div>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-blue text-xl mr-3">✓</span>
+                  <span class="text-primary text-xl mr-3">✓</span>
                   <div>
                     <strong class="block mb-1">Science Subjects</strong>
                     <span class="text-gray-600">Physics, Chemistry, and Biology (minimum 60% aggregate)</span>
                   </div>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-blue text-xl mr-3">✓</span>
+                  <span class="text-primary text-xl mr-3">✓</span>
                   <div>
                     <strong class="block mb-1">Age Requirement</strong>
                     <span class="text-gray-600">17-25 years old at time of admission</span>
                   </div>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-blue text-xl mr-3">✓</span>
+                  <span class="text-primary text-xl mr-3">✓</span>
                   <div>
                     <strong class="block mb-1">English Proficiency</strong>
                     <span class="text-gray-600">Good command of English (IELTS/TOEFL not mandatory for most
@@ -502,38 +502,38 @@
             </div>
 
             <div class="bg-white p-8 rounded-xl shadow-md">
-              <h3 class="text-2xl font-bold mb-6 text-primary-green">Required Documents</h3>
+              <h3 class="text-2xl font-bold mb-6 text-secondary">Required Documents</h3>
               <ul class="space-y-4">
                 <li class="flex items-start">
-                  <span class="text-primary-green text-xl mr-3">📄</span>
+                  <span class="text-secondary text-xl mr-3">📄</span>
                   <div>
                     <strong class="block mb-1">Academic Documents</strong>
                     <span class="text-gray-600">High school transcripts and certificates (notarized)</span>
                   </div>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-green text-xl mr-3">📄</span>
+                  <span class="text-secondary text-xl mr-3">📄</span>
                   <div>
                     <strong class="block mb-1">Valid Passport</strong>
                     <span class="text-gray-600">At least 18 months validity remaining</span>
                   </div>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-green text-xl mr-3">📄</span>
+                  <span class="text-secondary text-xl mr-3">📄</span>
                   <div>
                     <strong class="block mb-1">Medical Certificate</strong>
                     <span class="text-gray-600">Physical examination form (provided by university)</span>
                   </div>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-green text-xl mr-3">📄</span>
+                  <span class="text-secondary text-xl mr-3">📄</span>
                   <div>
                     <strong class="block mb-1">Passport Photos</strong>
                     <span class="text-gray-600">Recent passport-size photographs with white background</span>
                   </div>
                 </li>
                 <li class="flex items-start">
-                  <span class="text-primary-green text-xl mr-3">📄</span>
+                  <span class="text-secondary text-xl mr-3">📄</span>
                   <div>
                     <strong class="block mb-1">Recommendation Letters</strong>
                     <span class="text-gray-600">From school teachers (optional but recommended)</span>
@@ -564,7 +564,7 @@
                 class="flex-shrink-0 w-12 h-12 bg-brand-blue text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">
                 1</div>
               <div class="flex-1 bg-gray-50 p-6 rounded-xl">
-                <h3 class="text-xl font-bold mb-2 text-primary-blue">Initial Assessment & Guidance</h3>
+                <h3 class="text-xl font-bold mb-2 text-primary">Initial Assessment & Guidance</h3>
                 <p class="text-gray-600 mb-3">
                   Contact us through WhatsApp, email, or our website. We'll evaluate your eligibility, discuss
                   university options, answer your questions, and provide detailed information about the BDS program in
@@ -580,7 +580,7 @@
                 class="flex-shrink-0 w-12 h-12 bg-brand-blue text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">
                 2</div>
               <div class="flex-1 bg-gray-50 p-6 rounded-xl">
-                <h3 class="text-xl font-bold mb-2 text-primary-blue">University Selection & Application</h3>
+                <h3 class="text-xl font-bold mb-2 text-primary">University Selection & Application</h3>
                 <p class="text-gray-600 mb-3">
                   Choose your preferred university based on our recommendations. We'll help you prepare and submit your
                   application documents. Our team ensures all paperwork is complete and properly formatted.
@@ -595,7 +595,7 @@
                 class="flex-shrink-0 w-12 h-12 bg-accent text-black rounded-full flex items-center justify-center font-bold text-xl mr-6">
                 3</div>
               <div class="flex-1 bg-gray-50 p-6 rounded-xl">
-                <h3 class="text-xl font-bold mb-2 text-primary-green">Admission Letter & JW202 Form</h3>
+                <h3 class="text-xl font-bold mb-2 text-secondary">Admission Letter & JW202 Form</h3>
                 <p class="text-gray-600 mb-3">
                   Receive your admission letter and JW202 form (visa application document) from the university. We'll
                   verify all details and prepare you for the next steps in the visa process.
@@ -610,7 +610,7 @@
                 class="flex-shrink-0 w-12 h-12 bg-accent text-black rounded-full flex items-center justify-center font-bold text-xl mr-6">
                 4</div>
               <div class="flex-1 bg-gray-50 p-6 rounded-xl">
-                <h3 class="text-xl font-bold mb-2 text-primary-green">Visa Application Assistance</h3>
+                <h3 class="text-xl font-bold mb-2 text-secondary">Visa Application Assistance</h3>
                 <p class="text-gray-600 mb-3">
                   Our team guides you through the Chinese student visa (X1) application process. We help prepare your
                   documents, fill forms correctly, and schedule your embassy appointment.
@@ -625,7 +625,7 @@
                 class="flex-shrink-0 w-12 h-12 bg-[#0b854e] text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">
                 5</div>
               <div class="flex-1 bg-gray-50 p-6 rounded-xl">
-                <h3 class="text-xl font-bold mb-2 text-primary-blue">Pre-Departure Preparation</h3>
+                <h3 class="text-xl font-bold mb-2 text-primary">Pre-Departure Preparation</h3>
                 <p class="text-gray-600 mb-3">
                   Receive comprehensive pre-departure briefing covering accommodation, travel arrangements, what to
                   pack, banking, cultural tips, and what to expect on arrival in China.
@@ -640,7 +640,7 @@
                 class="flex-shrink-0 w-12 h-12 bg-[#0b854e] text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">
                 6</div>
               <div class="flex-1 bg-gray-50 p-6 rounded-xl">
-                <h3 class="text-xl font-bold mb-2 text-primary-blue">Arrival & Settlement Support</h3>
+                <h3 class="text-xl font-bold mb-2 text-primary">Arrival & Settlement Support</h3>
                 <p class="text-gray-600 mb-3">
                   Airport pickup, university registration assistance, accommodation setup, residence permit application,
                   bank account opening, and local orientation. We ensure a smooth transition to your new life in China.
@@ -685,12 +685,12 @@
           <div class="bg-white p-8 rounded-xl shadow-md">
             <div class="mb-6">
               <div
-                class="w-20 h-20 bg-gradient-to-br from-primary-blue to-primary-green rounded-full flex items-center justify-center text-white text-3xl font-bold mb-4">
+                class="w-20 h-20 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center text-white text-3xl font-bold mb-4">
                 SA
               </div>
               <h3 class="text-xl font-bold mb-1">Dr. Sarah Ahmed</h3>
               <p class="text-gray-600">Wuhan University Graduate, 2022</p>
-              <p class="text-sm text-primary-blue font-semibold">Now practicing in Lahore, Pakistan</p>
+              <p class="text-sm text-primary font-semibold">Now practicing in Lahore, Pakistan</p>
             </div>
             <p class="text-gray-700 italic mb-4">
               "Studying BDS at Wuhan University was the best decision I ever made. The facilities were world-class, and
@@ -703,12 +703,12 @@
           <div class="bg-white p-8 rounded-xl shadow-md">
             <div class="mb-6">
               <div
-                class="w-20 h-20 bg-gradient-to-br from-primary-green to-accent-purple/70 rounded-full flex items-center justify-center text-white text-3xl font-bold mb-4">
+                class="w-20 h-20 bg-gradient-to-br from-secondary to-accent-purple/70 rounded-full flex items-center justify-center text-white text-3xl font-bold mb-4">
                 MK
               </div>
               <h3 class="text-xl font-bold mb-1">Dr. Muhammad Khan</h3>
               <p class="text-gray-600">Sichuan University Graduate, 2021</p>
-              <p class="text-sm text-primary-green font-semibold">Cleared Pakistan PMC licensing exam</p>
+              <p class="text-sm text-secondary font-semibold">Cleared Pakistan PMC licensing exam</p>
             </div>
             <p class="text-gray-700 italic mb-4">
               "The education I received in China prepared me perfectly for my licensing exam. The hands-on training and
@@ -720,12 +720,12 @@
           <div class="bg-white p-8 rounded-xl shadow-md">
             <div class="mb-6">
               <div
-                class="w-20 h-20 bg-gradient-to-br from-accent-purple/70 to-primary-blue rounded-full flex items-center justify-center text-white text-3xl font-bold mb-4">
+                class="w-20 h-20 bg-gradient-to-br from-accent-purple/70 to-primary rounded-full flex items-center justify-center text-white text-3xl font-bold mb-4">
                 AF
               </div>
               <h3 class="text-xl font-bold mb-1">Dr. Ayesha Fatima</h3>
               <p class="text-gray-600">Capital Medical University, 2023</p>
-              <p class="text-sm text-primary-blue font-semibold">Running own dental clinic in Karachi</p>
+              <p class="text-sm text-primary font-semibold">Running own dental clinic in Karachi</p>
             </div>
             <p class="text-gray-700 italic mb-4">
               "The international exposure and quality education I got in Beijing shaped me into a confident dentist. The
@@ -752,8 +752,8 @@
             <div class="faq-item bg-gray-50 rounded-xl overflow-hidden">
               <button @click="toggleFaq(1)"
                 class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-100 transition-colors">
-                <h3 class="text-lg font-bold text-primary-blue">Is BDS degree from China valid in Pakistan?</h3>
-                <span class="text-2xl text-primary-blue">{{ openFaq === 1 ? '−' : '+' }}</span>
+                <h3 class="text-lg font-bold text-primary">Is BDS degree from China valid in Pakistan?</h3>
+                <span class="text-2xl text-primary">{{ openFaq === 1 ? '−' : '+' }}</span>
               </button>
               <div v-show="openFaq === 1" class="p-6 pt-0">
                 <p class="text-gray-700">
@@ -768,8 +768,8 @@
             <div class="faq-item bg-gray-50 rounded-xl overflow-hidden">
               <button @click="toggleFaq(2)"
                 class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-100 transition-colors">
-                <h3 class="text-lg font-bold text-primary-blue">What is the medium of instruction for BDS in China?</h3>
-                <span class="text-2xl text-primary-blue">{{ openFaq === 2 ? '−' : '+' }}</span>
+                <h3 class="text-lg font-bold text-primary">What is the medium of instruction for BDS in China?</h3>
+                <span class="text-2xl text-primary">{{ openFaq === 2 ? '−' : '+' }}</span>
               </button>
               <div v-show="openFaq === 2" class="p-6 pt-0">
                 <p class="text-gray-700">
@@ -783,9 +783,9 @@
             <div class="faq-item bg-gray-50 rounded-xl overflow-hidden">
               <button @click="toggleFaq(3)"
                 class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-100 transition-colors">
-                <h3 class="text-lg font-bold text-primary-blue">How much clinical exposure will I get during BDS in
+                <h3 class="text-lg font-bold text-primary">How much clinical exposure will I get during BDS in
                   China?</h3>
-                <span class="text-2xl text-primary-blue">{{ openFaq === 3 ? '−' : '+' }}</span>
+                <span class="text-2xl text-primary">{{ openFaq === 3 ? '−' : '+' }}</span>
               </button>
               <div v-show="openFaq === 3" class="p-6 pt-0">
                 <p class="text-gray-700">
@@ -801,9 +801,9 @@
             <div class="faq-item bg-gray-50 rounded-xl overflow-hidden">
               <button @click="toggleFaq(4)"
                 class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-100 transition-colors">
-                <h3 class="text-lg font-bold text-primary-blue">What are the living expenses for dental students in
+                <h3 class="text-lg font-bold text-primary">What are the living expenses for dental students in
                   China?</h3>
-                <span class="text-2xl text-primary-blue">{{ openFaq === 4 ? '−' : '+' }}</span>
+                <span class="text-2xl text-primary">{{ openFaq === 4 ? '−' : '+' }}</span>
               </button>
               <div v-show="openFaq === 4" class="p-6 pt-0">
                 <p class="text-gray-700">
@@ -818,9 +818,9 @@
             <div class="faq-item bg-gray-50 rounded-xl overflow-hidden">
               <button @click="toggleFaq(5)"
                 class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-100 transition-colors">
-                <h3 class="text-lg font-bold text-primary-blue">Is the infrastructure and equipment modern in Chinese
+                <h3 class="text-lg font-bold text-primary">Is the infrastructure and equipment modern in Chinese
                   dental schools?</h3>
-                <span class="text-2xl text-primary-blue">{{ openFaq === 5 ? '−' : '+' }}</span>
+                <span class="text-2xl text-primary">{{ openFaq === 5 ? '−' : '+' }}</span>
               </button>
               <div v-show="openFaq === 5" class="p-6 pt-0">
                 <p class="text-gray-700">
@@ -836,9 +836,9 @@
             <div class="faq-item bg-gray-50 rounded-xl overflow-hidden">
               <button @click="toggleFaq(6)"
                 class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-100 transition-colors">
-                <h3 class="text-lg font-bold text-primary-blue">Can I specialize in a dental field after completing BDS
+                <h3 class="text-lg font-bold text-primary">Can I specialize in a dental field after completing BDS
                   in China?</h3>
-                <span class="text-2xl text-primary-blue">{{ openFaq === 6 ? '−' : '+' }}</span>
+                <span class="text-2xl text-primary">{{ openFaq === 6 ? '−' : '+' }}</span>
               </button>
               <div v-show="openFaq === 6" class="p-6 pt-0">
                 <p class="text-gray-700">
@@ -853,9 +853,9 @@
             <div class="faq-item bg-gray-50 rounded-xl overflow-hidden">
               <button @click="toggleFaq(7)"
                 class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-100 transition-colors">
-                <h3 class="text-lg font-bold text-primary-blue">How safe is it for international students to study in
+                <h3 class="text-lg font-bold text-primary">How safe is it for international students to study in
                   China?</h3>
-                <span class="text-2xl text-primary-blue">{{ openFaq === 7 ? '−' : '+' }}</span>
+                <span class="text-2xl text-primary">{{ openFaq === 7 ? '−' : '+' }}</span>
               </button>
               <div v-show="openFaq === 7" class="p-6 pt-0">
                 <p class="text-gray-700">
@@ -870,8 +870,8 @@
             <div class="faq-item bg-gray-50 rounded-xl overflow-hidden">
               <button @click="toggleFaq(8)"
                 class="w-full p-6 text-left flex justify-between items-center hover:bg-gray-100 transition-colors">
-                <h3 class="text-lg font-bold text-primary-blue">What support does GEC provide to dental students?</h3>
-                <span class="text-2xl text-primary-blue">{{ openFaq === 8 ? '−' : '+' }}</span>
+                <h3 class="text-lg font-bold text-primary">What support does GEC provide to dental students?</h3>
+                <span class="text-2xl text-primary">{{ openFaq === 8 ? '−' : '+' }}</span>
               </button>
               <div v-show="openFaq === 8" class="p-6 pt-0">
                 <p class="text-gray-700">
@@ -889,7 +889,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-accent to-primary-blue text-black">
+    <section class="py-20 bg-accent to-primary text-black">
       <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl md:text-5xl font-bold mb-6 font-display">Ready to Start Your Journey?</h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto">

@@ -5,7 +5,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div class="flex justify-between items-center">
           <h1 class="text-2xl font-bold text-gray-900">GEC Admin Panel</h1>
-          <NuxtLink to="/" class="text-primary-blue hover:text-primary-green">
+          <NuxtLink to="/" class="text-primary hover:text-secondary">
             ← Back to Website
           </NuxtLink>
         </div>
@@ -24,7 +24,7 @@
             :class="[
               'px-4 py-3 font-medium border-b-2 transition-colors',
               activeTab === tab.id
-                ? 'border-primary-blue text-primary-blue'
+                ? 'border-primary text-primary'
                 : 'border-transparent text-gray-600 hover:text-gray-900'
             ]"
           >
@@ -161,7 +161,7 @@
                 <td class="px-4 py-3 whitespace-nowrap text-sm">
                   <button
                     @click="viewLead(lead)"
-                    class="text-primary-blue hover:text-primary-green mr-2"
+                    class="text-primary hover:text-secondary mr-2"
                   >
                     View
                   </button>
@@ -191,8 +191,8 @@
             </div>
             <div class="space-y-3">
               <div><strong>Name:</strong> {{ selectedLead.name }}</div>
-              <div><strong>Email:</strong> <a :href="`mailto:${selectedLead.email}`" class="text-primary-blue">{{ selectedLead.email }}</a></div>
-              <div><strong>Phone:</strong> <a :href="`tel:${selectedLead.phone}`" class="text-primary-blue">{{ selectedLead.phone }}</a></div>
+              <div><strong>Email:</strong> <a :href="`mailto:${selectedLead.email}`" class="text-primary">{{ selectedLead.email }}</a></div>
+              <div><strong>Phone:</strong> <a :href="`tel:${selectedLead.phone}`" class="text-primary">{{ selectedLead.phone }}</a></div>
               <div><strong>Country:</strong> {{ selectedLead.country }}</div>
               <div><strong>Program Interest:</strong> {{ selectedLead.programInterest }}</div>
               <div><strong>Source:</strong> {{ selectedLead.source }}</div>
@@ -213,7 +213,7 @@
           <h2 class="text-xl font-semibold">Gallery Management</h2>
           <button
             @click="showAddGalleryForm = true"
-            class="bg-primary-blue text-white px-4 py-2 rounded-lg hover:bg-primary-green transition-colors"
+            class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-secondary transition-colors"
           >
             + Add Image
           </button>
@@ -267,7 +267,7 @@
             <div class="flex gap-2">
               <button
                 type="submit"
-                class="bg-primary-blue text-white px-4 py-2 rounded-lg hover:bg-primary-green"
+                class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-secondary"
               >
                 Add Image
               </button>
@@ -313,7 +313,7 @@
           <h2 class="text-xl font-semibold">HSK Top Score Holders</h2>
           <button
             @click="showAddHSKForm = true"
-            class="bg-primary-blue text-white px-4 py-2 rounded-lg hover:bg-primary-green transition-colors"
+            class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-secondary transition-colors"
           >
             + Add HSK Holder
           </button>
@@ -405,7 +405,7 @@
             <div class="flex gap-2">
               <button
                 type="submit"
-                class="bg-primary-blue text-white px-4 py-2 rounded-lg hover:bg-primary-green"
+                class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-secondary"
               >
                 Add HSK Holder
               </button>
@@ -431,7 +431,7 @@
               <div>
                 <h3 class="font-semibold text-lg">{{ holder.name }}</h3>
                 <p class="text-sm text-gray-600">{{ holder.country }} • {{ holder.university }}</p>
-                <p class="text-primary-blue font-semibold mt-2">
+                <p class="text-primary font-semibold mt-2">
                   HSK {{ holder.level }} - Score: {{ holder.score }}/300
                 </p>
                 <p class="text-xs text-gray-500 mt-1">Exam Date: {{ holder.examDate }}</p>

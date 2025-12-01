@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-gray-50">
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-br from-primary-blue via-blue-700 to-primary-green text-white py-20">
+    <section class="relative bg-gradient-to-br from-primary via-blue-700 to-secondary text-white py-20">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
           <div class="text-sm font-semibold mb-4 text-blue-100">Medical Licensing Guide</div>
@@ -25,8 +25,8 @@
             Completing your MBBS from China is just the first step. To practice medicine in Pakistan, you must clear the <strong>Pakistan Medical Commission (PMC) Licensing Examination</strong>. This comprehensive guide will walk you through everything you need to know about the PMC exam, preparation strategies, and success tips from students who have already cleared it.
           </p>
 
-          <div class="bg-green-50 border-l-4 border-primary-green p-6 rounded-r-lg">
-            <p class="font-semibold text-primary-green mb-2">✅ Good News!</p>
+          <div class="bg-green-50 border-l-4 border-secondary p-6 rounded-r-lg">
+            <p class="font-semibold text-secondary mb-2">✅ Good News!</p>
             <p class="text-gray-700">Pakistan recognizes MBBS degrees from Chinese medical universities. Our students consistently achieve <strong>85%+ pass rates</strong> on the PMC exam with proper preparation!</p>
           </div>
         </div>
@@ -47,7 +47,7 @@
             <div class="bg-blue-50 rounded-lg p-6">
               <div class="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h4 class="font-bold text-primary-blue mb-3">Paper 1: Pre-Clinical Sciences</h4>
+                  <h4 class="font-bold text-primary mb-3">Paper 1: Pre-Clinical Sciences</h4>
                   <ul class="space-y-2 text-gray-700">
                     <li>• Anatomy</li>
                     <li>• Physiology</li>
@@ -58,7 +58,7 @@
                   </ul>
                 </div>
                 <div>
-                  <h4 class="font-bold text-primary-blue mb-3">Paper 2: Clinical Sciences</h4>
+                  <h4 class="font-bold text-primary mb-3">Paper 2: Clinical Sciences</h4>
                   <ul class="space-y-2 text-gray-700">
                     <li>• Medicine</li>
                     <li>• Surgery</li>
@@ -113,7 +113,7 @@
 
           <div class="space-y-4">
             <div class="flex items-start gap-4">
-              <div class="flex-shrink-0 w-8 h-8 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold">1</div>
+              <div class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold">1</div>
               <div>
                 <h4 class="font-bold text-gray-800 mb-2">Completed MBBS Degree</h4>
                 <p class="text-gray-600">Must have completed 5-year MBBS program from a PMC-recognized Chinese university</p>
@@ -121,7 +121,7 @@
             </div>
 
             <div class="flex items-start gap-4">
-              <div class="flex-shrink-0 w-8 h-8 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold">2</div>
+              <div class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold">2</div>
               <div>
                 <h4 class="font-bold text-gray-800 mb-2">Degree Attestation</h4>
                 <p class="text-gray-600">MBBS degree attested by Pakistani Embassy in China and Ministry of Foreign Affairs Pakistan</p>
@@ -129,7 +129,7 @@
             </div>
 
             <div class="flex items-start gap-4">
-              <div class="flex-shrink-0 w-8 h-8 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold">3</div>
+              <div class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold">3</div>
               <div>
                 <h4 class="font-bold text-gray-800 mb-2">Valid Passport</h4>
                 <p class="text-gray-600">Pakistani passport with valid CNIC</p>
@@ -137,7 +137,7 @@
             </div>
 
             <div class="flex items-start gap-4">
-              <div class="flex-shrink-0 w-8 h-8 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold">4</div>
+              <div class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold">4</div>
               <div>
                 <h4 class="font-bold text-gray-800 mb-2">Registration Certificate</h4>
                 <p class="text-gray-600">Provisional registration from PMC (can be applied for after graduation)</p>
@@ -156,17 +156,17 @@
           <h2 class="text-3xl font-bold mb-6 text-gray-900">How to Register for PMC Exam</h2>
 
           <div class="space-y-6">
-            <div class="border-l-4 border-primary-green pl-6">
+            <div class="border-l-4 border-secondary pl-6">
               <h4 class="font-bold text-gray-800 mb-2">Step 1: Create PMC Account</h4>
               <p class="text-gray-600 mb-2">Visit the official PMC website and create your account using your email and CNIC</p>
             </div>
 
-            <div class="border-l-4 border-primary-green pl-6">
+            <div class="border-l-4 border-secondary pl-6">
               <h4 class="font-bold text-gray-800 mb-2">Step 2: Complete Profile</h4>
               <p class="text-gray-600 mb-2">Fill in all required information including educational details and contact information</p>
             </div>
 
-            <div class="border-l-4 border-primary-green pl-6">
+            <div class="border-l-4 border-secondary pl-6">
               <h4 class="font-bold text-gray-800 mb-2">Step 3: Upload Documents</h4>
               <ul class="text-gray-600 space-y-1 ml-4">
                 <li>• Attested MBBS degree</li>
@@ -178,19 +178,19 @@
               </ul>
             </div>
 
-            <div class="border-l-4 border-primary-green pl-6">
+            <div class="border-l-4 border-secondary pl-6">
               <h4 class="font-bold text-gray-800 mb-2">Step 4: Pay Exam Fee</h4>
               <p class="text-gray-600 mb-2">Pay the examination fee through designated bank (check PMC website for current fee)</p>
             </div>
 
-            <div class="border-l-4 border-primary-green pl-6">
+            <div class="border-l-4 border-secondary pl-6">
               <h4 class="font-bold text-gray-800 mb-2">Step 5: Download Admit Card</h4>
               <p class="text-gray-600 mb-2">After verification, download your admit card 2-3 weeks before the exam</p>
             </div>
           </div>
 
           <div class="mt-6 bg-blue-50 rounded-lg p-6">
-            <p class="font-semibold text-primary-blue mb-2">💡 Pro Tip</p>
+            <p class="font-semibold text-primary mb-2">💡 Pro Tip</p>
             <p class="text-gray-700">Register early as slots fill up quickly! Registration usually opens 2-3 months before the exam date.</p>
           </div>
         </div>
@@ -204,7 +204,7 @@
 
             <div class="space-y-4">
               <div class="bg-gradient-to-r from-blue-50 to-green-50 rounded-lg p-6">
-                <h4 class="font-bold text-primary-blue mb-3">Months 1-2: Foundation Building</h4>
+                <h4 class="font-bold text-primary mb-3">Months 1-2: Foundation Building</h4>
                 <ul class="space-y-2 text-gray-700">
                   <li>• Review basic concepts from all pre-clinical subjects</li>
                   <li>• Read standard textbooks chapter by chapter</li>
@@ -215,7 +215,7 @@
               </div>
 
               <div class="bg-gradient-to-r from-green-50 to-blue-50 rounded-lg p-6">
-                <h4 class="font-bold text-primary-green mb-3">Months 3-4: Clinical Focus</h4>
+                <h4 class="font-bold text-secondary mb-3">Months 3-4: Clinical Focus</h4>
                 <ul class="space-y-2 text-gray-700">
                   <li>• Deep dive into Medicine, Surgery, Pediatrics, and Obs/Gyn</li>
                   <li>• Practice clinical case scenarios</li>
@@ -226,7 +226,7 @@
               </div>
 
               <div class="bg-gradient-to-r from-blue-50 to-green-50 rounded-lg p-6">
-                <h4 class="font-bold text-primary-blue mb-3">Month 5: Practice & Revision</h4>
+                <h4 class="font-bold text-primary mb-3">Month 5: Practice & Revision</h4>
                 <ul class="space-y-2 text-gray-700">
                   <li>• Solve at least 3,000-5,000 MCQs</li>
                   <li>• Take full-length mock tests weekly</li>
@@ -237,7 +237,7 @@
               </div>
 
               <div class="bg-gradient-to-r from-green-50 to-blue-50 rounded-lg p-6">
-                <h4 class="font-bold text-primary-green mb-3">Month 6: Final Sprint</h4>
+                <h4 class="font-bold text-secondary mb-3">Month 6: Final Sprint</h4>
                 <ul class="space-y-2 text-gray-700">
                   <li>• Quick revision of all subjects</li>
                   <li>• Focus on high-yield topics</li>
@@ -254,7 +254,7 @@
 
             <div class="grid md:grid-cols-2 gap-6">
               <div class="border border-gray-200 rounded-lg p-6">
-                <h4 class="font-bold text-primary-blue mb-4">Pre-Clinical Subjects</h4>
+                <h4 class="font-bold text-primary mb-4">Pre-Clinical Subjects</h4>
                 <ul class="space-y-2 text-gray-700">
                   <li><strong>Anatomy:</strong> Snell's Clinical Anatomy</li>
                   <li><strong>Physiology:</strong> Guyton & Hall</li>
@@ -266,7 +266,7 @@
               </div>
 
               <div class="border border-gray-200 rounded-lg p-6">
-                <h4 class="font-bold text-primary-green mb-4">Clinical Subjects</h4>
+                <h4 class="font-bold text-secondary mb-4">Clinical Subjects</h4>
                 <ul class="space-y-2 text-gray-700">
                   <li><strong>Medicine:</strong> Davidson's Principles</li>
                   <li><strong>Surgery:</strong> Bailey & Love's Short Practice</li>
@@ -280,7 +280,7 @@
           </div>
 
           <div class="bg-green-50 border border-green-200 rounded-lg p-6">
-            <h4 class="font-bold text-primary-green mb-3">📚 MCQ Banks & Online Resources</h4>
+            <h4 class="font-bold text-secondary mb-3">📚 MCQ Banks & Online Resources</h4>
             <ul class="space-y-2 text-gray-700">
               <li>• Previous PMC exam papers (most important!)</li>
               <li>• MCQ banks specific to PMC pattern</li>
@@ -376,7 +376,7 @@
           <h2 class="text-3xl font-bold mb-6 text-gray-900">Exam Day Tips</h2>
 
           <div class="bg-gradient-to-r from-blue-50 to-green-50 rounded-lg p-6 mb-6">
-            <h4 class="font-bold text-primary-blue mb-4">Day Before the Exam</h4>
+            <h4 class="font-bold text-primary mb-4">Day Before the Exam</h4>
             <ul class="space-y-2 text-gray-700">
               <li>✓ Keep your admit card, CNIC, and stationery ready</li>
               <li>✓ Visit the exam center to know the location</li>
@@ -387,7 +387,7 @@
           </div>
 
           <div class="bg-gradient-to-r from-green-50 to-blue-50 rounded-lg p-6 mb-6">
-            <h4 class="font-bold text-primary-green mb-4">On Exam Day</h4>
+            <h4 class="font-bold text-secondary mb-4">On Exam Day</h4>
             <ul class="space-y-2 text-gray-700">
               <li>✓ Reach the center 30 minutes early</li>
               <li>✓ Have a light breakfast - don't overeat</li>
@@ -397,8 +397,8 @@
             </ul>
           </div>
 
-          <div class="bg-blue-50 border-l-4 border-primary-blue p-6 rounded-r-lg">
-            <h4 class="font-bold text-primary-blue mb-3">Time Management During Exam</h4>
+          <div class="bg-blue-50 border-l-4 border-primary p-6 rounded-r-lg">
+            <h4 class="font-bold text-primary mb-3">Time Management During Exam</h4>
             <ul class="space-y-2 text-gray-700">
               <li>• You have 150 minutes for 200 MCQs (45 seconds per question)</li>
               <li>• Don't spend more than 1 minute on any question</li>
@@ -414,35 +414,35 @@
           <h2 class="text-3xl font-bold mb-6 text-gray-900">Success Stories from GEC Students</h2>
 
           <div class="space-y-6">
-            <div class="bg-gradient-to-r from-blue-50 to-green-50 rounded-lg p-6 border-l-4 border-primary-blue">
+            <div class="bg-gradient-to-r from-blue-50 to-green-50 rounded-lg p-6 border-l-4 border-primary">
               <div class="flex items-start gap-4">
                 <div class="flex-shrink-0 text-4xl">👨‍⚕️</div>
                 <div>
                   <h4 class="font-bold text-gray-800 mb-2">Dr. Sara Ahmed - Cleared PMC in First Attempt</h4>
                   <p class="text-gray-700 mb-3 italic">"I graduated from Jiangsu University in 2023 and cleared PMC in my first attempt with 72% marks. The key was starting early and solving as many MCQs as possible. GEC's guidance during my study years in China gave me a strong foundation."</p>
-                  <p class="text-sm text-primary-blue font-semibold">Score: 72% | University: Jiangsu University</p>
+                  <p class="text-sm text-primary font-semibold">Score: 72% | University: Jiangsu University</p>
                 </div>
               </div>
             </div>
 
-            <div class="bg-gradient-to-r from-green-50 to-blue-50 rounded-lg p-6 border-l-4 border-primary-green">
+            <div class="bg-gradient-to-r from-green-50 to-blue-50 rounded-lg p-6 border-l-4 border-secondary">
               <div class="flex items-start gap-4">
                 <div class="flex-shrink-0 text-4xl">👨‍⚕️</div>
                 <div>
                   <h4 class="font-bold text-gray-800 mb-2">Dr. Hassan Raza - 78% Score in PMC</h4>
                   <p class="text-gray-700 mb-3 italic">"Nanjing Medical University prepared me well. I used a 6-month preparation strategy, focusing heavily on previous year papers. The clinical exposure I got in China was invaluable for case-based MCQs."</p>
-                  <p class="text-sm text-primary-green font-semibold">Score: 78% | University: Nanjing Medical University</p>
+                  <p class="text-sm text-secondary font-semibold">Score: 78% | University: Nanjing Medical University</p>
                 </div>
               </div>
             </div>
 
-            <div class="bg-gradient-to-r from-blue-50 to-green-50 rounded-lg p-6 border-l-4 border-primary-blue">
+            <div class="bg-gradient-to-r from-blue-50 to-green-50 rounded-lg p-6 border-l-4 border-primary">
               <div class="flex items-start gap-4">
                 <div class="flex-shrink-0 text-4xl">👩‍⚕️</div>
                 <div>
                   <h4 class="font-bold text-gray-800 mb-2">Dr. Ayesha Malik - Second Attempt Success</h4>
                   <p class="text-gray-700 mb-3 italic">"I failed in my first attempt because I underestimated Community Medicine and Forensic. In my second attempt, I covered everything thoroughly and passed with 68%. Don't make the same mistake I did!"</p>
-                  <p class="text-sm text-primary-blue font-semibold">Score: 68% | University: China Medical University</p>
+                  <p class="text-sm text-primary font-semibold">Score: 68% | University: China Medical University</p>
                 </div>
               </div>
             </div>
@@ -455,7 +455,7 @@
 
           <div class="space-y-6">
             <div class="flex items-start gap-4">
-              <div class="flex-shrink-0 w-10 h-10 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold text-lg">1</div>
+              <div class="flex-shrink-0 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg">1</div>
               <div>
                 <h4 class="font-bold text-gray-800 mb-2">Permanent Registration</h4>
                 <p class="text-gray-600">Apply for permanent registration with PMC. You'll receive your PMC registration number.</p>
@@ -463,7 +463,7 @@
             </div>
 
             <div class="flex items-start gap-4">
-              <div class="flex-shrink-0 w-10 h-10 bg-primary-green text-white rounded-full flex items-center justify-center font-bold text-lg">2</div>
+              <div class="flex-shrink-0 w-10 h-10 bg-secondary text-white rounded-full flex items-center justify-center font-bold text-lg">2</div>
               <div>
                 <h4 class="font-bold text-gray-800 mb-2">House Job</h4>
                 <p class="text-gray-600">Complete mandatory 1-year house job at a PMC-recognized hospital in Pakistan.</p>
@@ -471,7 +471,7 @@
             </div>
 
             <div class="flex items-start gap-4">
-              <div class="flex-shrink-0 w-10 h-10 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold text-lg">3</div>
+              <div class="flex-shrink-0 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg">3</div>
               <div>
                 <h4 class="font-bold text-gray-800 mb-2">Practice Medicine</h4>
                 <p class="text-gray-600">After house job, you can practice medicine anywhere in Pakistan or pursue postgraduate studies.</p>
@@ -479,7 +479,7 @@
             </div>
 
             <div class="flex items-start gap-4">
-              <div class="flex-shrink-0 w-10 h-10 bg-primary-green text-white rounded-full flex items-center justify-center font-bold text-lg">4</div>
+              <div class="flex-shrink-0 w-10 h-10 bg-secondary text-white rounded-full flex items-center justify-center font-bold text-lg">4</div>
               <div>
                 <h4 class="font-bold text-gray-800 mb-2">Career Options</h4>
                 <ul class="text-gray-600 mt-2 space-y-1">
@@ -542,7 +542,7 @@
         </div>
 
         <!-- Final Message -->
-        <div class="bg-gradient-to-br from-primary-blue to-primary-green text-white rounded-xl shadow-lg p-8 mb-8">
+        <div class="bg-gradient-to-br from-primary to-secondary text-white rounded-xl shadow-lg p-8 mb-8">
           <h2 class="text-3xl font-bold mb-4">Ready to Start Your Medical Career in Pakistan?</h2>
           <p class="text-lg mb-6 text-blue-50">
             Clearing PMC exam is your gateway to practicing medicine in Pakistan. With proper preparation, dedication, and the strong foundation you built during your MBBS in China, success is within your reach!
@@ -551,10 +551,10 @@
             At GEC, we've helped 500+ students successfully clear PMC and establish their medical careers in Pakistan.
           </p>
           <div class="flex flex-wrap gap-4">
-            <NuxtLink to="/contact" class="bg-white text-primary-blue px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block">
+            <NuxtLink to="/contact" class="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block">
               Get PMC Preparation Guidance
             </NuxtLink>
-            <NuxtLink to="/programs/mbbs" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary-blue transition-all inline-block">
+            <NuxtLink to="/programs/mbbs" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary transition-all inline-block">
               Explore MBBS Programs
             </NuxtLink>
           </div>
@@ -565,16 +565,16 @@
           <h3 class="text-2xl font-bold mb-6 text-gray-900">Related Articles</h3>
           <div class="grid md:grid-cols-2 gap-6">
             <NuxtLink to="/blog/mbbs-china-vs-pakistan" class="group">
-              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary-blue transition-all">
-                <div class="text-sm text-primary-blue font-semibold mb-2">Medical Education</div>
-                <h4 class="font-bold text-gray-800 group-hover:text-primary-blue transition-all">MBBS in China vs Pakistan: Complete Comparison</h4>
+              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary transition-all">
+                <div class="text-sm text-primary font-semibold mb-2">Medical Education</div>
+                <h4 class="font-bold text-gray-800 group-hover:text-primary transition-all">MBBS in China vs Pakistan: Complete Comparison</h4>
               </div>
             </NuxtLink>
 
             <NuxtLink to="/blog/top-medical-universities-china" class="group">
-              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary-green transition-all">
-                <div class="text-sm text-primary-green font-semibold mb-2">Universities</div>
-                <h4 class="font-bold text-gray-800 group-hover:text-primary-green transition-all">Top 10 Medical Universities in China</h4>
+              <div class="border border-gray-200 rounded-lg p-4 hover:border-secondary transition-all">
+                <div class="text-sm text-secondary font-semibold mb-2">Universities</div>
+                <h4 class="font-bold text-gray-800 group-hover:text-secondary transition-all">Top 10 Medical Universities in China</h4>
               </div>
             </NuxtLink>
           </div>

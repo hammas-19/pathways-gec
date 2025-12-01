@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero -->
-    <section class="relative h-96 flex items-center overflow-hidden bg-gradient-to-r from-primary-blue to-primary-green">
+    <section class="relative h-96 flex items-center overflow-hidden bg-gradient-to-r from-primary to-secondary">
       <div class="absolute inset-0 bg-black/30"></div>
       <div class="container-custom relative z-10 text-white">
         <h1 class="mb-6 text-white">Our Story: Built on Trust, Driven by Your Dreams</h1>
@@ -29,7 +29,7 @@
             They themselves had experienced the challenges firsthand—the language barriers, the cultural shock, the homesickness, and the uncertainty that comes with being in a foreign land. But they also experienced the beauty of it—the world-class education, the friendships that transcended borders, the confidence that came from becoming doctors in one of the world's most advanced medical education systems.
           </p>
 
-          <p class="font-semibold text-xl text-primary-blue">
+          <p class="font-semibold text-xl text-primary">
             In 2017, Global Educational Consultants (GEC) was born—not as a business, but as a promise kept.
           </p>
 
@@ -64,7 +64,7 @@
             Today, GEC has guided 5000+ students to top universities in China. But more importantly, we've created 5000+ success stories, 5000+ families who trust us, and 5000+ young professionals who are now living their dreams—many of them doctors, engineers, and business leaders making a difference in the world.
           </p>
 
-          <p class="text-xl font-semibold text-primary-blue">
+          <p class="text-xl font-semibold text-primary">
             We're not just education consultants. We're the family you didn't know you'd find on your journey to China. We're the voice that reassures you when doubt creeps in. We're the team that celebrates your admission like it's our own achievement.
           </p>
 
@@ -81,14 +81,14 @@
         <h2 class="text-center mb-12">The Values That Guide Us Every Day</h2>
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div class="text-center">
-            <div class="w-20 h-20 mx-auto mb-4 bg-primary-blue/20 rounded-full flex items-center justify-center">
+            <div class="w-20 h-20 mx-auto mb-4 bg-primary/20 rounded-full flex items-center justify-center">
               <span class="text-4xl">🤝</span>
             </div>
             <h3 class="text-xl font-semibold mb-3">Integrity First</h3>
             <p class="text-gray-600">No hidden fees, no false promises. We tell you the truth even when it's not what you want to hear.</p>
           </div>
           <div class="text-center">
-            <div class="w-20 h-20 mx-auto mb-4 bg-primary-green/20 rounded-full flex items-center justify-center">
+            <div class="w-20 h-20 mx-auto mb-4 bg-secondary/20 rounded-full flex items-center justify-center">
               <span class="text-4xl">❤️</span>
             </div>
             <h3 class="text-xl font-semibold mb-3">Genuine Care</h3>
@@ -121,20 +121,20 @@
         </p>
         <div class="grid md:grid-cols-3 gap-8 mb-12">
           <div class="card p-8 text-center">
-            <div class="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary-blue to-primary-green flex items-center justify-center text-white text-4xl">
+            <div class="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white text-4xl">
               👨‍⚕️
             </div>
             <h3 class="text-xl font-semibold mb-2">Dr. Sohail Ahmed</h3>
-            <p class="text-primary-blue font-medium mb-4">Co-Founder & CEO</p>
+            <p class="text-primary font-medium mb-4">Co-Founder & CEO</p>
             <p class="text-gray-600 text-sm mb-4">MBBS from Yangtze University (2013-2019). Specializes in student placement and university partnerships.</p>
             <p class="text-sm italic text-gray-700">"Every student's success story adds meaning to why we started GEC. This journey has been the most rewarding of my life."</p>
           </div>
           <div class="card p-8 text-center">
-            <div class="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary-green to-accent-yellow flex items-center justify-center text-white text-4xl">
+            <div class="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-secondary to-accent-yellow flex items-center justify-center text-white text-4xl">
               👨‍⚕️
             </div>
             <h3 class="text-xl font-semibold mb-2">Dr. Amir Khan</h3>
-            <p class="text-primary-green font-medium mb-4">Co-Founder & Head of Operations</p>
+            <p class="text-secondary font-medium mb-4">Co-Founder & Head of Operations</p>
             <p class="text-gray-600 text-sm mb-4">MBBS from Jiangsu University (2014-2020). Expert in visa processing and student services.</p>
             <p class="text-sm italic text-gray-700">"Seeing students arrive safely in China, knowing we made their journey smooth, is what drives me every single day."</p>
           </div>
@@ -169,7 +169,7 @@
             </p>
             <div class="space-y-4">
               <div class="flex gap-4">
-                <svg class="w-6 h-6 text-primary-blue flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                 </svg>
                 <div>
@@ -178,7 +178,7 @@
                 </div>
               </div>
               <div class="flex gap-4">
-                <svg class="w-6 h-6 text-primary-blue flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 <div>
@@ -188,7 +188,7 @@
                 </div>
               </div>
               <div class="flex gap-4">
-                <svg class="w-6 h-6 text-primary-blue flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
                 <div>
@@ -199,7 +199,7 @@
               </div>
             </div>
           </div>
-          <div class="bg-gradient-to-br from-primary-blue/20 to-primary-green/20 rounded-2xl p-12 text-center">
+          <div class="bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl p-12 text-center">
             <div class="text-6xl mb-4">🏢</div>
             <h3 class="text-2xl font-semibold mb-4">Our Global Offices</h3>
             <p class="text-gray-700 mb-6">
@@ -207,11 +207,11 @@
             </p>
             <div class="grid grid-cols-2 gap-4 text-center mb-6">
               <div>
-                <div class="text-3xl font-bold text-primary-blue">8+</div>
+                <div class="text-3xl font-bold text-primary">8+</div>
                 <div class="text-sm text-gray-600">Years Established</div>
               </div>
               <div>
-                <div class="text-3xl font-bold text-primary-blue">5000+</div>
+                <div class="text-3xl font-bold text-primary">5000+</div>
                 <div class="text-sm text-gray-600">Students Guided</div>
               </div>
             </div>
@@ -231,10 +231,10 @@
           <div class="space-y-8">
             <div v-for="milestone in milestones" :key="milestone.year" class="flex gap-6">
               <div class="flex-shrink-0 w-24 text-right">
-                <div class="text-2xl font-bold text-primary-blue">{{ milestone.year }}</div>
+                <div class="text-2xl font-bold text-primary">{{ milestone.year }}</div>
               </div>
-              <div class="flex-shrink-0 w-1 bg-primary-blue/20 relative">
-                <div class="absolute top-0 left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary-blue rounded-full"></div>
+              <div class="flex-shrink-0 w-1 bg-primary/20 relative">
+                <div class="absolute top-0 left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary rounded-full"></div>
               </div>
               <div class="flex-1 pb-8">
                 <h4 class="font-semibold mb-2">{{ milestone.title }}</h4>
@@ -247,7 +247,7 @@
     </section>
 
     <!-- CTA -->
-    <section class="section bg-primary-blue text-white">
+    <section class="section bg-primary text-white">
       <div class="container-custom text-center">
         <h2 class="mb-6 text-white">Become Part of Our Story</h2>
         <p class="text-xl mb-8 opacity-90 max-w-2xl mx-auto">

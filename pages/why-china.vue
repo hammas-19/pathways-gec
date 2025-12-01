@@ -1,7 +1,7 @@
 <template>
   <div class="why-china-page">
     <!-- Hero Section -->
-    <section class="hero-section bg-gradient-to-br from-primary-blue via-accent-purple/70 to-primary-green text-white py-20 md:py-32">
+    <section class="hero-section bg-gradient-to-br from-primary via-accent-purple/70 to-secondary text-white py-20 md:py-32">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
           <h1 class="text-4xl md:text-6xl font-bold mb-6 font-display">
@@ -40,10 +40,10 @@
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div class="feature-card bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-all">
-            <div class="w-16 h-16 bg-primary-blue/10 rounded-full flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🏆</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">Top-Ranked Universities</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">Top-Ranked Universities</h3>
             <p class="text-gray-600 mb-4">
               71 Chinese universities ranked in global top 1000. Tsinghua and Peking University consistently rank in global top 25. More universities entering top 100 every year.
             </p>
@@ -55,10 +55,10 @@
           </div>
 
           <div class="feature-card bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-all">
-            <div class="w-16 h-16 bg-primary-green/10 rounded-full flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🔬</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Cutting-Edge Research</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Cutting-Edge Research</h3>
             <p class="text-gray-600 mb-4">
               China leads globally in research output, innovation, and technological advancement. World's largest investment in R&D after the USA.
             </p>
@@ -73,7 +73,7 @@
             <div class="w-16 h-16 bg-accent-purple/20 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">📜</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">Global Recognition</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">Global Recognition</h3>
             <p class="text-gray-600 mb-4">
               Chinese degrees recognized worldwide by WHO, UNESCO, and national education boards. Practice or work globally after graduation.
             </p>
@@ -88,7 +88,7 @@
             <div class="w-16 h-16 bg-accent-yellow/30 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">👨‍🏫</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Expert Faculty</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Expert Faculty</h3>
             <p class="text-gray-600 mb-4">
               Learn from world-renowned professors, international faculty, and industry experts. Many professors trained in top global universities.
             </p>
@@ -103,7 +103,7 @@
             <div class="w-16 h-16 bg-accent-peach/30 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🌐</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">English-Medium Programs</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">English-Medium Programs</h3>
             <p class="text-gray-600 mb-4">
               Thousands of programs taught entirely in English. No Chinese language requirement for admission, though free Chinese classes provided.
             </p>
@@ -118,7 +118,7 @@
             <div class="w-16 h-16 bg-accent-green/20 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🏗️</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Modern Infrastructure</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Modern Infrastructure</h3>
             <p class="text-gray-600 mb-4">
               State-of-the-art campuses, labs, libraries, and facilities. China builds the most advanced educational infrastructure globally.
             </p>
@@ -133,7 +133,7 @@
     </section>
 
     <!-- Affordable Education -->
-    <section class="py-20 bg-gradient-to-r from-primary-green to-primary-blue text-white">
+    <section class="py-20 bg-gradient-to-r from-secondary to-primary text-white">
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
           <div class="text-center mb-12">
@@ -222,7 +222,7 @@
         <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
           <div class="bg-white p-8 rounded-xl shadow-md">
             <div class="text-4xl mb-4 text-center">🌍</div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue text-center">Global Trade Hub</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary text-center">Global Trade Hub</h3>
             <ul class="space-y-3 text-gray-700">
               <li>• World's largest exporter</li>
               <li>• Belt & Road Initiative spans 140+ countries</li>
@@ -234,7 +234,7 @@
 
           <div class="bg-white p-8 rounded-xl shadow-md">
             <div class="text-4xl mb-4 text-center">💡</div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green text-center">Innovation Leader</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary text-center">Innovation Leader</h3>
             <ul class="space-y-3 text-gray-700">
               <li>• #1 in patent applications globally</li>
               <li>• Leading in AI, 5G, quantum computing</li>
@@ -246,7 +246,7 @@
 
           <div class="bg-white p-8 rounded-xl shadow-md">
             <div class="text-4xl mb-4 text-center">🚀</div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue text-center">Future Opportunities</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary text-center">Future Opportunities</h3>
             <ul class="space-y-3 text-gray-700">
               <li>• CPEC and infrastructure projects</li>
               <li>• Digital economy expansion</li>
@@ -333,31 +333,31 @@
 
         <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           <div class="bg-white p-8 rounded-xl shadow-md">
-            <h3 class="text-2xl font-bold mb-6 text-primary-blue">Safety & Security</h3>
+            <h3 class="text-2xl font-bold mb-6 text-primary">Safety & Security</h3>
             <ul class="space-y-4">
               <li class="flex items-start">
-                <span class="text-primary-blue text-2xl mr-3">✓</span>
+                <span class="text-primary text-2xl mr-3">✓</span>
                 <div>
                   <strong class="block mb-1">Very Low Crime Rate</strong>
                   <span class="text-gray-600">One of the safest countries globally. Students can walk safely at any time.</span>
                 </div>
               </li>
               <li class="flex items-start">
-                <span class="text-primary-blue text-2xl mr-3">✓</span>
+                <span class="text-primary text-2xl mr-3">✓</span>
                 <div>
                   <strong class="block mb-1">Advanced Security</strong>
                   <span class="text-gray-600">CCTV monitoring, campus security, safe public transportation.</span>
                 </div>
               </li>
               <li class="flex items-start">
-                <span class="text-primary-blue text-2xl mr-3">✓</span>
+                <span class="text-primary text-2xl mr-3">✓</span>
                 <div>
                   <strong class="block mb-1">24/7 Support</strong>
                   <span class="text-gray-600">University international offices provide round-the-clock assistance.</span>
                 </div>
               </li>
               <li class="flex items-start">
-                <span class="text-primary-blue text-2xl mr-3">✓</span>
+                <span class="text-primary text-2xl mr-3">✓</span>
                 <div>
                   <strong class="block mb-1">Special Care for International Students</strong>
                   <span class="text-gray-600">Dedicated support systems and emergency services.</span>
@@ -367,31 +367,31 @@
           </div>
 
           <div class="bg-white p-8 rounded-xl shadow-md">
-            <h3 class="text-2xl font-bold mb-6 text-primary-green">Quality of Life</h3>
+            <h3 class="text-2xl font-bold mb-6 text-secondary">Quality of Life</h3>
             <ul class="space-y-4">
               <li class="flex items-start">
-                <span class="text-primary-green text-2xl mr-3">✓</span>
+                <span class="text-secondary text-2xl mr-3">✓</span>
                 <div>
                   <strong class="block mb-1">Modern Infrastructure</strong>
                   <span class="text-gray-600">World-class public transport, internet, utilities, and amenities.</span>
                 </div>
               </li>
               <li class="flex items-start">
-                <span class="text-primary-green text-2xl mr-3">✓</span>
+                <span class="text-secondary text-2xl mr-3">✓</span>
                 <div>
                   <strong class="block mb-1">Excellent Healthcare</strong>
                   <span class="text-gray-600">Modern hospitals, affordable medical care, international clinics available.</span>
                 </div>
               </li>
               <li class="flex items-start">
-                <span class="text-primary-green text-2xl mr-3">✓</span>
+                <span class="text-secondary text-2xl mr-3">✓</span>
                 <div>
                   <strong class="block mb-1">Convenient Daily Life</strong>
                   <span class="text-gray-600">Everything accessible via smartphone apps, 24/7 services, delivery apps.</span>
                 </div>
               </li>
               <li class="flex items-start">
-                <span class="text-primary-green text-2xl mr-3">✓</span>
+                <span class="text-secondary text-2xl mr-3">✓</span>
                 <div>
                   <strong class="block mb-1">International Community</strong>
                   <span class="text-gray-600">500,000+ international students, diverse and welcoming environment.</span>
@@ -415,7 +415,7 @@
 
         <div class="max-w-6xl mx-auto space-y-6">
           <div class="grid md:grid-cols-3 gap-6">
-            <div class="bg-gradient-to-br from-primary-blue to-primary-green text-white p-8 rounded-xl">
+            <div class="bg-gradient-to-br from-primary to-secondary text-white p-8 rounded-xl">
               <h3 class="text-2xl font-bold mb-4">Work in China</h3>
               <ul class="space-y-2 text-sm">
                 <li>• Growing demand for international talent</li>
@@ -425,7 +425,7 @@
               </ul>
             </div>
 
-            <div class="bg-gradient-to-br from-primary-green to-accent-purple/70 text-white p-8 rounded-xl">
+            <div class="bg-gradient-to-br from-secondary to-accent-purple/70 text-white p-8 rounded-xl">
               <h3 class="text-2xl font-bold mb-4">Return Home</h3>
               <ul class="space-y-2 text-sm">
                 <li>• Valued expertise in China-related work</li>
@@ -435,7 +435,7 @@
               </ul>
             </div>
 
-            <div class="bg-gradient-to-br from-accent-purple/70 to-primary-blue text-white p-8 rounded-xl">
+            <div class="bg-gradient-to-br from-accent-purple/70 to-primary text-white p-8 rounded-xl">
               <h3 class="text-2xl font-bold mb-4">Global Opportunities</h3>
               <ul class="space-y-2 text-sm">
                 <li>• Recognized worldwide by employers</li>
@@ -450,14 +450,14 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-gradient-to-br from-primary-blue via-primary-green to-accent-yellow/80 text-white">
+    <section class="py-20 bg-gradient-to-br from-primary via-secondary to-accent-yellow/80 text-white">
       <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl md:text-5xl font-bold mb-6 font-display">Ready to Start Your China Journey?</h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto text-gray-100">
           Join 500,000+ international students studying in China. Get expert guidance from GEC's team of 50+ professionals.
         </p>
         <div class="flex flex-wrap gap-4 justify-center">
-          <NuxtLink to="/contact" class="bg-white text-primary-blue px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all">
+          <NuxtLink to="/contact" class="bg-white text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all">
             Get Started Today
           </NuxtLink>
           <a href="https://wa.me/8618672301888" class="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/20 transition-all">

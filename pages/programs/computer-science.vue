@@ -51,20 +51,20 @@
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="feature-card bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-all">
-            <div class="w-16 h-16 bg-primary-blue/10 rounded-full flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🚀</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">Tech Innovation Hub</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">Tech Innovation Hub</h3>
             <p class="text-gray-600">
               Study in the country leading global tech innovation. Home to Alibaba, Tencent, Huawei, ByteDance, and countless startups pushing boundaries in AI, 5G, and quantum computing.
             </p>
           </div>
 
           <div class="feature-card bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-all">
-            <div class="w-16 h-16 bg-primary-green/10 rounded-full flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">💻</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Cutting-Edge Curriculum</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Cutting-Edge Curriculum</h3>
             <p class="text-gray-600">
               Learn latest technologies including AI, Machine Learning, Big Data, Cloud Computing, Blockchain, IoT, and Cybersecurity. Curriculum updated regularly to match industry demands.
             </p>
@@ -74,7 +74,7 @@
             <div class="w-16 h-16 bg-accent-purple/20 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🏢</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">Industry Connections</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">Industry Connections</h3>
             <p class="text-gray-600">
               Access to internships and projects with top tech companies. Strong industry partnerships provide real-world experience and excellent job placement opportunities.
             </p>
@@ -84,7 +84,7 @@
             <div class="w-16 h-16 bg-accent-yellow/30 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🔬</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Research Excellence</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Research Excellence</h3>
             <p class="text-gray-600">
               Participate in groundbreaking research projects. Chinese universities invest heavily in CS research with state-of-the-art labs and equipment for student projects.
             </p>
@@ -94,7 +94,7 @@
             <div class="w-16 h-16 bg-accent-peach/30 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🌏</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">Global Career Opportunities</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">Global Career Opportunities</h3>
             <p class="text-gray-600">
               Degree recognized worldwide. Graduates work in top tech companies globally or start their own ventures. Strong alumni network across international tech industry.
             </p>
@@ -104,7 +104,7 @@
             <div class="w-16 h-16 bg-accent-green/20 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">💰</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Excellent Value</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Excellent Value</h3>
             <p class="text-gray-600">
               World-class education at affordable cost. Scholarships available for outstanding students. Living expenses much lower than Western countries offering similar quality programs.
             </p>
@@ -126,7 +126,7 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">🤖</div>
-            <h3 class="text-xl font-bold mb-3 text-primary-blue">Artificial Intelligence</h3>
+            <h3 class="text-xl font-bold mb-3 text-primary">Artificial Intelligence</h3>
             <p class="text-gray-600 text-sm">
               Machine learning, deep learning, neural networks, computer vision, natural language processing, and robotics.
             </p>
@@ -134,7 +134,7 @@
 
           <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">📊</div>
-            <h3 class="text-xl font-bold mb-3 text-primary-green">Data Science & Big Data</h3>
+            <h3 class="text-xl font-bold mb-3 text-secondary">Data Science & Big Data</h3>
             <p class="text-gray-600 text-sm">
               Data analytics, big data technologies, data mining, predictive modeling, business intelligence, and data visualization.
             </p>
@@ -142,7 +142,7 @@
 
           <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">🔒</div>
-            <h3 class="text-xl font-bold mb-3 text-primary-blue">Cybersecurity</h3>
+            <h3 class="text-xl font-bold mb-3 text-primary">Cybersecurity</h3>
             <p class="text-gray-600 text-sm">
               Network security, ethical hacking, cryptography, security protocols, penetration testing, and information assurance.
             </p>
@@ -150,7 +150,7 @@
 
           <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">☁️</div>
-            <h3 class="text-xl font-bold mb-3 text-primary-green">Cloud Computing</h3>
+            <h3 class="text-xl font-bold mb-3 text-secondary">Cloud Computing</h3>
             <p class="text-gray-600 text-sm">
               Cloud architecture, distributed systems, virtualization, container orchestration, serverless computing, and DevOps.
             </p>
@@ -158,7 +158,7 @@
 
           <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">📱</div>
-            <h3 class="text-xl font-bold mb-3 text-primary-blue">Software Engineering</h3>
+            <h3 class="text-xl font-bold mb-3 text-primary">Software Engineering</h3>
             <p class="text-gray-600 text-sm">
               Software development lifecycle, agile methodologies, design patterns, mobile app development, web development, and testing.
             </p>
@@ -166,7 +166,7 @@
 
           <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">🔗</div>
-            <h3 class="text-xl font-bold mb-3 text-primary-green">Blockchain & Cryptocurrency</h3>
+            <h3 class="text-xl font-bold mb-3 text-secondary">Blockchain & Cryptocurrency</h3>
             <p class="text-gray-600 text-sm">
               Distributed ledger technology, smart contracts, cryptocurrency, consensus algorithms, DeFi, and Web3 applications.
             </p>
@@ -174,7 +174,7 @@
 
           <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">🌐</div>
-            <h3 class="text-xl font-bold mb-3 text-primary-blue">Internet of Things</h3>
+            <h3 class="text-xl font-bold mb-3 text-primary">Internet of Things</h3>
             <p class="text-gray-600 text-sm">
               IoT architecture, sensor networks, embedded systems, edge computing, smart devices, and industrial IoT applications.
             </p>
@@ -182,7 +182,7 @@
 
           <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">🎮</div>
-            <h3 class="text-xl font-bold mb-3 text-primary-green">Game Development</h3>
+            <h3 class="text-xl font-bold mb-3 text-secondary">Game Development</h3>
             <p class="text-gray-600 text-sm">
               Game engines, 3D graphics, VR/AR development, game physics, multiplayer systems, and interactive media design.
             </p>
@@ -204,7 +204,7 @@
         <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           <!-- Tsinghua University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-primary-blue to-accent-purple/70 p-6 text-white">
+            <div class="bg-gradient-to-br from-primary to-accent-purple/70 p-6 text-white">
               <h3 class="text-black text-2xl font-bold mb-2">Tsinghua University</h3>
               <p class="text-gray-800">Department of Computer Science & Technology</p>
             </div>
@@ -239,7 +239,7 @@
 
           <!-- Peking University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-primary-green to-primary-blue p-6 text-white">
+            <div class="bg-gradient-to-br from-secondary to-primary p-6 text-white">
               <h3 class="text-black text-2xl font-bold mb-2">Peking University</h3>
               <p class="text-gray-800">School of Electronics Engineering & Computer Science</p>
             </div>
@@ -274,7 +274,7 @@
 
           <!-- Zhejiang University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-accent-peach/70 to-primary-green p-6 text-white">
+            <div class="bg-gradient-to-br from-accent-peach/70 to-secondary p-6 text-white">
               <h3 class="text-black text-2xl font-bold mb-2">Zhejiang University</h3>
               <p class="text-gray-800">College of Computer Science & Technology</p>
             </div>
@@ -309,7 +309,7 @@
 
           <!-- Shanghai Jiao Tong University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-accent-yellow/80 to-primary-blue p-6 text-white">
+            <div class="bg-gradient-to-br from-accent-yellow/80 to-primary p-6 text-white">
               <h3 class="text-black text-2xl font-bold mb-2">Shanghai Jiao Tong University</h3>
               <p class="text-gray-800">School of Software</p>
             </div>
@@ -406,14 +406,14 @@
         </div>
 
         <div class="mt-12 max-w-4xl mx-auto bg-white p-8 rounded-xl shadow-md">
-          <h3 class="text-2xl font-bold mb-4 text-center text-primary-blue">Average Salary Ranges</h3>
+          <h3 class="text-2xl font-bold mb-4 text-center text-primary">Average Salary Ranges</h3>
           <div class="grid md:grid-cols-3 gap-6 text-center">
             <div>
-              <div class="text-3xl font-bold text-primary-green mb-2">$40K - $70K</div>
+              <div class="text-3xl font-bold text-secondary mb-2">$40K - $70K</div>
               <div class="text-gray-600">Entry Level (Pakistan/India)</div>
             </div>
             <div>
-              <div class="text-3xl font-bold text-primary-blue mb-2">$60K - $120K</div>
+              <div class="text-3xl font-bold text-primary mb-2">$60K - $120K</div>
               <div class="text-gray-600">Mid-Level (China/Asia)</div>
             </div>
             <div>
@@ -426,7 +426,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-accent to-primary-blue text-black">
+    <section class="py-20 bg-accent to-primary text-black">
       <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl md:text-5xl font-bold mb-6 font-display">Launch Your Tech Career in China</h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto">

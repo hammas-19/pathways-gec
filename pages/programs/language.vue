@@ -1,7 +1,7 @@
 <template>
   <div class="program-page">
     <!-- Hero Section -->
-    <section class="hero-section bg-gradient-to-br from-accent-purple/70 to-primary-blue text-white py-20 md:py-32">
+    <section class="hero-section bg-gradient-to-br from-accent-purple/70 to-primary text-white py-20 md:py-32">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
           <div class="inline-block bg-white/10 backdrop-blur-sm px-6 py-2 rounded-full mb-6">
@@ -28,7 +28,7 @@
             </div>
           </div>
           <div class="flex flex-wrap gap-4 justify-center">
-            <NuxtLink to="/contact" class="btn-primary bg-accent-yellow text-gray-900 hover:bg-yellow-400 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
+            <NuxtLink to="/contact" class="btn-primary bg-accent-yellow text-white hover:bg-yellow-400 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
               Get Started Now
             </NuxtLink>
             <a href="https://wa.me/8618672301888" class="btn-secondary bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
@@ -51,20 +51,20 @@
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="feature-card bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-all">
-            <div class="w-16 h-16 bg-primary-blue/10 rounded-full flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🗣️</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">Immersive Learning</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">Immersive Learning</h3>
             <p class="text-gray-600">
               Learn Chinese where it's spoken daily. Immersion is the fastest and most effective way to achieve fluency. Practice with native speakers everywhere you go.
             </p>
           </div>
 
           <div class="feature-card bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-all">
-            <div class="w-16 h-16 bg-primary-green/10 rounded-full flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🌏</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Global Career Asset</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Global Career Asset</h3>
             <p class="text-gray-600">
               1.3 billion speakers worldwide. Chinese language skills open doors to careers in international business, diplomacy, translation, teaching, and more.
             </p>
@@ -74,7 +74,7 @@
             <div class="w-16 h-16 bg-accent-purple/20 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🎓</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">Expert Teachers</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">Expert Teachers</h3>
             <p class="text-gray-600">
               Learn from qualified native Chinese teachers using proven teaching methodologies. Small class sizes ensure personalized attention and rapid progress.
             </p>
@@ -84,7 +84,7 @@
             <div class="w-16 h-16 bg-accent-yellow/30 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🏛️</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Cultural Experience</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Cultural Experience</h3>
             <p class="text-gray-600">
               Experience 5,000 years of Chinese culture firsthand. Visit historical sites, participate in festivals, and understand the cultural context behind the language.
             </p>
@@ -94,7 +94,7 @@
             <div class="w-16 h-16 bg-accent-peach/30 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">📜</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">HSK Certification</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">HSK Certification</h3>
             <p class="text-gray-600">
               Prepare for HSK (Chinese Proficiency Test) - the globally recognized certification for Chinese language proficiency, required for university admission and many jobs.
             </p>
@@ -104,7 +104,7 @@
             <div class="w-16 h-16 bg-accent-green/20 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">💰</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Affordable Programs</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Affordable Programs</h3>
             <p class="text-gray-600">
               Quality language education at reasonable cost. Affordable living expenses make China an economical choice compared to other study abroad destinations.
             </p>
@@ -127,26 +127,26 @@
           <!-- Short-term Programs -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">📅</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-blue">Short-Term Programs</h3>
+            <h3 class="text-2xl font-bold mb-3 text-primary">Short-Term Programs</h3>
             <div class="text-accent-yellow font-bold mb-4">4 weeks - 6 months</div>
             <p class="text-gray-600 mb-4">
               Intensive courses perfect for summer/winter breaks, gap years, or quick skill development before degree programs.
             </p>
             <div class="space-y-2">
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">15-20 hours per week</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">Focus on speaking and listening</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">Cultural activities included</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">Certificate upon completion</span>
               </div>
             </div>
@@ -155,26 +155,26 @@
           <!-- Long-term Programs -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">📚</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-green">Long-Term Programs</h3>
+            <h3 class="text-2xl font-bold mb-3 text-secondary">Long-Term Programs</h3>
             <div class="text-accent-yellow font-bold mb-4">1 - 2 years</div>
             <p class="text-gray-600 mb-4">
               Comprehensive programs for achieving fluency. Ideal for those planning to work or study in China long-term.
             </p>
             <div class="space-y-2">
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">20-24 hours per week</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">All four skills development</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">HSK preparation included</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">Academic credit available</span>
               </div>
             </div>
@@ -183,26 +183,26 @@
           <!-- HSK Preparation -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">🎯</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-blue">HSK Preparation</h3>
+            <h3 class="text-2xl font-bold mb-3 text-primary">HSK Preparation</h3>
             <div class="text-accent-yellow font-bold mb-4">3 - 12 months</div>
             <p class="text-gray-600 mb-4">
               Targeted preparation for HSK levels 1-6. Essential for university admission and professional certification.
             </p>
             <div class="space-y-2">
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">Focused test preparation</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">Practice tests and materials</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">Test-taking strategies</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">High pass rates</span>
               </div>
             </div>
@@ -211,26 +211,26 @@
           <!-- Bachelor's in Chinese Language -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">🎓</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-green">Bachelor's Degree</h3>
+            <h3 class="text-2xl font-bold mb-3 text-secondary">Bachelor's Degree</h3>
             <div class="text-accent-yellow font-bold mb-4">4 years</div>
             <p class="text-gray-600 mb-4">
               Full undergraduate degree in Chinese Language & Literature or Teaching Chinese as a Foreign Language (TCFL).
             </p>
             <div class="space-y-2">
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">Advanced language mastery</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">Chinese literature and culture</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">Teaching methodology (TCFL)</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">Internationally recognized degree</span>
               </div>
             </div>
@@ -239,26 +239,26 @@
           <!-- Business Chinese -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">💼</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-blue">Business Chinese</h3>
+            <h3 class="text-2xl font-bold mb-3 text-primary">Business Chinese</h3>
             <div class="text-accent-yellow font-bold mb-4">3 - 12 months</div>
             <p class="text-gray-600 mb-4">
               Specialized program for professionals needing Chinese for business contexts. Includes BCT (Business Chinese Test) prep.
             </p>
             <div class="space-y-2">
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">Business vocabulary focus</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">Negotiation and presentations</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">Business culture training</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">BCT certification preparation</span>
               </div>
             </div>
@@ -267,26 +267,26 @@
           <!-- One-on-One Classes -->
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="text-4xl mb-4">👤</div>
-            <h3 class="text-2xl font-bold mb-3 text-primary-green">Private Tutoring</h3>
+            <h3 class="text-2xl font-bold mb-3 text-secondary">Private Tutoring</h3>
             <div class="text-accent-yellow font-bold mb-4">Customizable</div>
             <p class="text-gray-600 mb-4">
               Personalized one-on-one or small group classes. Fully customized curriculum based on your specific goals and pace.
             </p>
             <div class="space-y-2">
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">Flexible schedule</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">Customized curriculum</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">Faster progress</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">Individual attention</span>
               </div>
             </div>
@@ -312,7 +312,7 @@
                 HSK 1
               </div>
               <div class="flex-1">
-                <h3 class="text-xl font-bold mb-2 text-primary-blue">Beginner</h3>
+                <h3 class="text-xl font-bold mb-2 text-primary">Beginner</h3>
                 <p class="text-gray-600 mb-2">
                   <strong>150 words</strong> | Can understand and use simple Chinese phrases. Meet basic needs for communication.
                 </p>
@@ -327,7 +327,7 @@
                 HSK 2
               </div>
               <div class="flex-1">
-                <h3 class="text-xl font-bold mb-2 text-primary-green">Elementary</h3>
+                <h3 class="text-xl font-bold mb-2 text-secondary">Elementary</h3>
                 <p class="text-gray-600 mb-2">
                   <strong>300 words</strong> | Can communicate simple and routine tasks. Discuss familiar topics in simple terms.
                 </p>
@@ -342,7 +342,7 @@
                 HSK 3
               </div>
               <div class="flex-1">
-                <h3 class="text-xl font-bold mb-2 text-primary-blue">Intermediate</h3>
+                <h3 class="text-xl font-bold mb-2 text-primary">Intermediate</h3>
                 <p class="text-gray-600 mb-2">
                   <strong>600 words</strong> | Can communicate in Chinese at a basic level in daily, academic and professional life.
                 </p>
@@ -357,7 +357,7 @@
                 HSK 4
               </div>
               <div class="flex-1">
-                <h3 class="text-xl font-bold mb-2 text-primary-green">Upper Intermediate</h3>
+                <h3 class="text-xl font-bold mb-2 text-secondary">Upper Intermediate</h3>
                 <p class="text-gray-600 mb-2">
                   <strong>1,200 words</strong> | Can discuss a wide range of topics in Chinese and communicate fluently with native speakers.
                 </p>
@@ -372,7 +372,7 @@
                 HSK 5
               </div>
               <div class="flex-1">
-                <h3 class="text-xl font-bold mb-2 text-primary-blue">Advanced</h3>
+                <h3 class="text-xl font-bold mb-2 text-primary">Advanced</h3>
                 <p class="text-gray-600 mb-2">
                   <strong>2,500 words</strong> | Can read Chinese newspapers and magazines, watch Chinese films, and give a full-length speech.
                 </p>
@@ -387,7 +387,7 @@
                 HSK 6
               </div>
               <div class="flex-1">
-                <h3 class="text-xl font-bold mb-2 text-primary-green">Mastery</h3>
+                <h3 class="text-xl font-bold mb-2 text-secondary">Mastery</h3>
                 <p class="text-gray-600 mb-2">
                   <strong>5,000+ words</strong> | Can easily comprehend written and spoken Chinese and express yourself fluently.
                 </p>
@@ -411,7 +411,7 @@
 
         <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           <div class="university-card bg-white rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-primary-blue to-primary-green p-6 text-white">
+            <div class="bg-gradient-to-br from-primary to-secondary p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">Beijing Language and Culture University (BLCU)</h3>
               <p class="text-gray-200">Premier Language Specialist University</p>
             </div>
@@ -439,7 +439,7 @@
           </div>
 
           <div class="university-card bg-white rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-primary-green to-accent-purple/70 p-6 text-white">
+            <div class="bg-gradient-to-br from-secondary to-accent-purple/70 p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">Fudan University</h3>
               <p class="text-gray-200">International Cultural Exchange School</p>
             </div>
@@ -467,7 +467,7 @@
           </div>
 
           <div class="university-card bg-white rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-accent-peach/70 to-primary-blue p-6 text-white">
+            <div class="bg-gradient-to-br from-accent-peach/70 to-primary p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">Peking University</h3>
               <p class="text-gray-200">Chinese Language Center</p>
             </div>
@@ -495,7 +495,7 @@
           </div>
 
           <div class="university-card bg-white rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-accent-yellow/80 to-primary-green p-6 text-white">
+            <div class="bg-gradient-to-br from-accent-yellow/80 to-secondary p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">Nanjing University</h3>
               <p class="text-gray-200">Overseas Education College</p>
             </div>
@@ -588,7 +588,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-gradient-to-br from-primary-blue via-accent-purple/70 to-primary-green text-white">
+    <section class="py-20 bg-gradient-to-br from-primary via-accent-purple/70 to-secondary text-white">
       <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl md:text-5xl font-bold mb-6 font-display">Start Your Chinese Language Journey</h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto">

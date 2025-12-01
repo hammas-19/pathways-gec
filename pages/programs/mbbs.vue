@@ -48,8 +48,8 @@
             </p>
             <div class="space-y-4">
               <div class="flex gap-4">
-                <div class="flex-shrink-0 w-12 h-12 bg-primary-blue/10 rounded-full flex items-center justify-center">
-                  <svg class="w-6 h-6 text-primary-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                  <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
@@ -60,8 +60,8 @@
                 </div>
               </div>
               <div class="flex gap-4">
-                <div class="flex-shrink-0 w-12 h-12 bg-primary-blue/10 rounded-full flex items-center justify-center">
-                  <svg class="w-6 h-6 text-primary-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                  <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
@@ -73,8 +73,8 @@
                 </div>
               </div>
               <div class="flex gap-4">
-                <div class="flex-shrink-0 w-12 h-12 bg-primary-blue/10 rounded-full flex items-center justify-center">
-                  <svg class="w-6 h-6 text-primary-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                  <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
@@ -85,8 +85,8 @@
                 </div>
               </div>
               <div class="flex gap-4">
-                <div class="flex-shrink-0 w-12 h-12 bg-primary-blue/10 rounded-full flex items-center justify-center">
-                  <svg class="w-6 h-6 text-primary-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                  <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                       d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
@@ -98,17 +98,17 @@
               </div>
             </div>
           </div>
-          <div class="bg-gradient-to-br from-primary-blue/20 to-primary-green/20 rounded-2xl p-12 text-center">
+          <div class="bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl p-12 text-center">
             <div class="text-6xl mb-4">🩺</div>
             <h3 class="text-2xl font-semibold mb-4">Join 300+ Medical Students</h3>
             <p class="text-gray-700 mb-6">Who chose China for their MBBS journey with GEC's guidance</p>
             <div class="grid grid-cols-2 gap-4 text-center">
               <div>
-                <div class="text-3xl font-bold text-primary-blue">45+</div>
+                <div class="text-3xl font-bold text-primary">45+</div>
                 <div class="text-sm text-gray-600">WHO Universities</div>
               </div>
               <div>
-                <div class="text-3xl font-bold text-primary-blue">98%</div>
+                <div class="text-3xl font-bold text-primary">98%</div>
                 <div class="text-sm text-gray-600">Pass Licensing Exams</div>
               </div>
             </div>
@@ -124,7 +124,7 @@
         <div class="grid md:grid-cols-3 gap-8">
           <div class="card p-8">
             <div
-              class="w-16 h-16 bg-primary-blue text-white rounded-full flex items-center justify-center text-2xl font-bold mb-4">
+              class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mb-4">
               1-2
             </div>
             <h3 class="text-xl font-semibold mb-4">Pre-Clinical Years</h3>
@@ -139,7 +139,7 @@
           </div>
           <div class="card p-8">
             <div
-              class="w-16 h-16 bg-primary-green text-white rounded-full flex items-center justify-center text-2xl font-bold mb-4">
+              class="w-16 h-16 bg-secondary text-white rounded-full flex items-center justify-center text-2xl font-bold mb-4">
               3-5
             </div>
             <h3 class="text-xl font-semibold mb-4">Clinical Years</h3>
@@ -176,11 +176,11 @@
       <div class="container-custom">
         <h2 class="text-center mb-12">Understanding MOE vs Non-MOE Universities</h2>
         <div class="grid lg:grid-cols-2 gap-8 mb-12">
-          <div class="card p-8 border-2 border-primary-blue">
+          <div class="card p-8 border-2 border-primary">
             <div class="flex items-center gap-3 mb-4">
-              <div class="w-12 h-12 bg-primary-blue rounded-full flex items-center justify-center text-white text-2xl">✓
+              <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white text-2xl">✓
               </div>
-              <h3 class="text-2xl font-bold text-primary-blue">MOE Listed Universities</h3>
+              <h3 class="text-2xl font-bold text-primary">MOE Listed Universities</h3>
             </div>
             <p class="text-gray-700 mb-4">
               MOE (Ministry of Education of China) listed universities are officially recognized by the Chinese
@@ -188,28 +188,28 @@
             </p>
             <div class="space-y-3">
               <div class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-primary-blue flex-shrink-0 mt-1" fill="none" stroke="currentColor"
+                <svg class="w-5 h-5 text-primary flex-shrink-0 mt-1" fill="none" stroke="currentColor"
                   viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
                 <span>Eligible for ECFMG certification (required for USMLE)</span>
               </div>
               <div class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-primary-blue flex-shrink-0 mt-1" fill="none" stroke="currentColor"
+                <svg class="w-5 h-5 text-primary flex-shrink-0 mt-1" fill="none" stroke="currentColor"
                   viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
                 <span>WHO recognized and PMC listed</span>
               </div>
               <div class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-primary-blue flex-shrink-0 mt-1" fill="none" stroke="currentColor"
+                <svg class="w-5 h-5 text-primary flex-shrink-0 mt-1" fill="none" stroke="currentColor"
                   viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
                 <span>Accepted for medical licensure in most countries</span>
               </div>
               <div class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-primary-blue flex-shrink-0 mt-1" fill="none" stroke="currentColor"
+                <svg class="w-5 h-5 text-primary flex-shrink-0 mt-1" fill="none" stroke="currentColor"
                   viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
@@ -217,11 +217,11 @@
               </div>
             </div>
           </div>
-          <div class="card p-8 border-2 border-primary-green">
+          <div class="card p-8 border-2 border-secondary">
             <div class="flex items-center gap-3 mb-4">
-              <div class="w-12 h-12 bg-primary-green rounded-full flex items-center justify-center text-white text-2xl">
+              <div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-white text-2xl">
                 ⚠</div>
-              <h3 class="text-2xl font-bold text-primary-green">Non-MOE Universities</h3>
+              <h3 class="text-2xl font-bold text-secondary">Non-MOE Universities</h3>
             </div>
             <p class="text-gray-700 mb-4">
               Non-MOE universities may offer MBBS programs but are not officially listed by the Chinese Ministry of
@@ -229,28 +229,28 @@
             </p>
             <div class="space-y-3">
               <div class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-primary-green flex-shrink-0 mt-1" fill="none" stroke="currentColor"
+                <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-1" fill="none" stroke="currentColor"
                   viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
                 <span>NOT eligible for ECFMG certification</span>
               </div>
               <div class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-primary-green flex-shrink-0 mt-1" fill="none" stroke="currentColor"
+                <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-1" fill="none" stroke="currentColor"
                   viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
                 <span>May face recognition issues in some countries</span>
               </div>
               <div class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-primary-green flex-shrink-0 mt-1" fill="none" stroke="currentColor"
+                <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-1" fill="none" stroke="currentColor"
                   viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
                 <span>Limited career opportunities internationally</span>
               </div>
               <div class="flex items-start gap-2">
-                <svg class="w-5 h-5 text-primary-green flex-shrink-0 mt-1" fill="none" stroke="currentColor"
+                <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-1" fill="none" stroke="currentColor"
                   viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
@@ -290,8 +290,8 @@
           <div v-for="university in universities" :key="university.name" class="card p-6">
             <h3 class="text-lg font-bold mb-2">{{ university.name }}</h3>
             <div class="flex flex-wrap gap-2 mb-3">
-              <span class="text-xs bg-primary-blue/10 text-primary-blue px-2 py-1 rounded-full">MOE Listed</span>
-              <span class="text-xs bg-primary-green/10 text-primary-green px-2 py-1 rounded-full">ECFMG Eligible</span>
+              <span class="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">MOE Listed</span>
+              <span class="text-xs bg-secondary/10 text-secondary px-2 py-1 rounded-full">ECFMG Eligible</span>
             </div>
             <div class="text-sm text-gray-600 mb-3">
               <div class="flex items-center gap-2 mb-1">
@@ -305,7 +305,7 @@
               </div>
             </div>
             <a :href="university.website" target="_blank"
-              class="text-sm text-primary-blue hover:text-primary-green flex items-center gap-1 mb-3">
+              class="text-sm text-primary hover:text-secondary flex items-center gap-1 mb-3">
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                   d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -314,7 +314,7 @@
             </a>
             <ul class="space-y-1.5 text-sm text-gray-600">
               <li v-for="feature in university.features" :key="feature" class="flex items-start gap-2">
-                <svg class="w-4 h-4 text-primary-blue flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                <svg class="w-4 h-4 text-primary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
                   viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
@@ -343,7 +343,7 @@
             <div class="space-y-4">
               <div class="flex items-start gap-4">
                 <div
-                  class="flex-shrink-0 w-8 h-8 bg-primary-blue text-white rounded-full flex items-center justify-center">
+                  class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center">
                   ✓</div>
                 <div>
                   <h4 class="font-semibold">High School Completion</h4>
@@ -352,7 +352,7 @@
               </div>
               <div class="flex items-start gap-4">
                 <div
-                  class="flex-shrink-0 w-8 h-8 bg-primary-blue text-white rounded-full flex items-center justify-center">
+                  class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center">
                   ✓</div>
                 <div>
                   <h4 class="font-semibold">Science Background</h4>
@@ -361,7 +361,7 @@
               </div>
               <div class="flex items-start gap-4">
                 <div
-                  class="flex-shrink-0 w-8 h-8 bg-primary-blue text-white rounded-full flex items-center justify-center">
+                  class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center">
                   ✓</div>
                 <div>
                   <h4 class="font-semibold">Age Requirement</h4>
@@ -370,7 +370,7 @@
               </div>
               <div class="flex items-start gap-4">
                 <div
-                  class="flex-shrink-0 w-8 h-8 bg-primary-blue text-white rounded-full flex items-center justify-center">
+                  class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center">
                   ✓</div>
                 <div>
                   <h4 class="font-semibold">English Proficiency</h4>
@@ -382,13 +382,13 @@
           <div class="card p-8">
             <h3 class="text-xl font-semibold mb-6">Important Notes</h3>
             <div class="space-y-4">
-              <div class="bg-primary-blue/10 p-4 rounded-lg">
-                <h4 class="font-semibold text-primary-blue mb-2">✓ No Entry Test Required</h4>
+              <div class="bg-primary/10 p-4 rounded-lg">
+                <h4 class="font-semibold text-primary mb-2">✓ No Entry Test Required</h4>
                 <p class="text-sm text-gray-700">Unlike local medical colleges, you don't need MDCAT or NEET. Admission
                   is based on your academic merit.</p>
               </div>
-              <div class="bg-primary-green/10 p-4 rounded-lg">
-                <h4 class="font-semibold text-primary-green mb-2">✓ Direct Admission</h4>
+              <div class="bg-secondary/10 p-4 rounded-lg">
+                <h4 class="font-semibold text-secondary mb-2">✓ Direct Admission</h4>
                 <p class="text-sm text-gray-700">No donation or capitation fees. Transparent admission process based on
                   your documents.</p>
               </div>
@@ -417,7 +417,7 @@
         </p>
         <div class="relative">
           <!-- Timeline line -->
-          <div class="hidden lg:block absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-primary-blue/20"></div>
+          <div class="hidden lg:block absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-primary/20"></div>
 
           <div class="space-y-12">
             <div v-for="(step, index) in steps" :key="index" class="relative">
@@ -431,9 +431,9 @@
                   <div class="text-sm text-gray-500 mt-2">⏱️ {{ step.duration }}</div>
                 </div>
                 <div :class="index % 2 === 0 ? 'lg:order-2' : ''">
-                  <div class="card p-8 bg-gradient-to-br from-primary-blue/10 to-primary-green/10 text-center">
+                  <div class="card p-8 bg-gradient-to-br from-primary/10 to-secondary/10 text-center">
                     <div
-                      class="w-20 h-20 bg-primary-blue text-white rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-4">
+                      class="w-20 h-20 bg-primary text-white rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-4">
                       {{ index + 1 }}
                     </div>
                     <div class="text-4xl mb-2">{{ step.icon }}</div>
@@ -442,7 +442,7 @@
                 </div>
               </div>
               <div
-                class="hidden lg:block absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4 h-4 bg-primary-blue rounded-full border-4 border-white">
+                class="hidden lg:block absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4 h-4 bg-primary rounded-full border-4 border-white">
               </div>
             </div>
           </div>
@@ -458,7 +458,7 @@
           <div v-for="story in successStories" :key="story.name" class="card p-6">
             <div class="flex items-center gap-4 mb-4">
               <div
-                class="w-16 h-16 rounded-full bg-gradient-to-br from-primary-blue to-primary-green flex items-center justify-center text-white text-2xl">
+                class="w-16 h-16 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white text-2xl">
                 {{ story.initial }}
               </div>
               <div>
@@ -501,7 +501,7 @@
     </section>
 
     <!-- Final CTA -->
-    <section class="section bg-primary-blue text-white">
+    <section class="section bg-primary text-white">
       <div class="container-custom text-center">
         <h2 class="text-white mb-6">Ready to Start Your Medical Journey?</h2>
         <p class="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
@@ -512,7 +512,7 @@
             class="btn-whatsapp">
             Apply Now via WhatsApp
           </a>
-          <NuxtLink to="/contact" class="btn-secondary bg-white text-primary-blue">
+          <NuxtLink to="/contact" class="btn-secondary bg-white text-primary">
             Schedule a Call
           </NuxtLink>
         </div>

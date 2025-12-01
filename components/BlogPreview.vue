@@ -7,12 +7,12 @@
 
       <div class="grid md:grid-cols-3 gap-8">
         <NuxtLink v-for="post in posts" :key="post.slug" :to="`/blog/${post.slug}`" class="card card-hover p-0 overflow-hidden group">
-          <div class="aspect-video bg-gradient-to-br from-primary-blue/20 to-primary-green/20 flex items-center justify-center">
+          <div class="aspect-video bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
             <span class="text-5xl">{{ post.icon }}</span>
           </div>
           <div class="p-6">
-            <span class="inline-block text-xs bg-primary-blue/10 text-primary-blue px-3 py-1 rounded-full mb-3">{{ post.category }}</span>
-            <h3 class="text-lg font-semibold mb-2 group-hover:text-primary-blue transition-colors">{{ post.title }}</h3>
+            <span class="inline-block text-xs bg-primary/10 text-primary px-3 py-1 rounded-full mb-3">{{ post.category }}</span>
+            <h3 class="text-lg font-semibold mb-2 group-hover:text-primary transition-colors">{{ post.title }}</h3>
             <p class="text-sm text-gray-600 line-clamp-2">{{ post.excerpt }}</p>
           </div>
         </NuxtLink>

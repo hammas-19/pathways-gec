@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-gray-50">
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-br from-primary-blue via-blue-700 to-primary-green text-white py-20">
+    <section class="relative bg-gradient-to-br from-primary via-blue-700 to-secondary text-white py-20">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
           <div class="text-sm font-semibold mb-4 text-blue-100">Living Costs</div>
@@ -25,8 +25,8 @@
             One of the biggest advantages of studying MBBS in China is the <strong>affordable cost of living</strong>. Unlike many Western countries where living expenses can be astronomical, China offers a comfortable student lifestyle at a fraction of the cost.
           </p>
 
-          <div class="bg-green-50 border-l-4 border-primary-green p-6 rounded-r-lg mb-6">
-            <p class="font-semibold text-primary-green mb-2">💰 Average Monthly Cost</p>
+          <div class="bg-green-50 border-l-4 border-secondary p-6 rounded-r-lg mb-6">
+            <p class="font-semibold text-secondary mb-2">💰 Average Monthly Cost</p>
             <p class="text-gray-700 text-lg">PKR 40,000 - 80,000 per month covers accommodation, food, transport, and entertainment in most Chinese cities!</p>
           </div>
 
@@ -43,7 +43,7 @@
             <h3 class="text-xl font-bold mb-4 text-gray-800">Typical Monthly Expenses</h3>
             <div class="overflow-x-auto">
               <table class="min-w-full bg-white border rounded-lg">
-                <thead class="bg-gradient-to-r from-primary-blue to-primary-green text-white">
+                <thead class="bg-gradient-to-r from-primary to-secondary text-white">
                   <tr>
                     <th class="px-6 py-3 text-left">Expense Category</th>
                     <th class="px-6 py-3 text-left">RMB</th>
@@ -109,7 +109,7 @@
 
             <div class="grid md:grid-cols-2 gap-6 mb-4">
               <div class="bg-blue-50 rounded-lg p-6">
-                <h4 class="font-bold text-primary-blue mb-3">On-Campus Dormitory</h4>
+                <h4 class="font-bold text-primary mb-3">On-Campus Dormitory</h4>
                 <div class="space-y-2 text-gray-700">
                   <div class="flex justify-between">
                     <span>Shared room (2-3 people):</span>
@@ -120,7 +120,7 @@
                     <span class="font-semibold">1,200-1,800 RMB/month</span>
                   </div>
                   <div class="mt-4 text-sm">
-                    <p class="font-semibold text-primary-blue mb-1">✅ Includes:</p>
+                    <p class="font-semibold text-primary mb-1">✅ Includes:</p>
                     <ul class="space-y-1 ml-4">
                       <li>• Basic furniture</li>
                       <li>• WiFi & utilities (usually)</li>
@@ -132,7 +132,7 @@
               </div>
 
               <div class="bg-green-50 rounded-lg p-6">
-                <h4 class="font-bold text-primary-green mb-3">Off-Campus Apartment</h4>
+                <h4 class="font-bold text-secondary mb-3">Off-Campus Apartment</h4>
                 <div class="space-y-2 text-gray-700">
                   <div class="flex justify-between">
                     <span>Shared apartment:</span>
@@ -143,7 +143,7 @@
                     <span class="font-semibold">1,500-3,000 RMB/month</span>
                   </div>
                   <div class="mt-4 text-sm">
-                    <p class="font-semibold text-primary-green mb-1">✅ Includes:</p>
+                    <p class="font-semibold text-secondary mb-1">✅ Includes:</p>
                     <ul class="space-y-1 ml-4">
                       <li>• More privacy</li>
                       <li>• Kitchen facilities</li>
@@ -310,7 +310,7 @@
 
           <div class="overflow-x-auto mb-6">
             <table class="min-w-full bg-white border rounded-lg text-sm">
-              <thead class="bg-gradient-to-r from-primary-blue to-primary-green text-white">
+              <thead class="bg-gradient-to-r from-primary to-secondary text-white">
                 <tr>
                   <th class="px-4 py-3 text-left">City</th>
                   <th class="px-4 py-3 text-left">Tier</th>
@@ -372,7 +372,7 @@
           </div>
 
           <div class="bg-blue-50 border border-blue-200 rounded-lg p-6">
-            <h4 class="font-bold text-primary-blue mb-2">💡 Choosing Your City</h4>
+            <h4 class="font-bold text-primary mb-2">💡 Choosing Your City</h4>
             <p class="text-gray-700 text-sm">While Tier 1 cities offer more excitement and opportunities, Tier 2 and 3 cities provide excellent education quality at significantly lower living costs. Most Pakistani students choose Tier 2/3 cities for better affordability.</p>
           </div>
         </div>
@@ -587,16 +587,16 @@
         </div>
 
         <!-- CTA -->
-        <div class="bg-gradient-to-br from-primary-blue to-primary-green text-white rounded-xl shadow-lg p-8 mb-8">
+        <div class="bg-gradient-to-br from-primary to-secondary text-white rounded-xl shadow-lg p-8 mb-8">
           <h2 class="text-3xl font-bold mb-4">Plan Your Budget with GEC</h2>
           <p class="text-lg mb-6 text-blue-50">
             Understanding costs is crucial for planning your education abroad. GEC provides detailed budget planning, helps you choose affordable cities, and guides you through scholarship applications to minimize your expenses.
           </p>
           <div class="flex flex-wrap gap-4">
-            <NuxtLink to="/contact" class="bg-white text-primary-blue px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block">
+            <NuxtLink to="/contact" class="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block">
               Get Budget Counseling
             </NuxtLink>
-            <NuxtLink to="/blog/scholarships-guide" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary-blue transition-all inline-block">
+            <NuxtLink to="/blog/scholarships-guide" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary transition-all inline-block">
               Explore Scholarships
             </NuxtLink>
           </div>
@@ -607,16 +607,16 @@
           <h3 class="text-2xl font-bold mb-6 text-gray-900">Related Articles</h3>
           <div class="grid md:grid-cols-2 gap-6">
             <NuxtLink to="/blog/student-life-china" class="group">
-              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary-blue transition-all">
-                <div class="text-sm text-primary-blue font-semibold mb-2">Student Life</div>
-                <h4 class="font-bold text-gray-800 group-hover:text-primary-blue transition-all">Student Life in China: Complete Guide</h4>
+              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary transition-all">
+                <div class="text-sm text-primary font-semibold mb-2">Student Life</div>
+                <h4 class="font-bold text-gray-800 group-hover:text-primary transition-all">Student Life in China: Complete Guide</h4>
               </div>
             </NuxtLink>
 
             <NuxtLink to="/blog/scholarships-guide" class="group">
-              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary-green transition-all">
-                <div class="text-sm text-primary-green font-semibold mb-2">Scholarships</div>
-                <h4 class="font-bold text-gray-800 group-hover:text-primary-green transition-all">Scholarships for Pakistani Students in China</h4>
+              <div class="border border-gray-200 rounded-lg p-4 hover:border-secondary transition-all">
+                <div class="text-sm text-secondary font-semibold mb-2">Scholarships</div>
+                <h4 class="font-bold text-gray-800 group-hover:text-secondary transition-all">Scholarships for Pakistani Students in China</h4>
               </div>
             </NuxtLink>
           </div>

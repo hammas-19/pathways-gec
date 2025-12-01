@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-gray-50">
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-br from-primary-blue via-blue-700 to-primary-green text-white py-20">
+    <section class="relative bg-gradient-to-br from-primary via-blue-700 to-secondary text-white py-20">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
           <div class="text-sm font-semibold mb-4 text-blue-100">Scholarships</div>
@@ -29,8 +29,8 @@
             This comprehensive guide covers all major scholarship programs available for Pakistani students, eligibility criteria, application processes, and expert tips to maximize your chances of success.
           </p>
 
-          <div class="bg-green-50 border-l-4 border-primary-green p-6 rounded-r-lg">
-            <p class="font-semibold text-primary-green mb-2">🎓 Success Rate</p>
+          <div class="bg-green-50 border-l-4 border-secondary p-6 rounded-r-lg">
+            <p class="font-semibold text-secondary mb-2">🎓 Success Rate</p>
             <p class="text-gray-700">GEC has helped 200+ Pakistani students secure scholarships worth millions of rupees. We guide you through the entire application process!</p>
           </div>
         </div>
@@ -40,15 +40,15 @@
           <h2 class="text-3xl font-bold mb-6 text-gray-900">Types of Scholarships Available</h2>
 
           <div class="grid md:grid-cols-2 gap-6">
-            <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 border-2 border-primary-blue">
+            <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 border-2 border-primary">
               <div class="text-3xl mb-3">🏛️</div>
-              <h4 class="font-bold text-primary-blue mb-2">Government Scholarships</h4>
+              <h4 class="font-bold text-primary mb-2">Government Scholarships</h4>
               <p class="text-sm text-gray-700">Chinese Government Scholarship (CGS), Provincial scholarships, Bilateral programs</p>
             </div>
 
-            <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6 border-2 border-primary-green">
+            <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6 border-2 border-secondary">
               <div class="text-3xl mb-3">🎓</div>
-              <h4 class="font-bold text-primary-green mb-2">University Scholarships</h4>
+              <h4 class="font-bold text-secondary mb-2">University Scholarships</h4>
               <p class="text-sm text-gray-700">Merit-based, partial tuition waivers, accommodation scholarships</p>
             </div>
 
@@ -79,7 +79,7 @@
             <h3 class="text-2xl font-bold mb-4 text-gray-800">Coverage</h3>
             <div class="grid md:grid-cols-2 gap-6">
               <div class="bg-blue-50 rounded-lg p-6">
-                <h4 class="font-bold text-primary-blue mb-3">✅ What's Covered</h4>
+                <h4 class="font-bold text-primary mb-3">✅ What's Covered</h4>
                 <ul class="space-y-2 text-gray-700">
                   <li>✓ <strong>100% tuition fees</strong> waived</li>
                   <li>✓ <strong>Free accommodation</strong> (on-campus)</li>
@@ -91,15 +91,15 @@
               </div>
 
               <div class="bg-green-50 rounded-lg p-6">
-                <h4 class="font-bold text-primary-green mb-3">💰 Total Value</h4>
+                <h4 class="font-bold text-secondary mb-3">💰 Total Value</h4>
                 <div class="space-y-3">
                   <div>
                     <p class="font-semibold text-gray-800">Per Year Value:</p>
-                    <p class="text-2xl font-bold text-primary-green">~PKR 15-20 Lakhs</p>
+                    <p class="text-2xl font-bold text-secondary">~PKR 15-20 Lakhs</p>
                   </div>
                   <div>
                     <p class="font-semibold text-gray-800">5-Year MBBS Total:</p>
-                    <p class="text-2xl font-bold text-primary-green">~PKR 75-100 Lakhs</p>
+                    <p class="text-2xl font-bold text-secondary">~PKR 75-100 Lakhs</p>
                   </div>
                   <p class="text-sm text-gray-600 mt-3">This covers almost all your expenses except personal spending!</p>
                 </div>
@@ -109,7 +109,7 @@
 
           <div class="mb-8">
             <h3 class="text-2xl font-bold mb-4 text-gray-800">Eligibility Criteria</h3>
-            <div class="border-l-4 border-primary-blue pl-6 space-y-4">
+            <div class="border-l-4 border-primary pl-6 space-y-4">
               <div>
                 <h4 class="font-semibold text-gray-800 mb-2">📚 Academic Requirements</h4>
                 <ul class="text-gray-700 space-y-1">
@@ -142,7 +142,7 @@
             <h3 class="text-2xl font-bold mb-4 text-gray-800">Application Process</h3>
             <div class="space-y-4">
               <div class="flex items-start gap-4">
-                <div class="flex-shrink-0 w-10 h-10 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold">1</div>
+                <div class="flex-shrink-0 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold">1</div>
                 <div class="flex-1">
                   <h4 class="font-bold text-gray-800 mb-1">Check Eligibility & Deadlines</h4>
                   <p class="text-gray-600 text-sm">Usually applications open in January, deadline in late March/April</p>
@@ -150,7 +150,7 @@
               </div>
 
               <div class="flex items-start gap-4">
-                <div class="flex-shrink-0 w-10 h-10 bg-primary-green text-white rounded-full flex items-center justify-center font-bold">2</div>
+                <div class="flex-shrink-0 w-10 h-10 bg-secondary text-white rounded-full flex items-center justify-center font-bold">2</div>
                 <div class="flex-1">
                   <h4 class="font-bold text-gray-800 mb-1">Register on CSC Portal</h4>
                   <p class="text-gray-600 text-sm">Visit www.campuschina.org and create account</p>
@@ -158,7 +158,7 @@
               </div>
 
               <div class="flex items-start gap-4">
-                <div class="flex-shrink-0 w-10 h-10 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold">3</div>
+                <div class="flex-shrink-0 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold">3</div>
                 <div class="flex-1">
                   <h4 class="font-bold text-gray-800 mb-1">Choose Universities</h4>
                   <p class="text-gray-600 text-sm">Select 3 universities in order of preference (must be CGS-accepting universities)</p>
@@ -166,7 +166,7 @@
               </div>
 
               <div class="flex items-start gap-4">
-                <div class="flex-shrink-0 w-10 h-10 bg-primary-green text-white rounded-full flex items-center justify-center font-bold">4</div>
+                <div class="flex-shrink-0 w-10 h-10 bg-secondary text-white rounded-full flex items-center justify-center font-bold">4</div>
                 <div class="flex-1">
                   <h4 class="font-bold text-gray-800 mb-1">Prepare Documents</h4>
                   <p class="text-gray-600 text-sm">Academic transcripts, personal statement, recommendation letters, passport copy, etc.</p>
@@ -174,7 +174,7 @@
               </div>
 
               <div class="flex items-start gap-4">
-                <div class="flex-shrink-0 w-10 h-10 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold">5</div>
+                <div class="flex-shrink-0 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold">5</div>
                 <div class="flex-1">
                   <h4 class="font-bold text-gray-800 mb-1">Submit Online Application</h4>
                   <p class="text-gray-600 text-sm">Complete form, upload documents, get agency number from Chinese Embassy</p>
@@ -182,7 +182,7 @@
               </div>
 
               <div class="flex items-start gap-4">
-                <div class="flex-shrink-0 w-10 h-10 bg-primary-green text-white rounded-full flex items-center justify-center font-bold">6</div>
+                <div class="flex-shrink-0 w-10 h-10 bg-secondary text-white rounded-full flex items-center justify-center font-bold">6</div>
                 <div class="flex-1">
                   <h4 class="font-bold text-gray-800 mb-1">Wait for Results</h4>
                   <p class="text-gray-600 text-sm">Results usually announced in June/July</p>
@@ -228,7 +228,7 @@
           </div>
 
           <div class="bg-blue-50 border border-blue-200 rounded-lg p-6">
-            <p class="font-semibold text-primary-blue mb-2">💡 Pro Tip</p>
+            <p class="font-semibold text-primary mb-2">💡 Pro Tip</p>
             <p class="text-gray-700">Apply for provincial scholarships in addition to CGS to maximize your chances. Some students get both!</p>
           </div>
         </div>
@@ -242,30 +242,30 @@
           </p>
 
           <div class="space-y-6">
-            <div class="bg-gradient-to-r from-green-50 to-green-100 rounded-lg p-6 border-l-4 border-primary-green">
-              <h4 class="font-bold text-primary-green mb-3">🎓 Merit-Based Scholarships</h4>
+            <div class="bg-gradient-to-r from-green-50 to-green-100 rounded-lg p-6 border-l-4 border-secondary">
+              <h4 class="font-bold text-secondary mb-3">🎓 Merit-Based Scholarships</h4>
               <p class="text-gray-700 mb-3">Awarded based on academic performance in previous education.</p>
               <div class="grid md:grid-cols-3 gap-4">
                 <div class="bg-white rounded p-4">
                   <p class="font-semibold text-sm text-gray-800 mb-1">First Class</p>
                   <p class="text-xs text-gray-600">80%+ marks</p>
-                  <p class="font-bold text-primary-green">50-100% tuition</p>
+                  <p class="font-bold text-secondary">50-100% tuition</p>
                 </div>
                 <div class="bg-white rounded p-4">
                   <p class="font-semibold text-sm text-gray-800 mb-1">Second Class</p>
                   <p class="text-xs text-gray-600">70-79% marks</p>
-                  <p class="font-bold text-primary-green">30-50% tuition</p>
+                  <p class="font-bold text-secondary">30-50% tuition</p>
                 </div>
                 <div class="bg-white rounded p-4">
                   <p class="font-semibold text-sm text-gray-800 mb-1">Third Class</p>
                   <p class="text-xs text-gray-600">60-69% marks</p>
-                  <p class="font-bold text-primary-green">20-30% tuition</p>
+                  <p class="font-bold text-secondary">20-30% tuition</p>
                 </div>
               </div>
             </div>
 
-            <div class="bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg p-6 border-l-4 border-primary-blue">
-              <h4 class="font-bold text-primary-blue mb-3">🏠 Accommodation Scholarships</h4>
+            <div class="bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg p-6 border-l-4 border-primary">
+              <h4 class="font-bold text-primary mb-3">🏠 Accommodation Scholarships</h4>
               <p class="text-gray-700">Some universities offer free or subsidized accommodation for scholarship students. This saves significant money!</p>
             </div>
 
@@ -440,7 +440,7 @@
 
           <div class="space-y-4">
             <div class="flex gap-4">
-              <div class="flex-shrink-0 w-32 font-semibold text-primary-blue">September - December</div>
+              <div class="flex-shrink-0 w-32 font-semibold text-primary">September - December</div>
               <div class="flex-1">
                 <div class="bg-blue-50 rounded-lg p-4">
                   <p class="font-semibold text-gray-800 mb-2">Preparation Phase</p>
@@ -450,7 +450,7 @@
             </div>
 
             <div class="flex gap-4">
-              <div class="flex-shrink-0 w-32 font-semibold text-primary-green">January - February</div>
+              <div class="flex-shrink-0 w-32 font-semibold text-secondary">January - February</div>
               <div class="flex-1">
                 <div class="bg-green-50 rounded-lg p-4">
                   <p class="font-semibold text-gray-800 mb-2">Application Opens</p>
@@ -460,7 +460,7 @@
             </div>
 
             <div class="flex gap-4">
-              <div class="flex-shrink-0 w-32 font-semibold text-primary-blue">March - April</div>
+              <div class="flex-shrink-0 w-32 font-semibold text-primary">March - April</div>
               <div class="flex-1">
                 <div class="bg-blue-50 rounded-lg p-4">
                   <p class="font-semibold text-gray-800 mb-2">Deadline Period</p>
@@ -470,7 +470,7 @@
             </div>
 
             <div class="flex gap-4">
-              <div class="flex-shrink-0 w-32 font-semibold text-primary-green">May - July</div>
+              <div class="flex-shrink-0 w-32 font-semibold text-secondary">May - July</div>
               <div class="flex-1">
                 <div class="bg-green-50 rounded-lg p-4">
                   <p class="font-semibold text-gray-800 mb-2">Results Announced</p>
@@ -480,7 +480,7 @@
             </div>
 
             <div class="flex gap-4">
-              <div class="flex-shrink-0 w-32 font-semibold text-primary-blue">August - September</div>
+              <div class="flex-shrink-0 w-32 font-semibold text-primary">August - September</div>
               <div class="flex-1">
                 <div class="bg-blue-50 rounded-lg p-4">
                   <p class="font-semibold text-gray-800 mb-2">Departure</p>
@@ -529,7 +529,7 @@
         </div>
 
         <!-- GEC Support -->
-        <div class="bg-gradient-to-br from-primary-blue to-primary-green text-white rounded-xl shadow-lg p-8 mb-8">
+        <div class="bg-gradient-to-br from-primary to-secondary text-white rounded-xl shadow-lg p-8 mb-8">
           <h2 class="text-3xl font-bold mb-4">Get Expert Scholarship Guidance from GEC</h2>
           <p class="text-lg mb-6 text-blue-50">
             Navigating scholarship applications can be overwhelming, but you don't have to do it alone. GEC has helped 200+ students secure scholarships worth millions of rupees!
@@ -547,10 +547,10 @@
             </ul>
           </div>
           <div class="flex flex-wrap gap-4">
-            <NuxtLink to="/contact" class="bg-white text-primary-blue px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block">
+            <NuxtLink to="/contact" class="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block">
               Get Scholarship Guidance
             </NuxtLink>
-            <NuxtLink to="/scholarships" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary-blue transition-all inline-block">
+            <NuxtLink to="/scholarships" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary transition-all inline-block">
               View All Scholarships
             </NuxtLink>
           </div>
@@ -561,16 +561,16 @@
           <h3 class="text-2xl font-bold mb-6 text-gray-900">Related Articles</h3>
           <div class="grid md:grid-cols-2 gap-6">
             <NuxtLink to="/blog/mbbs-china-vs-pakistan" class="group">
-              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary-blue transition-all">
-                <div class="text-sm text-primary-blue font-semibold mb-2">Cost Comparison</div>
-                <h4 class="font-bold text-gray-800 group-hover:text-primary-blue transition-all">MBBS in China vs Pakistan</h4>
+              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary transition-all">
+                <div class="text-sm text-primary font-semibold mb-2">Cost Comparison</div>
+                <h4 class="font-bold text-gray-800 group-hover:text-primary transition-all">MBBS in China vs Pakistan</h4>
               </div>
             </NuxtLink>
 
             <NuxtLink to="/blog/top-medical-universities-china" class="group">
-              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary-green transition-all">
-                <div class="text-sm text-primary-green font-semibold mb-2">Universities</div>
-                <h4 class="font-bold text-gray-800 group-hover:text-primary-green transition-all">Top 10 Medical Universities in China</h4>
+              <div class="border border-gray-200 rounded-lg p-4 hover:border-secondary transition-all">
+                <div class="text-sm text-secondary font-semibold mb-2">Universities</div>
+                <h4 class="font-bold text-gray-800 group-hover:text-secondary transition-all">Top 10 Medical Universities in China</h4>
               </div>
             </NuxtLink>
           </div>

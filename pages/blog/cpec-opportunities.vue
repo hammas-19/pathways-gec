@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-gray-50">
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-br from-primary-blue via-blue-700 to-primary-green text-white py-20">
+    <section class="relative bg-gradient-to-br from-primary via-blue-700 to-secondary text-white py-20">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
           <div class="text-sm font-semibold mb-4 text-blue-100">Career Opportunities</div>
@@ -25,8 +25,8 @@
             The <strong>China-Pakistan Economic Corridor (CPEC)</strong> is a game-changer for Pakistani graduates with Chinese education and language skills. This USD 62 billion mega-project has created thousands of career opportunities across healthcare, engineering, business, and technology sectors.
           </p>
 
-          <div class="bg-green-50 border-l-4 border-primary-green p-6 rounded-r-lg">
-            <p class="font-semibold text-primary-green mb-2">🚀 Massive Opportunity</p>
+          <div class="bg-green-50 border-l-4 border-secondary p-6 rounded-r-lg">
+            <p class="font-semibold text-secondary mb-2">🚀 Massive Opportunity</p>
             <p class="text-gray-700">Pakistan graduates with Chinese language skills and cultural understanding are in HIGH demand. Your education in China gives you a competitive edge!</p>
           </div>
         </div>
@@ -60,7 +60,7 @@
           </div>
 
           <div class="bg-blue-50 border border-blue-200 rounded-lg p-6">
-            <h4 class="font-bold text-primary-blue mb-3">📊 By The Numbers</h4>
+            <h4 class="font-bold text-primary mb-3">📊 By The Numbers</h4>
             <div class="grid md:grid-cols-2 gap-4 text-sm">
               <div>
                 <p class="text-gray-700"><strong>Total Investment:</strong> $62+ billion</p>
@@ -218,7 +218,7 @@
 
           <div class="space-y-4">
             <div class="flex items-start gap-4">
-              <div class="flex-shrink-0 w-12 h-12 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold text-xl">1</div>
+              <div class="flex-shrink-0 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl">1</div>
               <div>
                 <h4 class="font-bold text-gray-800 mb-2">Language Skills</h4>
                 <p class="text-gray-600">Bilingual professionals (Urdu/English + Chinese) are in extremely high demand. Most CPEC projects involve Chinese companies that prefer employees who can communicate in Chinese.</p>
@@ -226,7 +226,7 @@
             </div>
 
             <div class="flex items-start gap-4">
-              <div class="flex-shrink-0 w-12 h-12 bg-primary-green text-white rounded-full flex items-center justify-center font-bold text-xl">2</div>
+              <div class="flex-shrink-0 w-12 h-12 bg-secondary text-white rounded-full flex items-center justify-center font-bold text-xl">2</div>
               <div>
                 <h4 class="font-bold text-gray-800 mb-2">Cultural Understanding</h4>
                 <p class="text-gray-600">Living in China for 5-6 years gives you deep cultural insights, work ethics understanding, and ability to navigate Chinese business culture—invaluable for CPEC collaborations.</p>
@@ -234,7 +234,7 @@
             </div>
 
             <div class="flex items-start gap-4">
-              <div class="flex-shrink-0 w-12 h-12 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold text-xl">3</div>
+              <div class="flex-shrink-0 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl">3</div>
               <div>
                 <h4 class="font-bold text-gray-800 mb-2">Professional Networks</h4>
                 <p class="text-gray-600">Connections built during your studies in China—classmates, professors, alumni—can open doors to career opportunities in Pakistan-China joint ventures.</p>
@@ -242,7 +242,7 @@
             </div>
 
             <div class="flex items-start gap-4">
-              <div class="flex-shrink-0 w-12 h-12 bg-primary-green text-white rounded-full flex items-center justify-center font-bold text-xl">4</div>
+              <div class="flex-shrink-0 w-12 h-12 bg-secondary text-white rounded-full flex items-center justify-center font-bold text-xl">4</div>
               <div>
                 <h4 class="font-bold text-gray-800 mb-2">Quality Education</h4>
                 <p class="text-gray-600">Chinese universities provide world-class education recognized globally. Your degree combined with practical Chinese experience makes you highly marketable.</p>
@@ -250,7 +250,7 @@
             </div>
 
             <div class="flex items-start gap-4">
-              <div class="flex-shrink-0 w-12 h-12 bg-primary-blue text-white rounded-full flex items-center justify-center font-bold text-xl">5</div>
+              <div class="flex-shrink-0 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl">5</div>
               <div>
                 <h4 class="font-bold text-gray-800 mb-2">Adaptability</h4>
                 <p class="text-gray-600">Experience living abroad demonstrates independence, adaptability, and global mindset—traits highly valued in international projects like CPEC.</p>
@@ -442,16 +442,16 @@
         </div>
 
         <!-- CTA -->
-        <div class="bg-gradient-to-br from-primary-blue to-primary-green text-white rounded-xl shadow-lg p-8 mb-8">
+        <div class="bg-gradient-to-br from-primary to-secondary text-white rounded-xl shadow-lg p-8 mb-8">
           <h2 class="text-3xl font-bold mb-4">Position Yourself for CPEC Success!</h2>
           <p class="text-lg mb-6 text-blue-50">
             Your education in China is more than just a degree—it's a gateway to exciting career opportunities in Pakistan's fastest-growing sector. GEC prepares you for success in the CPEC era!
           </p>
           <div class="flex flex-wrap gap-4">
-            <NuxtLink to="/contact" class="bg-white text-primary-blue px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block">
+            <NuxtLink to="/contact" class="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block">
               Start Your Journey with GEC
             </NuxtLink>
-            <NuxtLink to="/programs/mbbs" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary-blue transition-all inline-block">
+            <NuxtLink to="/programs/mbbs" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary transition-all inline-block">
               Explore Programs
             </NuxtLink>
           </div>
@@ -462,16 +462,16 @@
           <h3 class="text-2xl font-bold mb-6 text-gray-900">Related Articles</h3>
           <div class="grid md:grid-cols-2 gap-6">
             <NuxtLink to="/blog/hsk-exam-guide" class="group">
-              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary-blue transition-all">
-                <div class="text-sm text-primary-blue font-semibold mb-2">Language Skills</div>
-                <h4 class="font-bold text-gray-800 group-hover:text-primary-blue transition-all">HSK Exam Guide: Master Chinese Language</h4>
+              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary transition-all">
+                <div class="text-sm text-primary font-semibold mb-2">Language Skills</div>
+                <h4 class="font-bold text-gray-800 group-hover:text-primary transition-all">HSK Exam Guide: Master Chinese Language</h4>
               </div>
             </NuxtLink>
 
             <NuxtLink to="/blog/mbbs-china-vs-pakistan" class="group">
-              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary-green transition-all">
-                <div class="text-sm text-primary-green font-semibold mb-2">Education</div>
-                <h4 class="font-bold text-gray-800 group-hover:text-primary-green transition-all">MBBS in China vs Pakistan</h4>
+              <div class="border border-gray-200 rounded-lg p-4 hover:border-secondary transition-all">
+                <div class="text-sm text-secondary font-semibold mb-2">Education</div>
+                <h4 class="font-bold text-gray-800 group-hover:text-secondary transition-all">MBBS in China vs Pakistan</h4>
               </div>
             </NuxtLink>
           </div>

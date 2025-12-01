@@ -1,7 +1,7 @@
 <template>
   <div class="program-page">
     <!-- Hero Section -->
-    <section class="hero-section bg-gradient-to-br from-accent-yellow/90 to-primary-green text-white py-20 md:py-32">
+    <section class="hero-section bg-gradient-to-br from-accent-yellow/90 to-secondary text-white py-20 md:py-32">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
           <div class="inline-block bg-white/10 backdrop-blur-sm px-6 py-2 rounded-full mb-6">
@@ -28,7 +28,7 @@
             </div>
           </div>
           <div class="flex flex-wrap gap-4 justify-center">
-            <NuxtLink to="/contact" class="btn-primary bg-primary-blue text-white hover:bg-blue-700 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
+            <NuxtLink to="/contact" class="btn-primary bg-primary text-white hover:bg-blue-700 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
               Get Started Now
             </NuxtLink>
             <a href="https://wa.me/8618672301888" class="btn-secondary bg-white/10 backdrop-blur-sm text-gray-900 hover:bg-white/20 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
@@ -51,20 +51,20 @@
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="feature-card bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-all">
-            <div class="w-16 h-16 bg-primary-blue/10 rounded-full flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🌍</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">Global Trade Hub</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">Global Trade Hub</h3>
             <p class="text-gray-600">
               Study in the world's largest exporter and second-largest economy. China is the center of international trade through Belt and Road Initiative connecting over 140 countries.
             </p>
           </div>
 
           <div class="feature-card bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-all">
-            <div class="w-16 h-16 bg-primary-green/10 rounded-full flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">📈</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Real-World Experience</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Real-World Experience</h3>
             <p class="text-gray-600">
               Witness unprecedented economic growth firsthand. Study real cases of Chinese companies like Alibaba, Tencent, Huawei becoming global giants. Learn from their success.
             </p>
@@ -74,7 +74,7 @@
             <div class="w-16 h-16 bg-accent-purple/20 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🏢</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">Industry Connections</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">Industry Connections</h3>
             <p class="text-gray-600">
               Internship opportunities with multinational corporations, Chinese tech giants, trading companies, and financial institutions operating in China's dynamic market.
             </p>
@@ -84,7 +84,7 @@
             <div class="w-16 h-16 bg-accent-yellow/30 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🎯</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Cross-Cultural Expertise</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Cross-Cultural Expertise</h3>
             <p class="text-gray-600">
               Develop crucial cross-cultural business skills. Understanding Chinese business culture and language gives you competitive advantage in global marketplace.
             </p>
@@ -94,7 +94,7 @@
             <div class="w-16 h-16 bg-accent-peach/30 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">🚀</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-blue">Innovation & E-Commerce</h3>
+            <h3 class="text-2xl font-bold mb-4 text-primary">Innovation & E-Commerce</h3>
             <p class="text-gray-600">
               Learn from the world's most advanced e-commerce ecosystem. Study innovations in mobile payments, digital marketing, social commerce, and fintech applications.
             </p>
@@ -104,7 +104,7 @@
             <div class="w-16 h-16 bg-accent-green/20 rounded-full flex items-center justify-center mb-6">
               <span class="text-3xl">💼</span>
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-green">Career Opportunities</h3>
+            <h3 class="text-2xl font-bold mb-4 text-secondary">Career Opportunities</h3>
             <p class="text-gray-600">
               High demand for professionals who understand both Eastern and Western business practices. Work with companies engaged in China trade or start your own venture.
             </p>
@@ -128,26 +128,26 @@
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="flex items-center mb-6">
               <div class="text-4xl mr-4">🌏</div>
-              <h3 class="text-2xl font-bold text-primary-blue">International Economy & Trade</h3>
+              <h3 class="text-2xl font-bold text-primary">International Economy & Trade</h3>
             </div>
             <p class="text-gray-600 mb-4">
               Focus on global trade, international economics, import-export procedures, trade policies, and cross-border business operations.
             </p>
             <div class="space-y-2">
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">International trade theory and practices</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">Global economics and finance</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">Trade documentation and customs procedures</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">International marketing and logistics</span>
               </div>
             </div>
@@ -157,26 +157,26 @@
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="flex items-center mb-6">
               <div class="text-4xl mr-4">💼</div>
-              <h3 class="text-2xl font-bold text-primary-green">Business Administration</h3>
+              <h3 class="text-2xl font-bold text-secondary">Business Administration</h3>
             </div>
             <p class="text-gray-600 mb-4">
               Comprehensive business education covering management, marketing, finance, operations, and strategic planning for diverse business environments.
             </p>
             <div class="space-y-2">
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">Strategic management and leadership</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">Marketing and brand management</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">Financial management and accounting</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">Human resource management</span>
               </div>
             </div>
@@ -186,26 +186,26 @@
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="flex items-center mb-6">
               <div class="text-4xl mr-4">💰</div>
-              <h3 class="text-2xl font-bold text-primary-blue">Finance & Banking</h3>
+              <h3 class="text-2xl font-bold text-primary">Finance & Banking</h3>
             </div>
             <p class="text-gray-600 mb-4">
               Specialized program in financial markets, investment analysis, banking operations, risk management, and corporate finance.
             </p>
             <div class="space-y-2">
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">Investment and portfolio management</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">Financial markets and institutions</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">Risk management and derivatives</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-blue mr-2">•</span>
+                <span class="text-primary mr-2">•</span>
                 <span class="text-gray-700">Corporate finance and valuation</span>
               </div>
             </div>
@@ -215,26 +215,26 @@
           <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all">
             <div class="flex items-center mb-6">
               <div class="text-4xl mr-4">🛒</div>
-              <h3 class="text-2xl font-bold text-primary-green">E-Commerce & Digital Business</h3>
+              <h3 class="text-2xl font-bold text-secondary">E-Commerce & Digital Business</h3>
             </div>
             <p class="text-gray-600 mb-4">
               Learn from the world's largest e-commerce market. Digital marketing, online business models, platform economics, and digital transformation.
             </p>
             <div class="space-y-2">
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">E-commerce platforms and technologies</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">Digital marketing and social media</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">Mobile payments and fintech</span>
               </div>
               <div class="flex items-start">
-                <span class="text-primary-green mr-2">•</span>
+                <span class="text-secondary mr-2">•</span>
                 <span class="text-gray-700">Data analytics for business</span>
               </div>
             </div>
@@ -256,7 +256,7 @@
         <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           <!-- Fudan University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-primary-blue to-primary-green p-6 text-white">
+            <div class="bg-gradient-to-br from-primary to-secondary p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">Fudan University</h3>
               <p class="text-gray-200">School of Management</p>
             </div>
@@ -291,7 +291,7 @@
 
           <!-- University of International Business & Economics -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-accent-yellow/80 to-primary-blue p-6 text-white">
+            <div class="bg-gradient-to-br from-accent-yellow/80 to-primary p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">University of International Business & Economics (UIBE)</h3>
               <p class="text-gray-200">International Trade Specialist</p>
             </div>
@@ -326,7 +326,7 @@
 
           <!-- Shanghai University of Finance & Economics -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-primary-green to-accent-purple/70 p-6 text-white">
+            <div class="bg-gradient-to-br from-secondary to-accent-purple/70 p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">Shanghai University of Finance & Economics</h3>
               <p class="text-gray-200">Business School</p>
             </div>
@@ -361,7 +361,7 @@
 
           <!-- Renmin University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
-            <div class="bg-gradient-to-br from-accent-peach/70 to-primary-blue p-6 text-white">
+            <div class="bg-gradient-to-br from-accent-peach/70 to-primary p-6 text-white">
               <h3 class="text-2xl font-bold mb-2">Renmin University of China</h3>
               <p class="text-gray-200">School of Business</p>
             </div>
@@ -460,14 +460,14 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-gradient-to-br from-primary-blue via-primary-green to-accent-yellow/80 text-white">
+    <section class="py-20 bg-gradient-to-br from-primary via-secondary to-accent-yellow/80 text-white">
       <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl md:text-5xl font-bold mb-6 font-display">Start Your Global Business Career</h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto">
           Study business in the world's fastest-growing economy. Expert guidance from GEC's team of 50+ professionals with 95% visa success rate.
         </p>
         <div class="flex flex-wrap gap-4 justify-center">
-          <NuxtLink to="/contact" class="bg-white text-primary-blue px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all">
+          <NuxtLink to="/contact" class="bg-white text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all">
             Apply for Business Program
           </NuxtLink>
           <a href="https://wa.me/8618672301888" class="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/20 transition-all">

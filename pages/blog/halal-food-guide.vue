@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-gray-50">
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-br from-primary-blue via-blue-700 to-primary-green text-white py-20">
+    <section class="relative bg-gradient-to-br from-primary via-blue-700 to-secondary text-white py-20">
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto">
           <div class="text-sm font-semibold mb-4 text-blue-100">Food & Culture</div>
@@ -25,8 +25,8 @@
             One of the most common concerns for Muslim students considering studying in China is: "<strong>Will I find halal food?</strong>" The answer is a resounding YES! China has a rich Muslim heritage with over 25 million Muslims, and halal food is widely available, especially in cities with universities.
           </p>
 
-          <div class="bg-green-50 border-l-4 border-primary-green p-6 rounded-r-lg">
-            <p class="font-semibold text-primary-green mb-2">✅ Great News!</p>
+          <div class="bg-green-50 border-l-4 border-secondary p-6 rounded-r-lg">
+            <p class="font-semibold text-secondary mb-2">✅ Great News!</p>
             <p class="text-gray-700">Pakistan students consistently report that finding halal food in China is easier than expected. Most university cities have multiple halal options, and you'll never go hungry!</p>
           </div>
         </div>
@@ -56,7 +56,7 @@
           </div>
 
           <div class="bg-blue-50 rounded-lg p-6">
-            <h4 class="font-bold text-primary-blue mb-3">Major Muslim Groups in China</h4>
+            <h4 class="font-bold text-primary mb-3">Major Muslim Groups in China</h4>
             <div class="grid md:grid-cols-2 gap-4 text-sm text-gray-700">
               <div>
                 <p><strong>Hui (回族):</strong> 10+ million, live throughout China, speak Mandarin</p>
@@ -446,16 +446,16 @@
         </div>
 
         <!-- CTA -->
-        <div class="bg-gradient-to-br from-primary-blue to-primary-green text-white rounded-xl shadow-lg p-8 mb-8">
+        <div class="bg-gradient-to-br from-primary to-secondary text-white rounded-xl shadow-lg p-8 mb-8">
           <h2 class="text-3xl font-bold mb-4">Study in China Without Food Worries!</h2>
           <p class="text-lg mb-6 text-blue-50">
             Halal food is abundant, affordable, and delicious in China. Focus on your studies while enjoying diverse Muslim cuisine from across China and Pakistan!
           </p>
           <div class="flex flex-wrap gap-4">
-            <NuxtLink to="/contact" class="bg-white text-primary-blue px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block">
+            <NuxtLink to="/contact" class="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all inline-block">
               Start Your Journey with GEC
             </NuxtLink>
-            <NuxtLink to="/blog/student-life-china" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary-blue transition-all inline-block">
+            <NuxtLink to="/blog/student-life-china" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary transition-all inline-block">
               Explore Student Life
             </NuxtLink>
           </div>
@@ -466,16 +466,16 @@
           <h3 class="text-2xl font-bold mb-6 text-gray-900">Related Articles</h3>
           <div class="grid md:grid-cols-2 gap-6">
             <NuxtLink to="/blog/student-life-china" class="group">
-              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary-blue transition-all">
-                <div class="text-sm text-primary-blue font-semibold mb-2">Student Life</div>
-                <h4 class="font-bold text-gray-800 group-hover:text-primary-blue transition-all">Student Life in China: Complete Guide</h4>
+              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary transition-all">
+                <div class="text-sm text-primary font-semibold mb-2">Student Life</div>
+                <h4 class="font-bold text-gray-800 group-hover:text-primary transition-all">Student Life in China: Complete Guide</h4>
               </div>
             </NuxtLink>
 
             <NuxtLink to="/blog/cost-of-living-china" class="group">
-              <div class="border border-gray-200 rounded-lg p-4 hover:border-primary-green transition-all">
-                <div class="text-sm text-primary-green font-semibold mb-2">Living Costs</div>
-                <h4 class="font-bold text-gray-800 group-hover:text-primary-green transition-all">Cost of Living in China for Students</h4>
+              <div class="border border-gray-200 rounded-lg p-4 hover:border-secondary transition-all">
+                <div class="text-sm text-secondary font-semibold mb-2">Living Costs</div>
+                <h4 class="font-bold text-gray-800 group-hover:text-secondary transition-all">Cost of Living in China for Students</h4>
               </div>
             </NuxtLink>
           </div>
