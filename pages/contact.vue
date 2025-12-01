@@ -98,7 +98,7 @@
                 <label class="form-label">Message</label>
                 <textarea v-model="form.message" rows="4" class="form-input" placeholder="Tell us about your goals..."></textarea>
               </div>
-              <button type="submit" :disabled="submitting" class="btn-primary w-full disabled:opacity-50 disabled:cursor-not-allowed">
+              <button type="submit" :disabled="submitting" class="btn-primary w-full disabled:opacity-50 disabled:cursor-not-allowed !text-center flex justify-center items-center">
                 <span v-if="!submitting">Submit Application</span>
                 <span v-else class="flex items-center justify-center gap-2">
                   <svg class="animate-spin h-5 w-5" fill="none" viewBox="0 0 24 24">
@@ -215,21 +215,27 @@ const handleSubmit = async () => {
       program: form.value.program
     })
 
-    // Submit to API
-    const response = await fetch('/api/leads', {
+    // Submit to Web3Forms
+    const web3Payload = {
+      access_key: '81b41007-8aaa-4d97-bd82-b05800467596',
+      subject: 'New Contact Form Submission - GEC',
+      reply_to: form.value.email,
+      name: form.value.name,
+      email: form.value.email,
+      message: `${form.value.message || ''}\n\nPhone: ${form.value.whatsapp || 'N/A'}\nCountry: ${form.value.country || 'N/A'}\nProgram: ${form.value.program || 'N/A'}`,
+      data: {
+        phone: form.value.whatsapp,
+        country: form.value.country,
+        program: form.value.program
+      }
+    }
+
+    const response = await fetch('https://api.web3forms.com/submit', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({
-        name: form.value.name,
-        email: form.value.email,
-        phone: form.value.whatsapp,
-        country: form.value.country,
-        programInterest: form.value.program,
-        message: form.value.message,
-        source: 'contact_page'
-      })
+      body: JSON.stringify(web3Payload)
     })
 
     const result = await response.json()
@@ -245,7 +251,8 @@ const handleSubmit = async () => {
       // Redirect to thank you page
       await navigateTo('/thank-you')
     } else {
-      throw new Error('Failed to submit form')
+      console.error('Web3Forms error response:', result)
+      throw new Error(result.message || 'Failed to submit form')
     }
   } catch (error) {
     console.error('Form submission error:', error)
