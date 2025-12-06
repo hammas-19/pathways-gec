@@ -205,8 +205,8 @@
           <!-- Tsinghua University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
             <div class="bg-gradient-to-br from-primary to-accent-purple/70 p-6 text-white">
-              <h3 class="text-black text-2xl font-bold mb-2">Tsinghua University</h3>
-              <p class="text-gray-800">Department of Computer Science & Technology</p>
+              <h3 class="text-white text-2xl font-bold mb-2">Tsinghua University</h3>
+              <p class="text-gray-300">Department of Computer Science & Technology</p>
             </div>
             <div class="p-6">
               <div class="space-y-4">
@@ -240,8 +240,8 @@
           <!-- Peking University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
             <div class="bg-gradient-to-br from-secondary to-primary p-6 text-white">
-              <h3 class="text-black text-2xl font-bold mb-2">Peking University</h3>
-              <p class="text-gray-800">School of Electronics Engineering & Computer Science</p>
+              <h3 class="text-white text-2xl font-bold mb-2">Peking University</h3>
+              <p class="text-gray-300">School of Electronics Engineering & Computer Science</p>
             </div>
             <div class="p-6">
               <div class="space-y-4">
@@ -275,8 +275,8 @@
           <!-- Zhejiang University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
             <div class="bg-gradient-to-br from-accent-peach/70 to-secondary p-6 text-white">
-              <h3 class="text-black text-2xl font-bold mb-2">Zhejiang University</h3>
-              <p class="text-gray-800">College of Computer Science & Technology</p>
+              <h3 class="text-white text-2xl font-bold mb-2">Zhejiang University</h3>
+              <p class="text-gray-300">College of Computer Science & Technology</p>
             </div>
             <div class="p-6">
               <div class="space-y-4">
@@ -310,8 +310,8 @@
           <!-- Shanghai Jiao Tong University -->
           <div class="university-card bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition-all">
             <div class="bg-gradient-to-br from-accent-yellow/80 to-primary p-6 text-white">
-              <h3 class="text-black text-2xl font-bold mb-2">Shanghai Jiao Tong University</h3>
-              <p class="text-gray-800">School of Software</p>
+              <h3 class="text-white text-2xl font-bold mb-2">Shanghai Jiao Tong University</h3>
+              <p class="text-gray-300">School of Software</p>
             </div>
             <div class="p-6">
               <div class="space-y-4">

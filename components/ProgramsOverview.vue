@@ -46,8 +46,8 @@
           <div class="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-brand-blue/10 to-brand-teal/10 rounded-full blur-3xl"></div>
 
           <!-- Popular Badge -->
-          <div class="absolute top-6 right-6 z-10">
-            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-brand-amber to-brand-orange text-white font-semibold text-sm shadow-button animate-bounce-subtle">
+          <div class="absolute top-6 right-6 z-40">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-blue text-white font-semibold text-sm shadow-button animate-bounce-subtle">
               <span>🏆</span>
               <span>Most Popular</span>
             </div>
@@ -55,8 +55,8 @@
 
           <div class="relative z-10">
             <!-- Icon Container -->
-            <div class="relative aspect-video bg-gradient-to-br from-brand-blue/20 via-brand-purple/20 to-brand-teal/20 rounded-2xl mb-6 flex items-center justify-center group-hover:scale-105 transition-transform duration-500">
-              <div class="text-8xl animate-bounce-subtle">🩺</div>
+            <div class="relative aspect-video bg-gradient-to-br from-brand-blue/20 via-brand-purple/20 to-brand-teal/20 rounded-2xl mb-6 flex items-center justify-center group-hover:scale-105 transition-transform duration-500 overflow-hidden">
+              <img src="/MBBS.png" alt="MBBS Program" class="w-full h-full object-cover" />
               <div class="absolute inset-0 bg-gradient-to-br from-brand-blue/0 to-brand-purple/20 rounded-2xl"></div>
             </div>
 
@@ -132,8 +132,8 @@
           <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-blue/5 to-brand-purple/5 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
 
           <!-- Badge -->
-          <div v-if="program.badge" class="absolute top-4 right-4 z-10">
-            <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-brand-orange/10 text-brand-orange text-xs font-semibold">
+          <div v-if="program.badge" class="absolute top-4 right-4 z-40">
+            <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-brand-blue text-brand-orange text-xs font-semibold">
               <span>⭐</span>
               {{ program.badge }}
             </span>
@@ -141,8 +141,8 @@
 
           <div class="relative z-10">
             <!-- Icon Container -->
-            <div class="aspect-video bg-gradient-to-br from-slate-100 via-slate-50 to-blue-50 rounded-2xl mb-4 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-              <div class="text-6xl group-hover:scale-110 transition-transform duration-300">{{ program.icon }}</div>
+            <div class="aspect-video bg-gradient-to-br from-slate-100 via-slate-50 to-blue-50 rounded-2xl mb-4 flex items-center justify-center group-hover:scale-105 transition-transform duration-300 overflow-hidden">
+              <img :src="program.image" :alt="program.title" class="w-full h-full object-cover" />
             </div>
 
             <!-- Duration Badge -->
@@ -203,6 +203,7 @@ const allPrograms = {
       title: 'BDS (Bachelor of Dental Surgery)',
       slug: 'bds',
       icon: '🦷',
+      image: '/BDS.png',
       duration: '5 Years',
       level: 'undergraduate',
       features: [
@@ -216,6 +217,7 @@ const allPrograms = {
       title: 'Computer Science',
       slug: 'computer-science',
       icon: '💻',
+      image: '/CS.png',
       badge: 'High Demand',
       duration: '4 Years',
       level: 'undergraduate',
@@ -230,6 +232,7 @@ const allPrograms = {
       title: 'International Economy & Trade',
       slug: 'economy-trade',
       icon: '💼',
+      image: '/international trade and business.png',
       duration: '4 Years',
       level: 'undergraduate',
       features: [
@@ -243,6 +246,7 @@ const allPrograms = {
       title: 'International Relations',
       slug: 'international-relations',
       icon: '🌐',
+      image: '/universityselection.png',
       duration: '4 Years',
       level: 'undergraduate',
       features: [
@@ -256,6 +260,7 @@ const allPrograms = {
       title: 'Nursing',
       slug: 'nursing',
       icon: '👩‍⚕️',
+      image: '/mbbs2.png',
       duration: '4 Years',
       level: 'undergraduate',
       features: [
@@ -269,6 +274,7 @@ const allPrograms = {
       title: 'Artificial Intelligence',
       slug: 'ai',
       icon: '🤖',
+      image: '/CS2.png',
       badge: 'Emerging Field',
       duration: '4 Years',
       level: 'undergraduate',
@@ -283,6 +289,7 @@ const allPrograms = {
       title: 'Engineering',
       slug: 'engineering',
       icon: '⚙️',
+      image: '/documentSubmission.png',
       duration: '4 Years',
       level: 'undergraduate',
       features: [
@@ -298,6 +305,7 @@ const allPrograms = {
       title: 'Master of Business Administration',
       slug: 'mba',
       icon: '💼',
+      image: '/international trade and business.png',
       badge: 'Popular',
       duration: '2 Years',
       level: 'masters',
@@ -312,6 +320,7 @@ const allPrograms = {
       title: 'Master in Computer Science',
       slug: 'masters-cs',
       icon: '💻',
+      image: '/CS.png',
       duration: '2-3 Years',
       level: 'masters',
       features: [
@@ -325,6 +334,7 @@ const allPrograms = {
       title: 'Master in Engineering',
       slug: 'masters-engineering',
       icon: '⚙️',
+      image: '/initialcontact.png',
       duration: '2-3 Years',
       level: 'masters',
       features: [
@@ -338,6 +348,7 @@ const allPrograms = {
       title: 'Master in International Relations',
       slug: 'masters-ir',
       icon: '🌐',
+      image: '/document visa.png',
       duration: '2 Years',
       level: 'masters',
       features: [
@@ -353,6 +364,7 @@ const allPrograms = {
       title: 'PhD in Computer Science',
       slug: 'phd-cs',
       icon: '💻',
+      image: '/CS.png',
       duration: '3-4 Years',
       level: 'phd',
       features: [
@@ -366,6 +378,7 @@ const allPrograms = {
       title: 'PhD in Engineering',
       slug: 'phd-engineering',
       icon: '⚙️',
+      image: '/documentSubmission.png',
       duration: '3-4 Years',
       level: 'phd',
       features: [
@@ -379,6 +392,7 @@ const allPrograms = {
       title: 'PhD in Medicine',
       slug: 'phd-medicine',
       icon: '🩺',
+      image: '/mbbs3.png',
       badge: 'Research',
       duration: '3-5 Years',
       level: 'phd',
@@ -393,6 +407,7 @@ const allPrograms = {
       title: 'PhD in Business Administration',
       slug: 'phd-business',
       icon: '💼',
+      image: '/welcome.png',
       duration: '3-4 Years',
       level: 'phd',
       features: [
@@ -408,6 +423,7 @@ const allPrograms = {
       title: 'Chinese Language (1 Year)',
       slug: 'language-1year',
       icon: '📚',
+      image: '/chineseHsk.png',
       badge: 'Popular',
       duration: '1 Year',
       level: 'short-courses',
@@ -422,6 +438,7 @@ const allPrograms = {
       title: 'Chinese Language (6 Months)',
       slug: 'language-6months',
       icon: '📚',
+      image: '/hsk3.png',
       duration: '6 Months',
       level: 'short-courses',
       features: [
@@ -435,6 +452,7 @@ const allPrograms = {
       title: 'Business Chinese',
       slug: 'business-chinese',
       icon: '💼',
+      image: '/MBBSGuide.png',
       duration: '3-6 Months',
       level: 'short-courses',
       features: [
@@ -448,6 +466,7 @@ const allPrograms = {
       title: 'Summer Programs',
       slug: 'summer-programs',
       icon: '☀️',
+      image: '/studentlife3.png',
       duration: '2-8 Weeks',
       level: 'short-courses',
       features: [

@@ -22,7 +22,7 @@
             <h3 class="text-xl font-semibold mb-3">WhatsApp</h3>
             <p class="text-gray-600 mb-4 text-sm">Fastest response (within 2 hours)</p>
             <p class="font-medium mb-4">+86-XXX-XXXX-XXXX</p>
-            <a href="https://wa.me/86XXXXXXXXXX" target="_blank" class="btn-primary w-full">Chat on WhatsApp</a>
+            <a href="https://wa.me/86XXXXXXXXXX" target="_blank" class="btn-primary w-full text-center inline-block">Chat on WhatsApp</a>
           </div>
 
           <!-- Email -->
@@ -35,7 +35,7 @@
             <h3 class="text-xl font-semibold mb-3">Email</h3>
             <p class="text-gray-600 mb-4 text-sm">Response time: Within 24 hours</p>
             <p class="font-medium mb-4">info@gec-pathways.com</p>
-            <a href="mailto:info@gec-pathways.com" class="btn-secondary w-full">Send Email</a>
+            <a href="mailto:info@gec-pathways.com" class="btn-secondary w-full text-center inline-block">Send Email</a>
           </div>
 
           <!-- Video Call -->
@@ -48,7 +48,7 @@
             <h3 class="text-xl font-semibold mb-3">Video Call</h3>
             <p class="text-gray-600 mb-4 text-sm">30-minute free consultation</p>
             <p class="font-medium mb-4">Zoom/WhatsApp</p>
-            <button class="btn-secondary w-full">Schedule Call</button>
+            <button class="btn-secondary w-full text-center">Schedule Call</button>
           </div>
         </div>
 

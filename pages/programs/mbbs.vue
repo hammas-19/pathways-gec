@@ -98,18 +98,26 @@
               </div>
             </div>
           </div>
-          <div class="bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl p-12 text-center">
-            <div class="text-6xl mb-4">🩺</div>
-            <h3 class="text-2xl font-semibold mb-4">Join 300+ Medical Students</h3>
-            <p class="text-gray-700 mb-6">Who chose China for their MBBS journey with GEC's guidance</p>
-            <div class="grid grid-cols-2 gap-4 text-center">
+          <div class="bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl p-2 text-center relative overflow-hidden md:min-h-[650px] h-[320px] flex flex-col justify-end">
+            <!-- Background Image with Low Opacity -->
+            <div class="absolute inset-0 z-0">
+              <img src="/MBBS.png" alt="MBBS Program" class="w-full h-full object-cover" />
+            </div>
+            
+            <!-- Content with higher z-index -->
+            <div class="relative z-10 bg-[#d0f88fc8] p-4 pb-0 rounded-t-2xl shadow-lg">
+              <h3 class="text-2xl font-semibold mb-4">Join 300+ Medical Students</h3>
+              <p class="text-gray-700 mb-6">Who chose China for their MBBS journey with GEC's guidance</p>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-4 text-center relative z-10 bg-[#000000] p-4 rounded-b-2xl shadow-lg">
               <div>
-                <div class="text-3xl font-bold text-primary">45+</div>
-                <div class="text-sm text-gray-600">WHO Universities</div>
+                <div class="text-3xl font-bold text-white">45+</div>
+                <div class="text-sm text-gray-300">WHO Universities</div>
               </div>
               <div>
-                <div class="text-3xl font-bold text-primary">98%</div>
-                <div class="text-sm text-gray-600">Pass Licensing Exams</div>
+                <div class="text-3xl font-bold text-white">98%</div>
+                <div class="text-sm text-gray-300">Pass Licensing Exams</div>
               </div>
             </div>
           </div>
@@ -323,7 +331,7 @@
             </ul>
           </div>
         </div>
-        <div class="text-center mt-8">
+        <div class="text-center mt-8 flex flex-col justify-center items-center">
           <p class="text-gray-600 mb-4">All universities are MOE-listed, WHO-recognized, and ECFMG-eligible</p>
           <a href="https://wa.me/923114999954?text=I%20want%20to%20know%20more%20about%20medical%20universities"
             target="_blank" class="btn-secondary">

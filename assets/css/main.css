@@ -69,7 +69,7 @@
   }
 
   .btn-whatsapp {
-    @apply bg-[#25D366] text-white shadow-lg transition-all duration-300;
+    @apply bg-[#25D366] text-white shadow-lg transition-all duration-300 px-3 py-2;
   }
 
   .btn-whatsapp:hover {
@@ -123,7 +123,7 @@
 
   /* Glassmorphism - Solid for readability */
   .glass {
-    @apply bg-white/95 backdrop-blur-sm border border-slate-200 shadow-lg;
+    @apply bg-white/10 backdrop-blur-sm border border-slate-200 shadow-lg;
   }
 
   .glass-dark {

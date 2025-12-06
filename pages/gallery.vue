@@ -130,7 +130,7 @@
           </NuxtLink>
           <NuxtLink
             to="/success-stories"
-            class="btn-secondary border-2 border-white text-white hover:bg-white hover:text-primary"
+            class="btn-secondary border-2 border-white  hover:bg-white hover:text-primary"
           >
             Read Success Stories
           </NuxtLink>
