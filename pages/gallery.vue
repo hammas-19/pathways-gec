@@ -23,7 +23,7 @@
           <button
             v-for="tab in tabs"
             :key="tab.id"
-            @click="activeTab = tab.id"
+            @click="switchTab(tab.id)"
             :class="[
               'px-8 py-3 rounded-full font-semibold transition-all',
               activeTab === tab.id
@@ -35,14 +35,20 @@
           </button>
         </div>
 
+        <!-- Tab Switching Loader -->
+        <div v-if="tabSwitching" class="text-center py-12">
+          <div class="inline-block animate-spin rounded-full h-10 w-10 border-4 border-primary border-t-transparent"></div>
+          <p class="mt-3 text-gray-600">Loading images...</p>
+        </div>
+
         <!-- Loading State -->
-        <div v-if="loading" class="text-center py-20">
+        <div v-else-if="loading" class="text-center py-20">
           <div class="inline-block animate-spin rounded-full h-12 w-12 border-4 border-primary border-t-transparent"></div>
           <p class="mt-4 text-gray-600">Loading gallery...</p>
         </div>
 
         <!-- Gallery Grid -->
-        <div v-else-if="filteredImages.length > 0" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div v-else-if="!tabSwitching && filteredImages.length > 0" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div
             v-for="(image, index) in filteredImages"
             :key="image.id"
@@ -52,6 +58,7 @@
             <img
               :src="image.url"
               :alt="image.caption"
+              loading="lazy"
               class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
             />
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -64,7 +71,7 @@
         </div>
 
         <!-- Empty State -->
-        <div v-else class="text-center py-20">
+        <div v-else-if="!tabSwitching && filteredImages.length === 0" class="text-center py-20">
           <div class="text-6xl mb-4">📷</div>
           <h3 class="text-2xl font-semibold text-gray-700 mb-2">No images yet</h3>
           <p class="text-gray-600">Check back soon for updates!</p>
@@ -161,6 +168,7 @@ const lightboxOpen = ref(false)
 const currentImageIndex = ref(0)
 const loading = ref(true)
 const images = ref([])
+const tabSwitching = ref(false)
 
 // Fetch images from API
 const fetchImages = async () => {
@@ -169,11 +177,19 @@ const fetchImages = async () => {
     const response = await fetch('/api/gallery')
     if (response.ok) {
       const data = await response.json()
-      images.value = data
+      if (data && data.length > 0) {
+        images.value = data
+      } else {
+        // Use local images if API returns empty
+        images.value = getSampleImages()
+      }
+    } else {
+      // Use local images if API fails
+      images.value = getSampleImages()
     }
   } catch (error) {
     console.error('Failed to load gallery:', error)
-    // Use sample data for now
+    // Use local images on error
     images.value = getSampleImages()
   } finally {
     loading.value = false
@@ -181,50 +197,81 @@ const fetchImages = async () => {
 }
 
 // Sample images for demonstration
-const getSampleImages = () => [
-  {
-    id: 1,
-    url: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800',
-    title: 'Campus Life',
-    caption: 'Students enjoying campus facilities',
-    category: 'students'
-  },
-  {
-    id: 2,
-    url: 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=800',
-    title: 'Graduation Ceremony 2024',
-    caption: 'Celebrating our successful graduates',
-    category: 'graduation'
-  },
-  {
-    id: 3,
-    url: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800',
-    title: 'Group Study Session',
-    caption: 'Students collaborating on assignments',
-    category: 'students'
-  },
-  {
-    id: 4,
-    url: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800',
-    title: 'Cultural Festival',
-    caption: 'Annual international cultural festival',
-    category: 'events'
-  },
-  {
-    id: 5,
-    url: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800',
-    title: 'Library Study',
-    caption: 'Modern library facilities',
-    category: 'campus'
-  },
-  {
-    id: 6,
-    url: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800',
-    title: 'Orientation Day',
-    caption: 'Welcome event for new students',
-    category: 'events'
-  }
-]
+const getSampleImages = () => {
+  const galleryImages = []
+  let id = 1
+
+  // Students images
+  const studentImages = [
+    '1B7A6664.jpg',
+    '1B7A6665.jpg',
+    '1B7A6673.jpg'
+  ]
+  
+  studentImages.forEach(img => {
+    galleryImages.push({
+      id: id++,
+      url: `/students/${img}`,
+      title: 'Student Life',
+      caption: 'Our amazing students',
+      category: 'students'
+    })
+  })
+
+  // Events images
+  const eventImages = [
+    '1B7A6666.jpg',
+    '1B7A6684.jpg',
+    'c8216d1e2f9c52df77255d76997642d2.jpg'
+  ]
+  
+  eventImages.forEach(img => {
+    galleryImages.push({
+      id: id++,
+      url: `/events/${img}`,
+      title: 'Events & Activities',
+      caption: 'Memorable moments from our events',
+      category: 'events'
+    })
+  })
+
+  // Campus Life images
+  const campusImages = [
+    '1B7A6666.jpg',
+    '98fada23fc419b1f301734aefc8b7466.jpg',
+    'eb0958f1703dc517aa61e6fe9787eaf3.jpg'
+  ]
+  
+  campusImages.forEach(img => {
+    galleryImages.push({
+      id: id++,
+      url: `/campusLife/${img}`,
+      title: 'Campus Life',
+      caption: 'Experience campus facilities and environment',
+      category: 'campus'
+    })
+  })
+
+  // Graduation images
+  const graduationImages = [
+    '1B7A6531.jpg',
+    '1B7A6637.jpg',
+    '1B7A6649.jpg',
+    '1B7A6664.jpg'
+  ]
+  
+  graduationImages.forEach(img => {
+    galleryImages.push({
+      id: id++,
+      url: `/graduation/${img}`,
+      title: 'Graduation Ceremony',
+      caption: 'Celebrating our successful graduates',
+      category: 'graduation'
+    })
+  })
+
+  return galleryImages
+}
 
 // Computed filtered images
 const filteredImages = computed(() => {
@@ -233,6 +280,23 @@ const filteredImages = computed(() => {
   }
   return images.value.filter(img => img.category === activeTab.value)
 })
+
+// Switch tab with loading state
+const switchTab = async (tabId) => {
+  if (tabId === activeTab.value) return
+  
+  tabSwitching.value = true
+  
+  // Small delay to show loader and allow UI to update
+  await new Promise(resolve => setTimeout(resolve, 300))
+  
+  activeTab.value = tabId
+  
+  // Wait for next tick to ensure DOM updates
+  await nextTick()
+  
+  tabSwitching.value = false
+}
 
 // Lightbox functions
 const openLightbox = (index) => {

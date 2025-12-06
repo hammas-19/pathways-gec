@@ -103,7 +103,7 @@ const slides = [
     badge: '  Global Opportunities',
     title: 'Build Your Future in China',
     description: 'From Engineering to AI, Medicine to Business - discover programs that transform careers and change lives.',
-    backgroundImage: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2000'
+    backgroundImage: 'https://images.unsplash.com/photo-1664213034187-fb331960c99a?q=80&w=1333&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     badge: '  Expert Guidance',
