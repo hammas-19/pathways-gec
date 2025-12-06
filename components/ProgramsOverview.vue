@@ -126,38 +126,42 @@
         <div
           v-for="(program, index) in filteredPrograms"
           :key="program.slug"
-          class="group card card-hover p-6 flex flex-col relative overflow-hidden"
+          class="group card p-0 flex flex-col relative overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
         >
-          <!-- Decorative Background -->
-          <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-blue/5 to-brand-purple/5 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
-
           <!-- Badge -->
           <div v-if="program.badge" class="absolute top-4 right-4 z-40">
-            <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-brand-blue text-brand-orange text-xs font-semibold">
+            <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-gradient-to-r from-brand-amber to-brand-orange text-white text-xs font-semibold shadow-lg">
               <span>⭐</span>
               {{ program.badge }}
             </span>
           </div>
 
-          <div class="relative z-10">
-            <!-- Icon Container -->
-            <div class="aspect-video bg-gradient-to-br from-slate-100 via-slate-50 to-blue-50 rounded-2xl mb-4 flex items-center justify-center group-hover:scale-105 transition-transform duration-300 overflow-hidden">
-              <img :src="program.image" :alt="program.title" class="w-full h-full object-cover" />
+          <!-- Icon Container - Full Width Image -->
+          <div class="relative aspect-video bg-gradient-to-br from-brand-blue/20 via-brand-purple/20 to-brand-teal/20 overflow-hidden">
+            <img :src="program.image" :alt="program.title" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+            <!-- Overlay Gradient -->
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
+            <!-- Duration Badge on Image -->
+            <div class="absolute bottom-4 left-4">
+              <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass backdrop-blur-md text-white font-semibold text-sm shadow-lg">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                {{ program.duration }}
+              </span>
             </div>
+          </div>
 
-            <!-- Duration Badge -->
-            <div class="flex flex-wrap gap-2 mb-3">
-              <span class="badge bg-slate-100 text-slate-700">{{ program.duration }}</span>
-            </div>
-
-            <h3 class="text-xl font-bold mb-3 text-brand-ocean group-hover:text-brand-blue transition-colors">{{ program.title }}</h3>
+          <!-- Content Section -->
+          <div class="p-6 flex flex-col flex-grow bg-gradient-to-br from-white to-slate-50/50">
+            <h3 class="text-xl font-bold mb-4 text-brand-ocean group-hover:text-brand-blue transition-colors leading-tight">{{ program.title }}</h3>
 
             <!-- Features List -->
-            <ul class="space-y-2 mb-4 text-sm text-slate-700 flex-grow">
-              <li v-for="(feature, idx) in program.features" :key="idx" class="flex items-start gap-2">
-                <div class="w-5 h-5 rounded-lg bg-brand-blue/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <svg class="w-3 h-3 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            <ul class="space-y-2.5 mb-6 text-sm text-slate-700 flex-grow">
+              <li v-for="(feature, idx) in program.features" :key="idx" class="flex items-start gap-2.5">
+                <div class="w-5 h-5 rounded-full bg-gradient-to-br from-brand-blue to-brand-teal flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
                 <span class="leading-snug">{{ feature }}</span>
@@ -165,12 +169,13 @@
             </ul>
 
             <!-- CTA Section -->
-            <div class="mt-auto pt-4 border-t border-slate-100">
-              <NuxtLink :to="`/programs/${program.slug}`" class="btn-secondary w-full text-center inline-flex items-center justify-center gap-2">
-                Learn More
-                <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="mt-auto pt-4">
+              <NuxtLink :to="`/programs/${program.slug}`" class="group/btn relative w-full text-center inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-brand-blue to-brand-purple text-white font-semibold overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-brand-blue/30">
+                <span class="relative z-10">Learn More</span>
+                <svg class="w-4 h-4 relative z-10 group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
+                <div class="absolute inset-0 bg-gradient-to-r from-brand-purple to-brand-teal opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300"></div>
               </NuxtLink>
             </div>
           </div>
@@ -272,7 +277,7 @@ const allPrograms = {
     },
     {
       title: 'Artificial Intelligence',
-      slug: 'ai',
+      slug: 'artificial-intelligence',
       icon: '🤖',
       image: '/CS2.png',
       badge: 'Emerging Field',
