@@ -140,7 +140,7 @@ const fears = [
     body: "We're registered with offices in different countries, based in China. Visit our physical offices. Meet our team. We're not hiding behind emails.",
     ctaText: 'See Our Office Photos',
     icon: '🛡️',
-    image: '/office.png',
+    image: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765361847/office_cppim1.png',
     imageAlt: 'Professional Office',
     bgColor: '#00e4ff'
   },
@@ -149,7 +149,7 @@ const fears = [
     body: "24/7 on-ground support from airport pickup to graduation. Our team lives in China—we're always here.",
     ctaText: '',
     icon: '🤝',
-    image: '/welcome.png',
+    image: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765361846/welcome_l6mquc.png',
     imageAlt: 'Team Welcome',
     bgColor: '#deaaff'
   },
@@ -158,7 +158,7 @@ const fears = [
     body: "100% transparent pricing. See exact costs before you commit. No surprises, no fine print.",
     ctaText: '',
     icon: '💰',
-    image: '/document visa.png',
+    image: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765361592/document_visa_tjvhjq.png',
     imageAlt: 'Transparent Pricing',
     bgColor: '#ffcbb0'
   },
@@ -167,7 +167,7 @@ const fears = [
     body: "Founded by Dr. Sohail, Dr. Amir & Dr. Adnan—actual doctors who studied in China. We've been in your shoes.",
     ctaText: '',
     icon: '👨‍⚕️',
-    image: '/doctor team.png',
+    image: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765361593/doctor_team_z1euph.png',
     imageAlt: 'Doctor Team',
     bgColor: '#006046'
   },
@@ -176,7 +176,7 @@ const fears = [
     body: "We respond within 24 hours on WhatsApp. Real humans, not bots. Try us.",
     ctaText: '',
     icon: '⚡',
-    image: '/fastResponse.png',
+    image: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765361845/fastResponse_ymjyii.png',
     imageAlt: 'Fast Response',
     bgColor: '#fccf00'
   },
@@ -185,7 +185,7 @@ const fears = [
     body: "Our multilingual team speaks English, Urdu, Arabic, and Chinese. Zero language stress.",
     ctaText: '',
     icon: '🌍',
-    image: '/multilingualteam.png',
+    image: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765361612/multilingualteam_ssrzd6.png',
     imageAlt: 'Multilingual Team',
     bgColor: '#aed9e0'
   }

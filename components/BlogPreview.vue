@@ -7,8 +7,11 @@
 
       <div class="grid md:grid-cols-3 gap-8">
         <NuxtLink v-for="post in posts" :key="post.slug" :to="`/blog/${post.slug}`" class="card card-hover p-0 overflow-hidden group">
-          <div class="aspect-video bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-            <span class="text-5xl">{{ post.icon }}</span>
+          <div class="aspect-video bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center overflow-hidden">
+            <img v-if="post.image" :src="post.image" :alt="post.title" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+            <div v-else class="w-full h-full flex items-center justify-center">
+              <span class="text-5xl">{{ post.icon }}</span>
+            </div>
           </div>
           <div class="p-6">
             <span class="inline-block text-xs bg-primary/10 text-primary px-3 py-1 rounded-full mb-3">{{ post.category }}</span>
@@ -32,21 +35,24 @@ const posts = [
     title: 'Complete Guide: MBBS in China for Pakistani Students (2025)',
     category: 'Study Tips',
     excerpt: 'Everything you need to know about studying MBBS in China—from admission requirements to visa process.',
-    icon: '📚'
+    icon: '📚',
+    image: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765361591/MBBSGuide_frcubp.png'
   },
   {
     slug: 'hsk-4-preparation',
     title: 'How to Prepare for HSK 4 in 6 Months',
     category: 'Language',
     excerpt: 'Proven strategies and study plan to pass HSK 4 examination in just 6 months.',
-    icon: '🎓'
+    icon: '🎓',
+    image: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765361596/chineseHsk_varssq.png'
   },
   {
     slug: 'student-life-china',
     title: 'Student Life in China: A First-Hand Experience',
     category: 'Student Life',
     excerpt: 'What it\'s really like living and studying in China as an international student.',
-    icon: '🏙️'
+    icon: '🏙️',
+    image: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765361610/studentlife2_y33bfe.png'
   }
 ]
 </script>
