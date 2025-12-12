@@ -198,79 +198,100 @@ const fetchImages = async () => {
 
 // Sample images for demonstration
 const getSampleImages = () => {
-  const galleryImages = []
-  let id = 1
-
-  // Students images
-  const studentImages = [
-    '1B7A6664.jpg',
-    '1B7A6665.jpg',
-    '1B7A6673.jpg'
-  ]
-  
-  studentImages.forEach(img => {
-    galleryImages.push({
-      id: id++,
-      url: `/students/${img}`,
+  // Using the real final Cloudinary images provided by the user
+  return [
+    // Students
+    {
+      id: 1,
+      url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765362563/1_z9vsr2.jpg',
       title: 'Student Life',
-      caption: 'Our amazing students',
+      caption: "Our amazing students",
       category: 'students'
-    })
-  })
+    },
+    {
+      id: 2,
+      url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765362559/2_tfxd6k.jpg',
+      title: 'Student Life',
+      caption: "Our amazing students",
+      category: 'students'
+    },
+    {
+      id: 3,
+      url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765362556/3_xcjdp5.jpg',
+      title: 'Student Life',
+      caption: "Our amazing students",
+      category: 'students'
+    },
 
-  // Events images
-  const eventImages = [
-    '1B7A6666.jpg',
-    '1B7A6684.jpg',
-    'c8216d1e2f9c52df77255d76997642d2.jpg'
-  ]
-  
-  eventImages.forEach(img => {
-    galleryImages.push({
-      id: id++,
-      url: `/events/${img}`,
+    // Events
+    {
+      id: 4,
+      url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765362270/2_jbueku.jpg',
       title: 'Events & Activities',
       caption: 'Memorable moments from our events',
       category: 'events'
-    })
-  })
+    },
+    {
+      id: 5,
+      url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765361890/c8216d1e2f9c52df77255d76997642d2_sxaw9n.jpg',
+      title: 'Events & Activities',
+      caption: 'Memorable moments from our events',
+      category: 'events'
+    },
 
-  // Campus Life images
-  const campusImages = [
-    '1B7A6666.jpg',
-    '98fada23fc419b1f301734aefc8b7466.jpg',
-    'eb0958f1703dc517aa61e6fe9787eaf3.jpg'
-  ]
-  
-  campusImages.forEach(img => {
-    galleryImages.push({
-      id: id++,
-      url: `/campusLife/${img}`,
+    // Campus Life
+    {
+      id: 6,
+      url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765362168/3_ziakzk.jpg',
       title: 'Campus Life',
       caption: 'Experience campus facilities and environment',
       category: 'campus'
-    })
-  })
+    },
+    {
+      id: 7,
+      url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765362043/eb0958f1703dc517aa61e6fe9787eaf3_jwlqhr.jpg',
+      title: 'Campus Life',
+      caption: 'Experience campus facilities and environment',
+      category: 'campus'
+    },
+    {
+      id: 8,
+      url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765361890/98fada23fc419b1f301734aefc8b7466_vmhedf.jpg',
+      title: 'Campus Life',
+      caption: 'Experience campus facilities and environment',
+      category: 'campus'
+    },
 
-  // Graduation images
-  const graduationImages = [
-    '1B7A6531.jpg',
-    '1B7A6637.jpg',
-    '1B7A6649.jpg',
-    '1B7A6664.jpg'
-  ]
-  
-  graduationImages.forEach(img => {
-    galleryImages.push({
-      id: id++,
-      url: `/graduation/${img}`,
+    // Graduation (added final images)
+    {
+      id: 9,
+      url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765362436/1_t4goz4.jpg',
       title: 'Graduation Ceremony',
       caption: 'Celebrating our successful graduates',
       category: 'graduation'
-    })
-  })
-
-  return galleryImages
+    },
+    {
+      id: 10,
+      url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765362434/4_xbxjzh.jpg',
+      title: 'Graduation Ceremony',
+      caption: 'Celebrating our successful graduates',
+      category: 'graduation'
+    },
+    {
+      id: 11,
+      url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765362433/3_nx4buo.jpg',
+      title: 'Graduation Ceremony',
+      caption: 'Celebrating our successful graduates',
+      category: 'graduation'
+    },
+    {
+      id: 12,
+      url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765362432/2_yi36wf.jpg',
+      title: 'Graduation Ceremony',
+      caption: 'Celebrating our successful graduates',
+      category: 'graduation'
+    }
+  ]
 }
 
 // Computed filtered images
