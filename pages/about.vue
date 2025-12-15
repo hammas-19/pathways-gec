@@ -215,7 +215,7 @@
                 <div class="text-sm text-gray-600">Students Guided</div>
               </div>
             </div>
-            <a href="https://wa.me/86XXXXXXXXXX?text=I'd%20like%20to%20visit%20your%20office" target="_blank" class="btn-secondary">
+            <a href="https://wa.me/923114999954?text=I'd%20like%20to%20visit%20your%20office" target="_blank" class="btn-secondary">
               Schedule Office Visit
             </a>
           </div>
@@ -253,7 +253,7 @@
         <p class="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
           Join 5000+ students who trusted GEC with their dreams. Let's write your success story together.
         </p>
-        <a href="https://wa.me/86XXXXXXXXXX?text=I%20want%20to%20learn%20more%20about%20GEC" target="_blank" class="btn-whatsapp">
+        <a href="https://wa.me/923114999954?text=I%20want%20to%20learn%20more%20about%20GEC" target="_blank" class="btn-whatsapp">
           Connect With Us Today
         </a>
       </div>

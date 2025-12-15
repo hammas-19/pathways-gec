@@ -460,7 +460,7 @@
           <NuxtLink to="/contact" class="bg-white text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all">
             Get Started Today
           </NuxtLink>
-          <a href="https://wa.me/8618672301888" class="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/20 transition-all">
+          <a href="https://wa.me/923114999954" class="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/20 transition-all">
             WhatsApp: +86 186 7230 1888
           </a>
         </div>

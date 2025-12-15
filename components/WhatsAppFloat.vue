@@ -1,6 +1,6 @@
 <template>
   <a
-    href="https://wa.me/86XXXXXXXXXX?text=Hi%20GEC,%20I'm%20interested%20in%20studying%20in%20China.%20Can%20you%20help%3F"
+    href="https://wa.me/923114999954"
     target="_blank"
     rel="noopener noreferrer"
     class="whatsapp-float group"

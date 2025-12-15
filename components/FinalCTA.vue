@@ -51,7 +51,7 @@
           <!-- CTA Buttons -->
           <div class="flex flex-col sm:flex-row gap-4">
             <a
-              href="https://wa.me/86XXXXXXXXXX?text=Hi%20GEC,%20I'm%20ready%20to%20start%20my%20journey!"
+              href="https://wa.me/923114999954?text=Hi%20GEC,%20I'm%20ready%20to%20start%20my%20journey!"
               target="_blank"
               class="btn-white group justify-center"
             >

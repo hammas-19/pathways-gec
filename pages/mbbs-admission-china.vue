@@ -478,7 +478,7 @@
             <a href="#hero-section" class="bg-accent-yellow text-gray-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-all transform hover:scale-105 inline-block">
               📝 Apply Now - It's FREE
             </a>
-            <a href="https://wa.me/8618672301888" class="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/20 transition-all inline-block">
+            <a href="https://wa.me/923114999954" class="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/20 transition-all inline-block">
               💬 WhatsApp: +86 186 7230 1888
             </a>
           </div>

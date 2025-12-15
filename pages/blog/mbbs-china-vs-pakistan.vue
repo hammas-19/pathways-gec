@@ -329,7 +329,7 @@
               <NuxtLink to="/contact" class="bg-accent-yellow text-gray-900 px-6 py-3 rounded-lg font-bold hover:bg-yellow-400 transition-all inline-block">
                 Get Free Assessment
               </NuxtLink>
-              <a href="https://wa.me/8618672301888" class="bg-white/10 backdrop-blur-sm px-6 py-3 rounded-lg font-bold hover:bg-white/20 transition-all inline-block">
+              <a href="https://wa.me/923114999954" class="bg-white/10 backdrop-blur-sm px-6 py-3 rounded-lg font-bold hover:bg-white/20 transition-all inline-block">
                 WhatsApp: +86 186 7230 1888
               </a>
             </div>

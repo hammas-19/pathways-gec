@@ -32,7 +32,7 @@
             <NuxtLink to="/contact" class="btn-primary px-8 py-4 rounded-full font-semibold text-lg">
               Get Started Now
             </NuxtLink>
-            <a href="https://wa.me/8618672301888"
+            <a href="https://wa.me/923114999954"
               class="btn-secondary bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
               WhatsApp Us
             </a>
@@ -659,7 +659,7 @@
                   class="bg-accent text-gray-900 px-8 py-3 rounded-lg font-semibold hover:bg-yellow-400 transition-all">
                   Apply Now
                 </NuxtLink>
-                <a href="https://wa.me/8618672301888"
+                <a href="https://wa.me/923114999954"
                   class="bg-white/10 backdrop-blur-sm text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/20 transition-all">
                   Chat on WhatsApp
                 </a>
@@ -900,7 +900,7 @@
             class="bg-accent px-8 py-4 btn-primary !text-white rounded-lg font-semibold text-lg hover:bg-yellow-400 transition-all">
             Apply for BDS Program
           </NuxtLink>
-          <a href="https://wa.me/8618672301888"
+          <a href="https://wa.me/923114999954"
             class="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/20 transition-all">
             WhatsApp: +86 186 7230 1888
           </a>

@@ -31,7 +31,7 @@
             <NuxtLink to="/contact" class="btn-primary px-8 py-4 rounded-full font-semibold text-lg">
               Get Started Now
             </NuxtLink>
-            <a href="https://wa.me/8618672301888" class="btn-secondary bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
+            <a href="https://wa.me/923114999954" class="btn-secondary bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
               WhatsApp Us
             </a>
           </div>
@@ -470,7 +470,7 @@
           <NuxtLink to="/contact" class="btn-primary px-8 py-4 rounded-lg font-semibold text-lg">
             Enroll Now
           </NuxtLink>
-          <a href="https://wa.me/8618672301888" class="bg-white text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all">
+          <a href="https://wa.me/923114999954" class="bg-white text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all">
             WhatsApp: +86 186 7230 1888
           </a>
         </div>

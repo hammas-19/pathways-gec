@@ -22,7 +22,7 @@
             <h3 class="text-xl font-semibold mb-3">WhatsApp</h3>
             <p class="text-gray-600 mb-4 text-sm">Fastest response (within 2 hours)</p>
             <p class="font-medium mb-4">+86-XXX-XXXX-XXXX</p>
-            <a href="https://wa.me/86XXXXXXXXXX" target="_blank" class="btn-primary w-full text-center inline-block">Chat on WhatsApp</a>
+            <a href="https://wa.me/923114999954" target="_blank" class="btn-primary w-full text-center inline-block">Chat on WhatsApp</a>
           </div>
 
           <!-- Email -->
@@ -217,7 +217,7 @@ const handleSubmit = async () => {
 
     // Submit to Web3Forms
     const web3Payload = {
-      access_key: '81b41007-8aaa-4d97-bd82-b05800467596',
+      access_key: 'c95872dc-d338-4c20-a119-e163e8e4e867',
       subject: 'New Contact Form Submission - GEC',
       reply_to: form.value.email,
       name: form.value.name,
