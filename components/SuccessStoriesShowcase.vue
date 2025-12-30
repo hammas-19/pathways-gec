@@ -79,23 +79,23 @@
 
       <!-- Tab Content: Documents -->
       <div v-if="activeTab === 'documents'" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        <div v-for="i in 8" :key="i" class="card p-4 text-center">
+        <div v-for="doc in documents" :key="doc.id" @click="selectedDocument = doc" class="card p-4 text-center cursor-pointer hover:shadow-lg transition-all hover:-translate-y-1">
           <svg class="w-16 h-16 mx-auto mb-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
           </svg>
-          <p class="text-sm font-medium">{{ ['Admission Letter', 'Visa Approval', 'JW202 Form', 'Scholarship Award'][i % 4] }}</p>
+          <p class="text-sm font-medium">{{ doc.name }}</p>
         </div>
       </div>
 
       <!-- Tab Content: HSK Achievers -->
       <div v-if="activeTab === 'hsk'" class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div v-for="i in 4" :key="i" class="card p-6 text-center">
+        <div v-for="achiever in hskAchievers" :key="achiever.id" class="card p-6 text-center cursor-pointer hover:shadow-lg hover:-translate-y-1 transition-all" @click="openDocumentByName(achiever.name)">
           <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-accent-yellow/20 flex items-center justify-center">
             <span class="text-3xl">🏆</span>
           </div>
-          <h4 class="font-semibold mb-1">Student Name {{ i }}</h4>
-          <p class="text-2xl font-bold text-primary mb-2">HSK 6 (280/300)</p>
-          <p class="text-sm text-gray-600">"Passed in just 12 months!"</p>
+          <h4 class="font-semibold mb-1 hover:text-brand-blue transition-colors">
+            {{ achiever.name }}
+          </h4>
         </div>
       </div>
 
@@ -109,6 +109,34 @@
         </NuxtLink>
       </div>
     </div>
+
+    <!-- Document Modal -->
+    <div v-if="selectedDocument" @click="selectedDocument = null" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+      <div @click.stop class="bg-white rounded-2xl max-w-2xl w-full max-h-[80vh] overflow-hidden flex flex-col">
+        <!-- Modal Header -->
+        <div class="flex justify-between items-center p-6 border-b">
+          <h3 class="text-2xl font-bold">{{ selectedDocument.name }}</h3>
+          <button @click="selectedDocument = null" class="text-gray-500 hover:text-gray-700 text-2xl">
+            &times;
+          </button>
+        </div>
+
+        <!-- Modal Content -->
+        <div class="flex-1 overflow-auto p-6">
+          <img :src="selectedDocument.url" :alt="selectedDocument.name" class="w-full rounded-lg">
+        </div>
+
+        <!-- Modal Footer -->
+        <div class="flex gap-3 p-6 border-t">
+          <a :href="selectedDocument.url" target="_blank" rel="noopener noreferrer" class="btn-primary flex-1 flex items-center justify-center">
+            View Full Size
+          </a>
+          <button @click="selectedDocument = null" class="btn-secondary flex-1 flex items-center justify-center">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -119,12 +147,37 @@ import { ref } from 'vue'
 useScrollReveal()
 
 const activeTab = ref('written')
+const selectedDocument = ref(null)
 
 const tabs = [
   { id: 'written', label: 'Written Reviews' },
   { id: 'video', label: 'Video Testimonials' },
   { id: 'documents', label: 'Document Gallery' },
   { id: 'hsk', label: 'HSK Achievers' }
+]
+
+const hskAchievers = [
+  { id: 1, name: 'Fakhrat Aleena Ali' },
+  { id: 2, name: 'Sania Sabir' },
+  { id: 3, name: 'Yaqoob Muqaddas' },
+  { id: 4, name: 'Shoukat Kashif' },
+  { id: 5, name: 'Butt Ayesha' },
+  { id: 6, name: 'Eshaal Fatima' },
+  { id: 7, name: 'Shamraiza Iqbal' },
+  { id: 8, name: 'Shehzadi Nimra' },
+  { id: 9, name: 'Abid Mirza Sami Ullah' }
+]
+
+const documents = [
+  { id: 1, name: 'Fakhrat Aleena Ali', url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1767082273/Fakhrat_Aleena_Ali_rdymfk.jpg' },
+  { id: 2, name: 'Shamraiza Iqbal', url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1767082272/Shamraiza_Iqbal_xpyqul.jpg' },
+  { id: 3, name: 'Eshaal Fatima', url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1767082272/Eshaal_Fatima_caorpr.jpg' },
+  { id: 4, name: 'Sania Sabir', url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1767082272/Sania_Sabir_ka4kwf.jpg' },
+  { id: 5, name: 'Shoukat Kashif', url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1767082271/Shoukat_Kashif_dqygcx.jpg' },
+  { id: 6, name: 'Butt Ayesha', url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1767082271/Butt_Ayesha_eprjku.jpg' },
+  { id: 7, name: 'Abid Mirza Sami Ullah', url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1767082271/ABID_MIRZA_SAMI_ULLAH_x1ppds.jpg' },
+  { id: 8, name: 'Yaqoob Muqaddas', url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1767082271/Yaqoob_Muqaddas_e65jpi.jpg' },
+  { id: 9, name: 'Shehzadi Nimra', url: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1767082270/SHEHZADI_NIMRA_turcvp.jpg' }
 ]
 
 const testimonials = [
@@ -169,4 +222,11 @@ const testimonials = [
     bgColor: '#ffcbb0'
   }
 ]
+
+const openDocumentByName = (name) => {
+  const doc = documents.find(d => d.name === name)
+  if (doc) {
+    selectedDocument.value = doc
+  }
+}
 </script>
