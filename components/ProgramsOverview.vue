@@ -251,34 +251,34 @@ const allPrograms = {
         '95% Job Placement'
       ]
     },
-    {
-      title: 'International Economy & Trade',
-      slug: 'economy-trade',
-      icon: '💼',
-      image: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765361602/international_trade_and_business_pjjvcz.png',
-      duration: '4 Years',
-      level: 'undergraduate',
-      features: [
-        'Global Business Focus',
-        'Internship Opportunities',
-        'English-Taught Programs',
-        'Career-Ready Curriculum'
-      ]
-    },
-    {
-      title: 'International Relations',
-      slug: 'international-relations',
-      icon: '🌐',
-      image: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765361613/documentSubmission_owhddv.png',
-      duration: '4 Years',
-      level: 'undergraduate',
-      features: [
-        'Diplomatic Career Preparation',
-        'Multilingual Environment',
-        'Policy & Governance Focus',
-        'Global Networking'
-      ]
-    },
+    // {
+    //   title: 'International Economy & Trade',
+    //   slug: 'economy-trade',
+    //   icon: '💼',
+    //   image: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765361602/international_trade_and_business_pjjvcz.png',
+    //   duration: '4 Years',
+    //   level: 'undergraduate',
+    //   features: [
+    //     'Global Business Focus',
+    //     'Internship Opportunities',
+    //     'English-Taught Programs',
+    //     'Career-Ready Curriculum'
+    //   ]
+    // },
+    // {
+    //   title: 'International Relations',
+    //   slug: 'international-relations',
+    //   icon: '🌐',
+    //   image: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765361613/documentSubmission_owhddv.png',
+    //   duration: '4 Years',
+    //   level: 'undergraduate',
+    //   features: [
+    //     'Diplomatic Career Preparation',
+    //     'Multilingual Environment',
+    //     'Policy & Governance Focus',
+    //     'Global Networking'
+    //   ]
+    // },
     {
       title: 'Nursing',
       slug: 'nursing',

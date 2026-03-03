@@ -133,7 +133,7 @@
                       d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
                 </div>
-                <a href="https://wa.me/923114999954"
+                <a href="https://wa.me/923114999954" target="_blank"
                   class="text-slate-300 hover:text-white transition-colors text-sm">+92 311 4999954</a>
               </li>
               <li class="flex gap-3">
@@ -204,9 +204,9 @@
             reserved.
           </p>
           <div class="flex gap-6 text-sm">
-            <NuxtLink to="/privacy" class="text-slate-400 hover:text-white transition-colors">Privacy Policy</NuxtLink>
-            <NuxtLink to="/terms" class="text-slate-400 hover:text-white transition-colors">Terms of Service</NuxtLink>
-            <NuxtLink to="/sitemap" class="text-slate-400 hover:text-white transition-colors">Sitemap</NuxtLink>
+            <!-- <NuxtLink to="/privacy" class="text-slate-400 hover:text-white transition-colors">Privacy Policy</NuxtLink> -->
+            <!-- <NuxtLink to="/terms" class="text-slate-400 hover:text-white transition-colors">Terms of Service</NuxtLink> -->
+            <!-- <NuxtLink to="/sitemap" class="text-slate-400 hover:text-white transition-colors">Sitemap</NuxtLink> -->
           </div>
         </div>
       </div>
