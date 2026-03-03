@@ -137,7 +137,7 @@ let autoplayInterval = null
 const fears = [
   {
     headline: 'Worried About Scams?',
-    body: "We're registered with offices in different countries, based in China. Visit our physical offices. Meet our team. We're not hiding behind emails.",
+    body: "We're registered with Connected with offices in different countries, based in China. Visit our physical offices. Meet our team. We're not hiding behind emails.",
     ctaText: 'See Our Office Photos',
     icon: '🛡️',
     image: 'https://res.cloudinary.com/drvlk5jyk/image/upload/v1765361847/office_cppim1.png',

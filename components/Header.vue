@@ -13,8 +13,8 @@
         <NuxtLink to="/" class="flex items-end gap-2 sm:gap-3 flex-shrink-0">
           <NuxtImg src="/logoOriginal.png" class="mb-0.5 w-6 h-9 sm:w-7 sm:h-10 lg:w-8 lg:h-12"
             alt="GEC Pathways Logo" />
-          <p class="text-brand-blue font-black text-xs sm:text-sm uppercase leading-3 sm:leading-4">Pathways &
-            <br>Consultants</p>
+          <p class="text-brand-blue font-black text-xs sm:text-[13px] uppercase leading-3 sm:leading-[14px]">Global
+            <br>Educational <br> Consultants</p>
         </NuxtLink>
 
         <!-- Desktop Navigation -->

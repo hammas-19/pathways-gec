@@ -32,7 +32,7 @@
               Start Your Journey
             </NuxtLink>
             <a href="https://wa.me/923114999954" class="btn-secondary bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
-              WhatsApp: +86 186 7230 1888
+              WhatsApp: +92 311 4999 954
             </a>
           </div>
         </div>
@@ -496,11 +496,11 @@
             Apply Now - Free Assessment
           </NuxtLink>
           <a href="https://wa.me/923114999954" class="bg-accent-yellow text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-yellow-400 transition-all">
-            WhatsApp: +86 186 7230 1888
+            WhatsApp: +92 311 4999 954
           </a>
         </div>
         <p class="text-gray-600">
-          <strong>With offices in different countries, based in China</strong> - We're here to help you succeed!
+          <strong>With Connected with offices in different countries, based in China</strong> - We're here to help you succeed!
         </p>
       </div>
     </section>

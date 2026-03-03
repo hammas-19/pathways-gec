@@ -21,7 +21,7 @@
             </div>
             <h3 class="text-xl font-semibold mb-3">WhatsApp</h3>
             <p class="text-gray-600 mb-4 text-sm">Fastest response (within 2 hours)</p>
-            <p class="font-medium mb-4">+86-XXX-XXXX-XXXX</p>
+            <p class="font-medium mb-4">+92 311 4999 954</p>
             <a href="https://wa.me/923114999954" target="_blank" class="btn-primary w-full text-center inline-block">Chat on WhatsApp</a>
           </div>
 
@@ -34,8 +34,8 @@
             </div>
             <h3 class="text-xl font-semibold mb-3">Email</h3>
             <p class="text-gray-600 mb-4 text-sm">Response time: Within 24 hours</p>
-            <p class="font-medium mb-4">info@gec-pathways.com</p>
-            <a href="mailto:info@gec-pathways.com" class="btn-secondary w-full text-center inline-block">Send Email</a>
+            <p class="font-medium mb-4">info@gecpathways.com</p>
+            <a href="mailto:gecpatwayschina@gmail.com" class="btn-secondary w-full text-center inline-block">Send Email</a>
           </div>
 
           <!-- Video Call -->
@@ -48,7 +48,7 @@
             <h3 class="text-xl font-semibold mb-3">Video Call</h3>
             <p class="text-gray-600 mb-4 text-sm">30-minute free consultation</p>
             <p class="font-medium mb-4">Zoom/WhatsApp</p>
-            <button class="btn-secondary w-full text-center">Schedule Call</button>
+            <button class="btn-secondary w-full text-center inline-block">Schedule Call</button>
           </div>
         </div>
 
@@ -81,6 +81,10 @@
                   <option value="Other">Other</option>
                 </select>
               </div>
+              <div v-if="form.country === 'Other'">
+                <label class="form-label">Please specify your country *</label>
+                <input type="text" v-model="form.otherCountry" required class="form-input" placeholder="Enter your country" />
+              </div>
               <div>
                 <label class="form-label">Intended Program *</label>
                 <select v-model="form.program" required class="form-input">
@@ -93,6 +97,10 @@
                   <option value="Language">Language Program</option>
                   <option value="Other">Other</option>
                 </select>
+              </div>
+              <div v-if="form.program === 'Other'">
+                <label class="form-label">Please specify your program *</label>
+                <input type="text" v-model="form.otherProgram" required class="form-input" placeholder="Enter your intended program" />
               </div>
               <div>
                 <label class="form-label">Message</label>
@@ -161,7 +169,7 @@
                   <svg class="w-5 h-5 text-primary mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   </svg>
-                  <span>Offices in different countries, based in China</span>
+                  <span>Connected with offices in different countries, based in China</span>
                 </p>
                 <p class="flex items-start gap-2">
                   <svg class="w-5 h-5 text-primary mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -196,7 +204,9 @@ const form = ref({
   email: '',
   whatsapp: '',
   country: '',
+  otherCountry: '',
   program: '',
+  otherProgram: '',
   message: ''
 })
 
@@ -206,13 +216,20 @@ const { $gtm } = useNuxtApp()
 const handleSubmit = async () => {
   if (submitting.value) return
 
+  const selectedCountry = form.value.country === 'Other'
+    ? form.value.otherCountry
+    : form.value.country
+  const selectedProgram = form.value.program === 'Other'
+    ? form.value.otherProgram
+    : form.value.program
+
   submitting.value = true
 
   try {
     // Track form submission attempt
     $gtm.trackFormSubmit('contact_form', {
-      country: form.value.country,
-      program: form.value.program
+      country: selectedCountry,
+      program: selectedProgram
     })
 
     // Submit to Web3Forms
@@ -222,11 +239,11 @@ const handleSubmit = async () => {
       reply_to: form.value.email,
       name: form.value.name,
       email: form.value.email,
-      message: `${form.value.message || ''}\n\nPhone: ${form.value.whatsapp || 'N/A'}\nCountry: ${form.value.country || 'N/A'}\nProgram: ${form.value.program || 'N/A'}`,
+      message: `${form.value.message || ''}\n\nPhone: ${form.value.whatsapp || 'N/A'}\nCountry: ${selectedCountry || 'N/A'}\nProgram: ${selectedProgram || 'N/A'}`,
       data: {
         phone: form.value.whatsapp,
-        country: form.value.country,
-        program: form.value.program
+        country: selectedCountry,
+        program: selectedProgram
       }
     }
 
@@ -245,7 +262,7 @@ const handleSubmit = async () => {
       $gtm.trackLead({
         source: 'contact_page',
         type: 'contact_form',
-        value: form.value.program
+        value: selectedProgram
       })
 
       // Redirect to thank you page

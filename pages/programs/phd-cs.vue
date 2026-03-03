@@ -18,7 +18,7 @@
               Apply Now
             </NuxtLink>
             <a href="https://wa.me/923114999954" class="btn-secondary bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
-              WhatsApp: +86 186 7230 1888
+              WhatsApp: +92 311 4999 954
             </a>
           </div>
         </div>
@@ -112,7 +112,7 @@
             Get Started Now
           </NuxtLink>
           <a href="https://wa.me/923114999954" class="btn-secondary bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 px-8 py-4 rounded-full font-semibold text-lg transition-all hover:scale-105 shadow-lg">
-            WhatsApp: +86 186 7230 1888
+            WhatsApp: +92 311 4999 954
           </a>
         </div>
       </div>

@@ -72,7 +72,7 @@ This project is configured for deployment on any Nuxt 3-compatible hosting platf
 
 For support or inquiries about this project, contact the GEC team via:
 - WhatsApp: +86-XXX-XXXX-XXXX
-- Email: info@gec-pathways.com
+- Email: info@gecpathways.com
 
 ---
 

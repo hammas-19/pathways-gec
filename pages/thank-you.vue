@@ -72,7 +72,7 @@
       <div class="bg-gradient-to-r from-primary to-secondary text-white rounded-xl p-6 mb-8">
         <h3 class="font-semibold text-lg mb-3">Need Immediate Assistance?</h3>
         <div class="space-y-2 text-sm">
-          <p>📱 WhatsApp: +86 186 7230 1888</p>
+          <p>📱 WhatsApp: +92 311 4999 954</p>
           <p>📧 Email: info@gecpathways.com</p>
           <p>⏰ Available: 9 AM - 8 PM (China Time)</p>
         </div>

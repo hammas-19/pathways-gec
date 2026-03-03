@@ -57,7 +57,7 @@ useHead({
     },
     {
       property: 'og:description',
-      content: 'Expert guidance from professional team. 5000+ successful students. 95% visa success rate. With offices in different countries, based in China.'
+      content: 'Expert guidance from professional team. 5000+ successful students. 95% visa success rate. With Connected with offices in different countries, based in China.'
     },
     {
       property: 'og:type',

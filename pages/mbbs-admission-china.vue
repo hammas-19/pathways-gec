@@ -7,7 +7,7 @@
           <!-- Left Column: Copy -->
           <div>
             <div class="inline-block bg-accent-yellow text-gray-900 px-4 py-2 rounded-full font-bold mb-4 animate-pulse">
-              ⏰ 2025 Admissions Open - Limited Seats Available
+              ⏰ 2026 Admissions Open - Limited Seats Available
             </div>
             <h1 class="text-4xl md:text-5xl font-bold mb-4 font-display leading-tight">
               Study MBBS in China Without Breaking the Bank
@@ -52,7 +52,7 @@
               </li>
               <li class="flex items-start">
                 <span class="text-accent-yellow text-xl mr-2">✓</span>
-                <span class="text-lg">Start Your Medical Career in 2025</span>
+                <span class="text-lg">Start Your Medical Career in 2026</span>
               </li>
             </ul>
           </div>
@@ -451,7 +451,7 @@
       <div class="container mx-auto px-4">
         <div class="max-w-4xl mx-auto text-center">
           <h2 class="text-3xl md:text-5xl font-bold mb-6 font-display">
-            🎯 Limited Seats Available for 2025 Intake
+            🎯 Limited Seats Available for 2026 Intake
           </h2>
           <p class="text-xl md:text-2xl mb-8 text-gray-100">
             Don't miss your chance to become a doctor. Top universities fill up fast!
@@ -469,7 +469,7 @@
               </div>
               <div>
                 <div class="text-4xl font-bold text-accent-yellow mb-2">Step 3</div>
-                <p class="text-sm">Start MBBS in 2025</p>
+                <p class="text-sm">Start MBBS in 2026</p>
               </div>
             </div>
           </div>
@@ -479,7 +479,7 @@
               📝 Apply Now - It's FREE
             </a>
             <a href="https://wa.me/923114999954" class="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/20 transition-all inline-block">
-              💬 WhatsApp: +86 186 7230 1888
+              💬 WhatsApp: +92 311 4999 954
             </a>
           </div>
 
@@ -500,7 +500,7 @@
             <strong>GEC (Global Educational Consultants)</strong> - Your trusted partner for MBBS in China
           </p>
           <p class="text-sm text-gray-500">
-            With offices in different countries, based in China | Serving students worldwide since 2010 | 50+ Expert Team Members
+            With Connected with offices in different countries, based in China | Serving students worldwide since 2010 | 50+ Expert Team Members
           </p>
         </div>
       </div>
@@ -513,10 +513,10 @@ import { ref } from 'vue'
 
 // SEO - Optimized for PPC landing page
 useHead({
-  title: 'MBBS in China 2025 - Admission Open | PMC Recognized | Apply Now',
+  title: 'MBBS in China 2026 - Admission Open | PMC Recognized | Apply Now',
   meta: [
-    { name: 'description', content: 'Study MBBS in China 2025. PMC & WHO recognized. No entrance exam. Affordable fees. 95% visa success. Apply now for September 2025 intake. Limited seats available!' },
-    { name: 'keywords', content: 'mbbs in china, mbbs admission china 2025, study mbbs china, pmc recognized medical universities china, mbbs without neet, affordable mbbs abroad' },
+    { name: 'description', content: 'Study MBBS in China 2026. PMC & WHO recognized. No entrance exam. Affordable fees. 95% visa success. Apply now for September 2026 intake. Limited seats available!' },
+    { name: 'keywords', content: 'mbbs in china, mbbs admission china 2026, study mbbs china, pmc recognized medical universities china, mbbs without neet, affordable mbbs abroad' },
     { name: 'robots', content: 'index, follow' }
   ]
 })

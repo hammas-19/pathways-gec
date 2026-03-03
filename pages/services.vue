@@ -689,7 +689,7 @@
           </a>
         </div>
         <p class="mt-6 text-gray-200">
-          With offices in different countries, based in China - Serving students worldwide
+          With Connected with offices in different countries, based in China - Serving students worldwide
         </p>
       </div>
     </section>

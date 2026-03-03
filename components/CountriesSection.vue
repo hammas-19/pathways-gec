@@ -81,6 +81,10 @@ const upcomingCountries = [
   { name: 'Oman', flag: '🇴🇲', code: 'OM' },
   { name: 'Uganda', flag: '🇺🇬', code: 'UG' },
   { name: 'Tanzania', flag: '🇹🇿', code: 'TZ' },
-  { name: 'Ghana', flag: '🇬🇭', code: 'GH' }
+  { name: 'Ghana', flag: '🇬🇭', code: 'GH' },
+  { name: 'Tajikistan', flag: '🇹🇯', code: 'TJ' },
+  { name: 'Kyrgyzstan', flag: '🇰🇬', code: 'KG' },
+  { name: 'Uzbekistan', flag: '🇺🇿', code: 'UZ' },
+  { name: 'Afghanistan', flag: '🇦🇫', code: 'AF' }
 ]
 </script>

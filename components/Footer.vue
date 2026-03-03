@@ -16,9 +16,8 @@
             <NuxtLink to="/" class="flex items-end gap-2 sm:gap-3 flex-shrink-0">
               <NuxtImg src="/LogoWhite.png" class="mb-0.5 w-6 h-9 sm:w-7 sm:h-10 lg:w-8 lg:h-12"
                 alt="GEC Pathways Logo" />
-              <p class="text-white font-black text-xs sm:text-sm uppercase leading-3 sm:leading-4">Pathways &
-                <br>Consultants
-              </p>
+              <p class="text-white font-black text-xs sm:text-sm uppercase leading-3 sm:leading-4">Global
+                <br>Educational <br> Consultants</p>
             </NuxtLink>
             <p class="text-slate-300 leading-relaxed">
               Global Educational Consultants - Your trusted partner for studying in China. With offices in different
@@ -124,7 +123,7 @@
                       d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   </svg>
                 </div>
-                <span class="text-slate-300 text-sm leading-relaxed">Offices in different countries, based in
+                <span class="text-slate-300 text-sm leading-relaxed">Connected with offices in different countries, based in
                   China</span>
               </li>
               <li class="flex gap-3">
@@ -144,8 +143,8 @@
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
-                <a href="mailto:information@gecpathways.com"
-                  class="text-slate-300 hover:text-white transition-colors text-sm break-all">information@gecpathways.com</a>
+                <a href="mailto:gecpatwayschina@gmail.com"
+                  class="text-slate-300 hover:text-white transition-colors text-sm break-all">info@gecpathways.com</a>
               </li>
               <li class="flex gap-3">
                 <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center flex-shrink-0">
@@ -201,7 +200,7 @@
         <!-- Bottom Bar -->
         <div class="flex flex-col md:flex-row justify-between items-center gap-4 pt-8">
           <p class="text-slate-400 text-sm text-center md:text-left">
-            © 2025 <span class="text-white font-semibold">GEC</span> - Global Educational Consultants. All rights
+            © 2026 <span class="text-white font-semibold">GEC</span> - Global Educational Consultants. All rights
             reserved.
           </p>
           <div class="flex gap-6 text-sm">

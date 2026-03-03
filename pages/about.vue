@@ -174,7 +174,7 @@
                 </svg>
                 <div>
                   <h4 class="font-semibold mb-1">Global Educational Consultants</h4>
-                  <p class="text-gray-600">Offices in different countries, based in China</p>
+                  <p class="text-gray-600">Connected with offices in different countries, based in China</p>
                 </div>
               </div>
               <div class="flex gap-4">
@@ -194,7 +194,7 @@
                 <div>
                   <h4 class="font-semibold mb-1">Contact Us</h4>
                   <p class="text-gray-600">WhatsApp: +86-XXX-XXXX-XXXX</p>
-                  <p class="text-gray-600">Email: info@gec-pathways.com</p>
+                  <p class="text-gray-600">Email: info@gecpathways.com</p>
                 </div>
               </div>
             </div>
@@ -279,6 +279,6 @@ const milestones = [
   { year: '2022', title: 'Partnership Expansion', description: 'Established partnerships with 15+ top Chinese universities.' },
   { year: '2023', title: '400+ Students', description: 'Became one of the most trusted names for China education consultancy.' },
   { year: '2024', title: '5000+ Success Stories', description: 'Reached 5000+ successful student placements. Team expanded to 50+ professionals.' },
-  { year: '2025', title: 'Global Expansion', description: 'Expanding services to more countries while maintaining our core value of genuine care.' }
+  { year: '2026', title: 'Global Expansion', description: 'Expanding services to more countries while maintaining our core value of genuine care.' }
 ]
 </script>

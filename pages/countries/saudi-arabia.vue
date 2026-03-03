@@ -234,7 +234,7 @@
           </a>
         </div>
         <p class="text-slate-600 scroll-reveal animation-delay-300">
-          <strong>With offices in different countries, based in China</strong> - We're here to help you succeed!
+          <strong>With Connected with offices in different countries, based in China</strong> - We're here to help you succeed!
         </p>
       </div>
     </section>

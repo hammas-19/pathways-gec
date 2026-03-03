@@ -437,7 +437,7 @@
             Enroll Now
           </NuxtLink>
           <a href="https://wa.me/923114999954" class="bg-white text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all">
-            WhatsApp: +86 186 7230 1888
+            WhatsApp: +92 311 4999 954
           </a>
         </div>
       </div>
